@@ -9,7 +9,11 @@ export default {
         roboto: ["Roboto"],
         figtree: ["Figtree"],
       },
-      colors: {},
+      colors: {
+        primary: "#6DA9E4",
+        second: "#ADE4DB",
+        third: "#F6BA6F"
+      },
       container: {
         center: true,
         padding: "32px",

@@ -10,3 +10,10 @@
 .moving-rounded-image {
   animation: moveImage 5s linear infinite;
 }
+/* Define the gradient border class with rounded corners */
+/* .border-gradient {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  border-image: linear-gradient(45deg, #6da9e4, #ade4db);
+  border-image-slice: 1;
+} */
