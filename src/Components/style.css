@@ -1,0 +1,12 @@
+@keyframes moveImage {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+.moving-rounded-image {
+  animation: moveImage 5s linear infinite;
+}
