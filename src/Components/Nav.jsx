@@ -15,22 +15,22 @@ const Nav = () => {
         </div>
       </div>
 
-      <nav className="fixed z-40 hidden md:flex container items-center justify-center py-5">
-        <div className="bg-slate-400/30 w-fit py-4 px-5 rounded-full backdrop-blur-lg">
+      <nav className="fixed  z-40 hidden md:flex container items-center justify-center py-5">
+        <div className="bg-white/30 font-semibold hover:shadow-xl border-2 duration-150 border-primary/10 w-fit py-4 px-5 rounded-full backdrop-blur-sm">
           <ul className="flex space-x-10">
-            <li>
+            <li className="hover:bg-white/20 hover:backdrop-blur-md hover:text-primary hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
               <a href="">Home</a>
             </li>
-            <li>
+            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
               <a href="">About Me</a>
             </li>
-            <li>
+            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
               <a href="">Portfolio</a>
             </li>
-            <li>
+            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
               <a href="">Certificate</a>
             </li>
-            <li>
+            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
               <a href="">Contact</a>
             </li>
           </ul>
