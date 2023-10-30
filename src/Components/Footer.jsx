@@ -3,16 +3,16 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-      <div className="bg-primary pb-10 w-full h-full container">
-        <div className="flex py-10 text-xl md:text-4xl text-white font-bold">
+      <div className="bg-primary pb-10 w-full h-full " id="contact">
+        <div className="flex py-10 text-xl md:text-4xl container text-white font-bold">
           🤝 Let's get in touch
         </div>
-        <div className="-mt-6 md:-mt-0 text-2xl md:text-7xl font-bold text-slate-200">
+        <div className="container -mt-6 md:-mt-0 text-2xl md:text-7xl font-bold text-slate-200">
           <h1>Punya Ide Project Bareng?</h1>
           <h1>Mau Gabung Komunitas?</h1>
           <h1>Mau Tanya Sesuatu?</h1>
         </div>
-        <div className="mt-5 md:mt-10">
+        <div className="mt-5 container md:mt-10">
           <div className="md:flex items-center space-x-4">
             <img src="/images/Foto.jpg" className="rounded-full w-40" alt="" />
             <div className="text-white text-lg">

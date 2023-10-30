@@ -19,22 +19,22 @@ const Nav = () => {
         <div className="bg-white/30 text-slate-400 font-semibold hover:shadow-xl border-2 duration-150 border-primary/10 w-fit py-4 px-5 rounded-full backdrop-blur-sm">
           <ul className="flex space-x-10">
             <li className="hover:bg-white/20 hover:backdrop-blur-md hover:text-primary hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="">About Me</a>
+              <a href="#about">About Me</a>
             </li>
             <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="">Portfolio</a>
+              <a href="#portfolio">Portfolio</a>
             </li>
             <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="">Experience</a>
+              <a href="#experience">Experience</a>
             </li>
             <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="">Certificate</a>
+              <a href="#certificate">Certificate</a>
             </li>
             <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>

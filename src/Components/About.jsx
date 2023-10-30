@@ -2,7 +2,7 @@ import { GrNext } from "react-icons/gr";
 const About = () => {
   return (
     <>
-      <div className="relative ">
+      <div className="relative " id="about">
         <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 mt-[234px] md:mt-[120px]  -p-20  -z-10 w-full h-[900px]">
           <img
             src="/images/pattern3.png"

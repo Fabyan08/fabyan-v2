@@ -2,7 +2,7 @@ import "./style.css";
 const Experiences = () => {
   return (
     <>
-      <div className="relative w-full ">
+      <div className="relative w-full " id="experience">
         <div className="bg-gradient-to-l py-10  pt-2 from-primary/30 border-t-primary/20 border-t-2  -p-20  -z-10 w-full h-full">
           <img
             src="/images/pattern2.jpg"
@@ -71,11 +71,11 @@ const Experiences = () => {
             />
           </div>
           <div className="mt-10 relative flex container items-center justify-center">
-            <div className="border-gradient4  w-[600px] h-fit">
+            <div className="border-gradient5  w-[600px] h-fit">
               <div className="flex justify-between p-2 items-center">
-                <img src="/images/bd.png" className="w-40 " alt="" />
-                <h1 className="border-t-4 border-green-500 border-l-4 border-r-4 rounded-lg p-2">
-                  Visual Creative Department Staff
+                <h1 className="font-bold text-xl">💼Indonesia Multimedia</h1>{" "}
+                <h1 className="border-t-4 border-orange-300 border-l-4 border-r-4 rounded-lg p-2">
+                  Internship
                 </h1>
               </div>
               <div className="p-2">
@@ -90,7 +90,7 @@ const Experiences = () => {
                   voluptatum incidunt? Quis, voluptates illum.
                 </h1>
                 <div className="mt-4">
-                  <h1 className="text-green-500 w-fit font-bold text-3xl rounded-xl">
+                  <h1 className="text-orange-300 w-fit font-bold text-3xl rounded-xl">
                     Responsibility and things I did
                   </h1>
                   <ul>
@@ -122,11 +122,11 @@ const Experiences = () => {
           </div>
 
           <div className="mt-10 flex container items-start justify-start">
-            <div className="border-gradient4  w-[600px] h-fit">
+            <div className="border-gradient3  w-[600px] h-fit">
               <div className="flex justify-between p-2 items-center">
-                <img src="/images/bd.png" className="w-40 " alt="" />
-                <h1 className="border-t-4 border-green-500 border-l-4 border-r-4 rounded-lg p-2">
-                  Visual Creative Department Staff
+                <img src="/images/logo.webp" className="w-40 " alt="" />
+                <h1 className="border-t-4 border-primary border-l-4 border-r-4 rounded-lg p-2">
+                  Content Creator{" "}
                 </h1>
               </div>
               <div className="p-2">
@@ -141,7 +141,7 @@ const Experiences = () => {
                   voluptatum incidunt? Quis, voluptates illum.
                 </h1>
                 <div className="mt-4">
-                  <h1 className="text-green-500 w-fit font-bold text-3xl rounded-xl">
+                  <h1 className="text-primary w-fit font-bold text-3xl rounded-xl">
                     Responsibility and things I did
                   </h1>
                   <ul>

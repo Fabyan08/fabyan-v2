@@ -1,71 +1,102 @@
 // import "./style.css";
-import { Swiper, SwiperSlide } from "swiper/react";
 import { RxArrowTopRight } from "react-icons/rx";
 import { ImArrowDown2 } from "react-icons/im";
 import { AiFillGithub } from "react-icons/ai";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 // Import Swiper styles
+// import React, { useRef, useState } from "react";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
 import "swiper/css";
+import "swiper/css/pagination";
+
 import "./style.css";
+
+// import required modules
+import { FreeMode, Pagination } from "swiper/modules";
 const Portfolio = () => {
+  const breakpoints = {
+    // For mobile devices
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 10, // Adjust the space as needed
+    },
+    // For desktop or larger screens
+    1024: {
+      slidesPerView: 1.8,
+      spaceBetween: 30, // Adjust the space as needed
+    },
+  };
   return (
     <>
-      <div className="relative w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen">
+      <div
+        id="portfolio"
+        className="relative w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen"
+      >
         <div className=" container">
           <h1 className="font-bold text-5xl md:text-7xl">My Best Project</h1>
           <p className="font-semibold text-xl md:text-2xl md:w-[800px] mt-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
-            reprehenderit tempore ipsam ad dolor eveniet nemo consequatur
-            molestias rerum non?
+            These are some of the projects that I highlighted as portfolio
+            pieces!
           </p>
         </div>
-        <div className="space-y-4 w-full container">
+        <div className="space-y-4 relative w-full container">
           <div className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
-            <div className="w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
+            <div className="w-full h-full bg-white border-2 p-4 border-green-500 rounded-2xl">
               <div className="flex mb-4">
                 <img src="/images/fasite.png" className="w-10 h-10" alt="" />
                 <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-primary inline-block text-transparent bg-clip-text font-bold">
                   Fabyan Site
                 </h1>
               </div>
-              <div>
+              <div className="relative">
                 <h1 className="text-xl">
                   <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
                   consectetur adipisicing elit. Officiis praesentium illo
                   nostrum facere repudiandae! Corporis in illum perferendis
                   dolorum placeat.
                 </h1>
+                <div className="absolute z-10 hover:scale-110 duration-150 -top-[60px] -right-[50px] md:-top-[45px] font-semibold bg-green-500 text-white w-40 text-center rounded-full animate-pulse rotate-[30deg] md:-right-[30px]">
+                  <h1>Personal Project</h1>
+                </div>
               </div>
               <Swiper
-                className="mt-4"
-                spaceBetween={10}
-                slidesPerView={2}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
+                slidesPerView={1.3}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="mySwiper mt-4"
+                breakpoints={breakpoints}
               >
                 <SwiperSlide>
                   <img
                     src="/images/port/port.png"
-                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    className="rounded-xl border-4 border-gradient1  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     src="/images/port/port2.png"
-                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    className="rounded-xl border-4 border-gradient1  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     src="/images/port/port3.png"
-                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    className="rounded-xl border-4 border-gradient1  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
               </Swiper>
+
               <div className="md:flex items-center md:space-x-5">
                 <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
@@ -112,62 +143,85 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
+
+            <div className="w-full h-full relative bg-white border-2 p-4 border-primary rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/fasite.png" className="w-10 h-10" alt="" />
-                <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-primary inline-block text-transparent bg-clip-text font-bold">
-                  Fabyan Site
+                <img src="/images/kodbar.png" className="w-10 h-10" alt="" />
+                <h1 className="ml-2 text-3xl md:text-4xl bg-gradient-to-r from-primary to-blue-500 inline-block text-transparent bg-clip-text font-bold">
+                  Koding Bareng
                 </h1>
               </div>
-              <div>
+              <div className="relative">
                 <h1 className="text-xl">
                   <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
                   consectetur adipisicing elit. Officiis praesentium illo
                   nostrum facere repudiandae! Corporis in illum perferendis
                   dolorum placeat.
                 </h1>
+                <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
+                  <h1>Personal Project</h1>
+                </div>
               </div>
               <Swiper
-                className="mt-4"
-                spaceBetween={10}
-                slidesPerView={2}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
+                slidesPerView={1.3}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="mySwiper mt-4"
+                breakpoints={breakpoints}
               >
                 <SwiperSlide>
                   <img
-                    src="/images/port/port.png"
+                    src="/images/port/kod1.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port2.png"
+                    src="/images/port/kod2.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port3.png"
+                    src="/images/port/kod3.png"
+                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="/images/port/kod4.png"
+                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="/images/port/kod5.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
               </Swiper>
+
               <div className="md:flex items-center md:space-x-5">
                 <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
                   <a
                     className=" md:text-2xl rounded-xl text-white ml-3"
-                    href=""
+                    href="https://kodingbareng.vercel.app"
                   >
                     In Production Now!
                   </a>
 
                   <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://fabyan-site.vercel.app" target="_blank">
+                    <a href="https://kodingbareng.vercel.app" target="_blank">
                       <RxArrowTopRight />
                     </a>
                   </div>
@@ -175,7 +229,7 @@ const Portfolio = () => {
                 <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
                   <a href="">
                     <div>
-                      <h1 className="text-2xl">Fabyan Site</h1>
+                      <h1 className="text-2xl">Koding Bareng</h1>
                     </div>
                     <div className="text-md flex items-center space-x-1">
                       <h1>on</h1>
@@ -195,54 +249,64 @@ const Portfolio = () => {
                   </h1>
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
-                <div className="flex space-x-4 w-14 mt-2">
+                <div className="flex space-x-4 w-8 md:w-14 mt-2">
                   <img src="/images/html.png" alt="" />
                   <img src="/images/css.png" alt="" />
                   <img src="/images/tailwind.png" alt="" />
+                  <img src="/images/react.png" alt="" />
+                  <img src="/images/js.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
           <div className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
-            <div className="w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
+            <div className="w-full relative h-full bg-white border-2 p-4 border-primary rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/fasite.png" className="w-10 h-10" alt="" />
-                <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-primary inline-block text-transparent bg-clip-text font-bold">
-                  Fabyan Site
+                <img src="/images/port/jt.svg" className="w-10 h-10" alt="" />
+                <h1 className="ml-2 text-2xl  md:text-4xl bg-gradient-to-r from-[#C6F8E7] to-[#2978F3] inline-block text-transparent bg-clip-text font-bold">
+                  EMS Jasa Tirta
                 </h1>
               </div>
-              <div>
+              <div className="relative">
                 <h1 className="text-xl">
                   <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
                   consectetur adipisicing elit. Officiis praesentium illo
                   nostrum facere repudiandae! Corporis in illum perferendis
                   dolorum placeat.
                 </h1>
+
+                <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
+                  <h1>Freelance Project</h1>
+                </div>
               </div>
               <Swiper
-                className="mt-4"
-                spaceBetween={10}
-                slidesPerView={2}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
+                slidesPerView={1.3}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="mySwiper mt-4"
+                breakpoints={breakpoints}
               >
                 <SwiperSlide>
                   <img
-                    src="/images/port/port.png"
+                    src="/images/port/pjt.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port2.png"
+                    src="/images/port/pjt2.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port3.png"
+                    src="/images/port/pjt3.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
@@ -267,7 +331,7 @@ const Portfolio = () => {
                 <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
                   <a href="">
                     <div>
-                      <h1 className="text-2xl">Fabyan Site</h1>
+                      <h1 className="text-2xl">EMS Jasa Tirta</h1>
                     </div>
                     <div className="text-md flex items-center space-x-1">
                       <h1>on</h1>
@@ -287,52 +351,61 @@ const Portfolio = () => {
                   </h1>
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
-                <div className="flex space-x-4 w-14 mt-2">
+                <div className="flex space-x-4 w-8 md:w-14 mt-2">
                   <img src="/images/html.png" alt="" />
                   <img src="/images/css.png" alt="" />
-                  <img src="/images/tailwind.png" alt="" />
+                  <img src="/images/js.png" alt="" />
+                  <img src="/images/php.png" alt="" />
+                  <img src="/images/mysql.png" alt="" />
                 </div>
               </div>
             </div>
-            <div className="w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
+            <div className="w-full relative h-full bg-white border-2 p-4 border-[#3A298A] rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/fasite.png" className="w-10 h-10" alt="" />
-                <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-primary inline-block text-transparent bg-clip-text font-bold">
-                  Fabyan Site
+                <img src="/images/port/auto.png" className="w-20 h-10" alt="" />
+                <h1 className="ml-2 text-2xl md:text-4xl bg-gradient-to-r from-[#3A298A] to-primary inline-block text-transparent bg-clip-text font-bold">
+                  AutoLearn{" "}
                 </h1>
               </div>
-              <div>
+              <div className="relative">
                 <h1 className="text-xl">
                   <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
                   consectetur adipisicing elit. Officiis praesentium illo
                   nostrum facere repudiandae! Corporis in illum perferendis
                   dolorum placeat.
                 </h1>
+                <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
+                  <h1>Freelance Project</h1>
+                </div>
               </div>
               <Swiper
-                className="mt-4"
-                spaceBetween={10}
-                slidesPerView={2}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
+                slidesPerView={1.3}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="mySwiper mt-4"
+                breakpoints={breakpoints}
               >
                 <SwiperSlide>
                   <img
-                    src="/images/port/port.png"
+                    src="/images/port/auto1.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port2.png"
+                    src="/images/port/auto2.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port3.png"
+                    src="/images/port/auto3.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
@@ -357,7 +430,7 @@ const Portfolio = () => {
                 <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
                   <a href="">
                     <div>
-                      <h1 className="text-2xl">Fabyan Site</h1>
+                      <h1 className="text-2xl">Auto Learn</h1>
                     </div>
                     <div className="text-md flex items-center space-x-1">
                       <h1>on</h1>
@@ -377,55 +450,75 @@ const Portfolio = () => {
                   </h1>
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
-                <div className="flex space-x-4 w-14 mt-2">
+                <div className="flex space-x-4 w-10 md:w-14 mt-2">
                   <img src="/images/html.png" alt="" />
                   <img src="/images/css.png" alt="" />
-                  <img src="/images/tailwind.png" alt="" />
+                  <img src="/images/js.png" alt="" />
+                  <img src="/images/php.png" alt="" />
+                  <img src="/images/mysql.png" alt="" />
                 </div>
               </div>
             </div>
           </div>
 
-          <div className="flex items-center justify-center">
-            <div className="md:w-[900px] w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
+          <div className="flex relative items-center justify-center">
+            <div className="md:w-[900px] w-full h-full bg-white border-2 p-4 border-[#9006B9] rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/fasite.png" className="w-10 h-10" alt="" />
-                <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-primary inline-block text-transparent bg-clip-text font-bold">
-                  Fabyan Site
+                <img
+                  src="/images/port/dplogo.png"
+                  className="w-10 h-10"
+                  alt=""
+                />
+                <h1 className="ml-2 text-4xl bg-gradient-to-r from-[#9006B9] to-slate-400 inline-block text-transparent bg-clip-text font-bold">
+                  Depublic{" "}
                 </h1>
               </div>
-              <div>
+              <div className="relative">
                 <h1 className="text-xl">
                   <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
                   consectetur adipisicing elit. Officiis praesentium illo
                   nostrum facere repudiandae! Corporis in illum perferendis
                   dolorum placeat.
                 </h1>
+                <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
+                  <h1>Freelance Project</h1>
+                </div>
               </div>
               <Swiper
-                className="mt-4"
-                spaceBetween={10}
-                slidesPerView={2}
-                onSlideChange={() => console.log("slide change")}
-                onSwiper={(swiper) => console.log(swiper)}
+                slidesPerView={1.3}
+                spaceBetween={30}
+                freeMode={true}
+                pagination={{
+                  clickable: true,
+                }}
+                modules={[FreeMode, Pagination]}
+                className="mySwiper mt-4"
+                breakpoints={breakpoints}
               >
                 <SwiperSlide>
                   <img
-                    src="/images/port/port.png"
+                    src="/images/port/dp4.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port2.png"
+                    src="/images/port/dp1.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
-                    src="/images/port/port3.png"
+                    src="/images/port/dp2.png"
+                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    alt=""
+                  />
+                </SwiperSlide>
+                <SwiperSlide>
+                  <img
+                    src="/images/port/dp3.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
                   />
@@ -434,10 +527,7 @@ const Portfolio = () => {
               <div className="md:flex items-center md:space-x-5">
                 <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
-                  <a
-                    className=" md:text-2xl rounded-xl text-white ml-3"
-                    href=""
-                  >
+                  <a className="md:text-2xl rounded-xl text-white ml-3" href="">
                     In Production Now!
                   </a>
 
@@ -450,7 +540,7 @@ const Portfolio = () => {
                 <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
                   <a href="">
                     <div>
-                      <h1 className="text-2xl">Fabyan Site</h1>
+                      <h1 className="text-2xl">Depublic</h1>
                     </div>
                     <div className="text-md flex items-center space-x-1">
                       <h1>on</h1>
@@ -474,6 +564,8 @@ const Portfolio = () => {
                   <img src="/images/html.png" alt="" />
                   <img src="/images/css.png" alt="" />
                   <img src="/images/tailwind.png" alt="" />
+                  <img src="/images/react.png" alt="" />
+                  <img src="/images/firebase.png" alt="" />
                 </div>
               </div>
             </div>
@@ -481,7 +573,9 @@ const Portfolio = () => {
 
           <div className="mb-10 text-center  ">
             {/* <hr className="border-2 border-primary  absolute w-full mt-4 -z-10" /> */}
-            <h1 className="text-primary text-4xl font-bold ">Another Portfolio</h1>
+            <h1 className="text-primary text-4xl font-bold ">
+              Another Portfolio
+            </h1>
             {/* <h1 className="text-slate-500 text-md">Here's my another portfolio that I have!</h1> */}
           </div>
           <div className="md:flex justify-center md:space-x-10 space-y-10 md:space-y-0 container pt-10">
@@ -516,7 +610,35 @@ const Portfolio = () => {
             <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
               <div className="flex">
                 <img
-                  src="/images/port/ui1.png"
+                  src="/images/port/ui2.png"
+                  className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
+                  alt=""
+                />
+                <div className="grid">
+                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
+                    UI Design
+                  </h1>
+                  <h1 className="-mt-2 font-semibold w-40 pl-2">
+                    For Game Store Design
+                  </h1>
+                </div>
+              </div>
+              <div className="flex space-y-4  justify-between items-center ">
+                <div className="flex items-center mt-2">
+                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
+                  <img src="/images/figma.png" className="w-8" alt="" />
+                </div>
+                <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-16 md:ml-4">
+                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                    <BsBoxArrowInUpRight className="p-2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+              <div className="flex">
+                <img
+                  src="/images/port/ui3.png"
                   className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
                   alt=""
                 />
@@ -529,7 +651,7 @@ const Portfolio = () => {
                   </h1>
                 </div>
               </div>
-              <div className="flex space-y-4 -mt-3 justify-between items-center ">
+              <div className="flex space-y-4 mt-2 justify-between items-center ">
                 <div className="flex items-center mt-2">
                   <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
                   <img src="/images/figma.png" className="w-8" alt="" />
@@ -544,54 +666,30 @@ const Portfolio = () => {
             <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
               <div className="flex">
                 <img
-                  src="/images/port/ui1.png"
+                  src="/images/port/art1.png"
                   className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
                   alt=""
                 />
                 <div className="grid">
-                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
-                    UI Design
+                  <h1 className="ml-2 text-xl   z-10 text-primary font-bold ">
+                    Article Writing{" "}
                   </h1>
                   <h1 className="-mt-4 font-semibold w-40 pl-2">
-                    For Outfit App Design
+                    Freelance Content Creator{" "}
                   </h1>
                 </div>
               </div>
-              <div className="flex space-y-4 -mt-3 justify-between items-center ">
+              <div className="flex space-y-4 mt-1 justify-between items-center ">
                 <div className="flex items-center mt-2">
-                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
-                  <img src="/images/figma.png" className="w-8" alt="" />
+                  <h1 className="mt-2 ml-2 font-semibold">
+                    Write an article on AboutMalang.com
+                  </h1>
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                  <a href="https://fabyan-site.vercel.app" target="_blank">
-                    <BsBoxArrowInUpRight className="p-2" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
-              <div className="flex">
-                <img
-                  src="/images/port/ui1.png"
-                  className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
-                  alt=""
-                />
-                <div className="grid">
-                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
-                    UI Design
-                  </h1>
-                  <h1 className="-mt-4 font-semibold w-40 pl-2">
-                    For Outfit App Design
-                  </h1>
-                </div>
-              </div>
-              <div className="flex space-y-4 -mt-3 justify-between items-center ">
-                <div className="flex items-center mt-2">
-                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
-                  <img src="/images/figma.png" className="w-8" alt="" />
-                </div>
-                <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                  <a
+                    href="https://www.aboutmalang.com/author/23196/Fabyan-Yastika-Permana"
+                    target="_blank"
+                  >
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>
                 </div>
@@ -599,6 +697,16 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+        <style>
+          {`
+              .swiper-pagination-bullet-active {
+                background: #6da9e4; 
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border-radius: 40px;
+                width: 30px;
+              }
+            `}
+        </style>
       </div>
     </>
   );

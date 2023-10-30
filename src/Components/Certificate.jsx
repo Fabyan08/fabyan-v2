@@ -1,11 +1,26 @@
-import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FreeMode, Pagination } from "swiper/modules";
 
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
 const Certificate = () => {
+  const breakpoints = {
+    // For mobile devices
+    640: {
+      slidesPerView: 1,
+      spaceBetween: 10, // Adjust the space as needed
+    },
+    // For desktop or larger screens
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 30, // Adjust the space as needed
+    },
+  };
   return (
     <>
-      <div className="relative w-full h-full">
-        <div className="bg-gradient-to-r py-10  pt-2 from-primary/30 border-t-primary/20 border-t-2  -p-20  -z-10 w-full h-full">
+      <div className="relative w-full h-full" id="certificate">
+        <div className="bg-gradient-to-r py-20  pt-10 from-primary/30 border-t-primary/20 border-t-2  -p-20  -z-10 w-full h-full">
           <img
             src="/images/bg3.jpg"
             className="absolute -mt-40 md:-mt-0 h-full w-full -z-[400] opacity-[40%]"
@@ -16,11 +31,15 @@ const Certificate = () => {
               Certificate
             </h1>
             <Swiper
-              className="mt-4"
-              spaceBetween={20}
-              slidesPerView={3}
-              onSlideChange={() => console.log("slide change")}
-              onSwiper={(swiper) => console.log(swiper)}
+              slidesPerView={1}
+              spaceBetween={30}
+              freeMode={true}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[FreeMode, Pagination]}
+              className="mySwiper mt-4"
+              breakpoints={breakpoints}
             >
               <SwiperSlide>
                 <img

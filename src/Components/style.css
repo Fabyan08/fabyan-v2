@@ -21,6 +21,16 @@
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
+.border-gradient1 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #ffffff, #5ce663);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
 .border-gradient2 {
   /* width: 300px;
   height: 80px; */
@@ -48,6 +58,16 @@
   border-radius: 13px;
   background-image: linear-gradient(white, white),
     linear-gradient(to right, #6de495, #e7e7e7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.border-gradient5 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 13px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #f5dc39, #e7e7e7);
   background-origin: border-box;
   background-clip: content-box, border-box;
 }
