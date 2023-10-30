@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { RxArrowTopRight } from "react-icons/rx";
 import { ImArrowDown2 } from "react-icons/im";
 import { AiFillGithub } from "react-icons/ai";
+import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 // Import Swiper styles
 import "swiper/css";
@@ -10,7 +11,7 @@ import "./style.css";
 const Portfolio = () => {
   return (
     <>
-      <div className="relative w-full pt-32 bg-gradient-to-tr container from-primary/30 min-h-screen">
+      <div className="relative w-full py-10 pt-32 bg-gradient-to-tr container from-primary/30 min-h-screen">
         <div className="">
           <h1 className="font-bold text-5xl md:text-7xl">My Best Project</h1>
           <p className="font-semibold text-xl md:text-2xl md:w-[800px] mt-4">
@@ -201,7 +202,6 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-           
           </div>
           <div className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
             <div className="w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
@@ -384,12 +384,10 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-           
           </div>
-         
 
           <div className="flex items-center justify-center">
-          <div className="md:w-[900px] w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
+            <div className="md:w-[900px] w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
               <div className="flex mb-4">
                 <img src="/images/fasite.png" className="w-10 h-10" alt="" />
                 <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-primary inline-block text-transparent bg-clip-text font-bold">
@@ -476,6 +474,126 @@ const Portfolio = () => {
                   <img src="/images/html.png" alt="" />
                   <img src="/images/css.png" alt="" />
                   <img src="/images/tailwind.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="mb-10 text-center  ">
+            {/* <hr className="border-2 border-primary  absolute w-full mt-4 -z-10" /> */}
+            <h1 className="text-primary text-4xl font-bold ">Another Portfolio</h1>
+            {/* <h1 className="text-slate-500 text-md">Here's my another portfolio that I have!</h1> */}
+          </div>
+          <div className="md:flex justify-center md:space-x-10 space-y-10 md:space-y-0 container pt-10">
+            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+              <div className="flex">
+                <img
+                  src="/images/port/ui1.png"
+                  className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
+                  alt=""
+                />
+                <div className="grid">
+                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
+                    UI Design
+                  </h1>
+                  <h1 className="-mt-4 font-semibold w-40 pl-2">
+                    For Outfit App Design
+                  </h1>
+                </div>
+              </div>
+              <div className="flex space-y-4 -mt-3 justify-between items-center ">
+                <div className="flex items-center mt-2">
+                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
+                  <img src="/images/figma.png" className="w-8" alt="" />
+                </div>
+                <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                    <BsBoxArrowInUpRight className="p-2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+              <div className="flex">
+                <img
+                  src="/images/port/ui1.png"
+                  className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
+                  alt=""
+                />
+                <div className="grid">
+                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
+                    UI Design
+                  </h1>
+                  <h1 className="-mt-4 font-semibold w-40 pl-2">
+                    For Outfit App Design
+                  </h1>
+                </div>
+              </div>
+              <div className="flex space-y-4 -mt-3 justify-between items-center ">
+                <div className="flex items-center mt-2">
+                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
+                  <img src="/images/figma.png" className="w-8" alt="" />
+                </div>
+                <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                    <BsBoxArrowInUpRight className="p-2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+              <div className="flex">
+                <img
+                  src="/images/port/ui1.png"
+                  className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
+                  alt=""
+                />
+                <div className="grid">
+                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
+                    UI Design
+                  </h1>
+                  <h1 className="-mt-4 font-semibold w-40 pl-2">
+                    For Outfit App Design
+                  </h1>
+                </div>
+              </div>
+              <div className="flex space-y-4 -mt-3 justify-between items-center ">
+                <div className="flex items-center mt-2">
+                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
+                  <img src="/images/figma.png" className="w-8" alt="" />
+                </div>
+                <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                    <BsBoxArrowInUpRight className="p-2" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+              <div className="flex">
+                <img
+                  src="/images/port/ui1.png"
+                  className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
+                  alt=""
+                />
+                <div className="grid">
+                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
+                    UI Design
+                  </h1>
+                  <h1 className="-mt-4 font-semibold w-40 pl-2">
+                    For Outfit App Design
+                  </h1>
+                </div>
+              </div>
+              <div className="flex space-y-4 -mt-3 justify-between items-center ">
+                <div className="flex items-center mt-2">
+                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
+                  <img src="/images/figma.png" className="w-8" alt="" />
+                </div>
+                <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                    <BsBoxArrowInUpRight className="p-2" />
+                  </a>
                 </div>
               </div>
             </div>

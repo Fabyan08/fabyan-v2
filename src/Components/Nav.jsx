@@ -28,6 +28,9 @@ const Nav = () => {
               <a href="">Portfolio</a>
             </li>
             <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
+              <a href="">Experience</a>
+            </li>
+            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
               <a href="">Certificate</a>
             </li>
             <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
