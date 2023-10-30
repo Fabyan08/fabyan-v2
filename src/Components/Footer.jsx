@@ -44,7 +44,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <h1 className="mt-10 text-white font-semibold text-md md:text-xl">
+          <div className="mt-20 md:hidden"></div>
+          <h1 className="mt-10 hidden md:flex text-white font-semibold text-md md:text-xl">
             Made using React JS and big effort. Cheers!
           </h1>
         </div>

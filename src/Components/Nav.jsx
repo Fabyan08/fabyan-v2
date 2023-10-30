@@ -49,7 +49,7 @@ const Nav = () => {
       </nav>
 
       <div className="md:hidden absolute z-40">
-        <div className="btm-nav mb-20 mx-auto w-80 rounded-full bg-black text-white">
+        <div className="btm-nav mb-10 mx-auto w-80 rounded-full bg-white/30 backdrop-blur-lg text-primary border-2 border-primary/30">
           <button>
             <svg
               xmlns="http://www.w3.org/2000/svg"
