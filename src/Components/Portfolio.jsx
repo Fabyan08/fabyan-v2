@@ -560,7 +560,7 @@ const Portfolio = () => {
                   </h1>
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
-                <div className="flex space-x-4 w-14 mt-2">
+                <div className="flex space-x-4 w-10 md:w-14 mt-2">
                   <img src="/images/html.png" alt="" />
                   <img src="/images/css.png" alt="" />
                   <img src="/images/tailwind.png" alt="" />

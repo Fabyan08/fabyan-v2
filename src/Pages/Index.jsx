@@ -17,7 +17,7 @@ const Index = () => {
       <Portfolio />
       <Experiences />
       <Certificate />
-      <div className=" z-[999999] bg-primary/40 backdrop-blur-lg shadow-md text-white w-10 h-10 rounded-full right-12 bottom-12 fixed flex items-center justify-center text-2xl">
+      <div className="hidden md:flex z-[999999] bg-primary/40 backdrop-blur-lg shadow-md text-white w-10 h-10 rounded-full right-12 bottom-12 fixed  items-center justify-center text-2xl">
         <a href="#">
           {" "}
           <AiOutlineArrowUp />
