@@ -3,6 +3,8 @@ import Nav from "../Components/Nav";
 import About from "../Components/About";
 import Portfolio from "../Components/Portfolio";
 import Experiences from "../Components/Experiences";
+import Certificate from "../Components/Certificate";
+import Footer from "../Components/Footer";
 const Index = () => {
   return (
     <>
@@ -13,7 +15,8 @@ const Index = () => {
       <About />
       <Portfolio />
       <Experiences />
-      <div className="mt-96"></div>
+      <Certificate />
+      <Footer />
     </>
   );
 };

@@ -11,8 +11,8 @@ import "./style.css";
 const Portfolio = () => {
   return (
     <>
-      <div className="relative w-full py-10 pt-32 bg-gradient-to-tr container from-primary/30 min-h-screen">
-        <div className="">
+      <div className="relative w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen">
+        <div className=" container">
           <h1 className="font-bold text-5xl md:text-7xl">My Best Project</h1>
           <p className="font-semibold text-xl md:text-2xl md:w-[800px] mt-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam
@@ -20,7 +20,7 @@ const Portfolio = () => {
             molestias rerum non?
           </p>
         </div>
-        <div className="space-y-4 w-full">
+        <div className="space-y-4 w-full container">
           <div className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
             <div className="w-full h-full bg-white border-2 p-4 border-primary rounded-2xl">
               <div className="flex mb-4">
