@@ -6,7 +6,7 @@ const About = () => {
         <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 mt-[234px] md:mt-[120px]  -p-20  -z-10 w-full h-[900px]">
           <img
             src="/images/pattern3.png"
-            className="absolute -mt-40 md:-mt-0 h-[900px] w-full -z-[400] opacity-[10%]"
+            className="absolute -mt-40 md:-mt-0 h-[900px] w-full -z-[400] opacity-[15%]"
             alt=""
           />
           <div className="flex justify-between mt-[100px]">

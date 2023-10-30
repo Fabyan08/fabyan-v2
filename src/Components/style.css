@@ -11,9 +11,13 @@
   animation: moveImage 5s linear infinite;
 }
 /* Define the gradient border class with rounded corners */
-/* .border-gradient {
-  border: 2px solid transparent;
-  background-clip: padding-box;
-  border-image: linear-gradient(45deg, #6da9e4, #ade4db);
-  border-image-slice: 1;
-} */
+.border-gradient {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #ffffff, #6da9e4);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
