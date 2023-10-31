@@ -166,10 +166,10 @@ const About = () => {
             </div>
 
             <div className="absolute w-full  md:-mt-60 md:w-[670px] md:mx-80 pt-[420px] text-right">
-              <h1 className="text-4xl font-bold mb-4 absolute -bottom-[250px] md:relative md:bottom-0 right-0 bg-gradient-to-l pr-2 text-white  from-primary rounded-xl">
+              <h1 className="text-4xl mr-3 font-bold mb-4 absolute -bottom-[250px] md:relative md:bottom-0 right-0 bg-gradient-to-l pr-2 text-white  from-primary rounded-xl">
                 🚀About Me
               </h1>
-              <div className="absolute mx-2 ml-14 -bottom-[410px] md:relative md:bottom-0">
+              <div className="absolute mx-2 mr-8 ml-14 -bottom-[410px] md:relative md:bottom-0">
                 <div className="bg-white px-2 md:w-[600px] border-2 h-40 rounded-xl p-4">
                   <h1 className="text-right">
                     My name is Fabyan Yastika Permana, a website developer that
