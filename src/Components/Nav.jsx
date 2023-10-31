@@ -14,17 +14,17 @@ const Nav = () => {
   }, []);
   return (
     <>
-      <div className="overflow-x-hidden">
+      <div className="">
         {/* <img src="/images/bg.png" className="absolute left-0 -z-10" alt="" /> */}
-        <div className="absolute overflow-hidden  -z-20 md:w-full md:ml-40 w-[900px]">
-          <div className="relative">
-            <div className="absolute z-20 bg-gradient-to-r from-white w-96 h-full"></div>
-            <div className="absolute z-20 bg-gradient-to-t from-white w-full h-full"></div>
-            <div className="absolute z-20 bg-gradient-to-l from-blue-100   w-full h-full"></div>
+        <div className="absolute   -z-20 md:w-full md:ml-40 w-[900px]">
+          <div className="relative ">
+            <div className="absolute  z-20 bg-gradient-to-r from-white w-96 h-full"></div>
+            <div className="absolute  z-20 bg-gradient-to-t from-white w-full h-full"></div>
+            <div className="absolute  z-20 bg-gradient-to-l from-blue-100   w-full h-full"></div>
             <img
               src="/images/bgfull.png"
               alt=""
-              className="relative z-10 -mt-10"
+              className="relative hidden md:flex -z-10  w-full  h-full -mt-10"
             />
           </div>
         </div>
@@ -101,8 +101,8 @@ const Nav = () => {
         </a>
       </div> */}
 
-        <div className="md:hidden absolute z-40  flex justify-center">
-          <div className="btm-nav mb-10  w-96 flex items-center justify-center rounded-full bg-white/30 backdrop-blur-lg text-primary border-2 border-primary/30">
+        <div className="md:hidden flex justify-center relative z-40 ">
+          <div className="btm-nav fixed mb-20 mx-auto rounded-full px-5 bg-primary/40 backdrop-blur-2xl text-white w-fit space-x-10">
             <a href="#home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

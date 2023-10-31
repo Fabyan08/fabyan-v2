@@ -3,7 +3,7 @@ import { AiOutlineInstagram } from "react-icons/ai";
 const Footer = () => {
   return (
     <>
-      <div className="bg-primary absolute -z-10 w-full">
+      <div className="bg-primary absolute overflow-x-hidden -mt-10 -z-10 w-full">
         <div
           className="bg-gradient-to-r from-primary via-primary to-primary/80 relative pb-10 w-full h-full "
           id="contact"
@@ -18,7 +18,8 @@ const Footer = () => {
           </div>
           <div className="mt-5 container md:mt-10">
             <div className="md:flex items-center space-x-4">
-              <img loading="lazy"
+              <img
+                loading="lazy"
                 src="/images/Foto.jpg"
                 className="rounded-full w-40"
                 alt=""
@@ -52,7 +53,8 @@ const Footer = () => {
                     </a>
                   </h1>
                 </div>
-                <img loading="lazy"
+                <img
+                  loading="lazy"
                   src="/images/best.jpg"
                   className="rounded-xl absolute -right-44 md:-right-12 bottom-0 -z-10 w-[725px]"
                   alt=""

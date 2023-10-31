@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <div className="relative " id="about">
-        <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 mt-[234px] md:mt-[120px]  -p-20  -z-10 w-full h-[900px]">
+        <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 mt-[234px] md:mt-[320px]  -p-20  -z-10 w-full h-[900px]">
           <img
             loading="lazy"
             src="/images/pattern3.png"
@@ -202,7 +202,7 @@ const About = () => {
               className="md:-mr-20 absolute z-20 right-0  w-44 md:w-[500px] "
             >
               <div className="bg-primary/30 w-[220px] h-[220px] md:w-[600px] md:h-[600px] absolute right-0 -mr-10 md:-mr-20 -z-10 rounded-full shadow-xl"></div>
-              <div className="bg-white text-primary hover:bg-primary hover:text-white hover:scale-110 duration-150 cursor-pointer md:w-20 md:h-20 w-10 h-10 absolute text-4xl flex items-center justify-center rounded-full bottom-6 -ml-4 shadow-xl md:bottom-24">
+              <div className="bg-white text-[30px] text-primary hover:bg-primary hover:text-white hover:scale-110 duration-150 cursor-pointer md:w-20 md:h-20 w-10 h-10 absolute text-4xl flex items-center justify-center rounded-full bottom-6 -ml-4 shadow-xl md:bottom-24">
                 <a
                   href="https://www.linkedin.com/in/fabyan-yastika-permana/"
                   target="_blank"
