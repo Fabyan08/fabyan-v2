@@ -7,23 +7,22 @@ import Experiences from "../Components/Experiences";
 import Certificate from "../Components/Certificate";
 import Footer from "../Components/Footer";
 import { AiOutlineArrowUp } from "react-icons/ai";
-// import  
+// import
 const Index = () => {
-
-
-  
   return (
     <>
-      <Nav />
-      <div className="pt-20">
-        <Hero id="home" />
+      <div className="overflow-x-hidden">
+        <Nav />
+        <div className="pt-20">
+          <Hero id="home" />
+        </div>
+        <About />
+        <Portfolio />
+        <Experiences />
+        <Certificate />
+        <BackToTopButton />
+        <Footer />
       </div>
-      <About />
-      <Portfolio />
-      <Experiences />
-      <Certificate />
-     <BackToTopButton />
-      <Footer />
     </>
   );
 };
