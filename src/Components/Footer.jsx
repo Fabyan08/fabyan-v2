@@ -18,7 +18,7 @@ const Footer = () => {
           </div>
           <div className="mt-5 container md:mt-10">
             <div className="md:flex items-center space-x-4">
-              <img
+              <img loading="lazy"
                 src="/images/Foto.jpg"
                 className="rounded-full w-40"
                 alt=""
@@ -52,7 +52,7 @@ const Footer = () => {
                     </a>
                   </h1>
                 </div>
-                <img
+                <img loading="lazy"
                   src="/images/best.jpg"
                   className="rounded-xl absolute -right-44 md:-right-12 bottom-0 -z-10 w-[725px]"
                   alt=""

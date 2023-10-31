@@ -49,8 +49,8 @@ const Hero = () => {
           }}
         >
           <div className="pt-96">
-         
             <img
+              loading="lazy"
               src="/images/spread2.png"
               data-aos="fade-up"
               data-aos-duration="2000"
@@ -60,22 +60,26 @@ const Hero = () => {
             />
           </div>
           <img
+            loading="lazy"
             src="/images/vector2.png"
             className="absolute left-24 hidden md:flex -top-12"
             alt=""
           />
           <img
+            loading="lazy"
             src="/images/vector1.png"
             className="absolute hidden md:flex right-40"
             alt=""
           />
           <img
+            loading="lazy"
             src="/images/rounded.png"
             className="absolute bottom-6 md:-bottom-96 -z-10 md:ml-80  moving-rounded-image"
             alt=""
             onMouseMove={handleMouseMove}
           />
           <img
+            loading="lazy"
             src="/images/rounded2.png"
             className="absolute top-0 -z-10 ml-40 right-0  moving-rounded-image"
             alt=""
@@ -85,19 +89,24 @@ const Hero = () => {
         <div className="relative -mt-96">
           <div className="flex items-center justify-center">
             <img
-              src="/images/man2.gif "  data-aos="fade-up" data-aos-duration="1000"
+              loading="lazy"
+              src="/images/man2.gif "
+              data-aos="fade-up"
+              data-aos-duration="1000"
               className="md:right-0 md:bottom-0 md:hidden -bottom-60 shadow-sm absolute w-40"
               alt=""
             />
           </div>
 
           <img
+            loading="lazy"
             src="/images/kotak.png"
             className="absolute -top-5 md:bottom-0 custom-rotate left-12"
             alt=""
             // onMouseMove={handleMouseMove}
           />
           <img
+            loading="lazy"
             src="/images/spread2.png"
             data-aos="fade-down"
             data-aos-duration="2000"
@@ -106,20 +115,23 @@ const Hero = () => {
           />
 
           <img
+            loading="lazy"
             src="/images/segit.png"
             className="absolute -top-16 md:top-12 custom-rotate right-6 md:left-80"
             alt=""
             // onMouseMove={handleMouseMove}
           />
           <img
+            loading="lazy"
             src="/images/segit.png"
-            className="absolute -bottom-20 md:bottom-20 custom-rotate right-60"
+            className="absolute -bottom-20 md:bottom-20 custom-rotate right-"
             alt=""
             // onMouseMove={handleMouseMove}
           />
 
           {/* <div className="relative"> */}
           <img
+            loading="lazy"
             src="/images/vect3.png"
             className="ml-2 -z-10 animate-[wiggle_1s_ease-in-out_infinite] md:bottom-0 right-0 -bottom-40  absolute"
             alt=""
@@ -131,11 +143,19 @@ const Hero = () => {
             alt=""
           /> */}
 
-          <div className="flex items-center justify-center" data-aos="fade-right" data-aos-duration="1000">
-            <img src="/images/role.png" alt="" />
+          <div
+            className="flex items-center justify-center"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <img loading="lazy" src="/images/role.png" alt="" />
           </div>
-          <div className="flex items-center -mt-10 md:-mt-32 justify-center" data-aos="fade-left"  data-aos-duration="1000">
-            <img src="/images/head.png" alt="" />
+          <div
+            className="flex items-center -mt-10 md:-mt-32 justify-center"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <img loading="lazy" src="/images/head.png" alt="" />
           </div>
         </div>
       </div>

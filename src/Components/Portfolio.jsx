@@ -61,10 +61,19 @@ const Portfolio = () => {
             `}
         </style>
         <div className="space-y-4 relative w-full container">
-          <div data-aos="fade-up" data-aos-duration="2000" className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="2000"
+            className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0"
+          >
             <div className="w-full h-full bg-white border-2 p-4 border-green-500 rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/fasite.png" className="w-10 h-10" alt="" />
+                <img
+                  loading="lazy"
+                  src="/images/fasite.png"
+                  className="w-10 h-10"
+                  alt=""
+                />
                 <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-green-300 inline-block text-transparent bg-clip-text font-bold">
                   Fabyan Site
                 </h1>
@@ -93,6 +102,7 @@ const Portfolio = () => {
               >
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/port.png"
                     className="rounded-xl border-4 border-gradient1  shadow-sm"
                     alt=""
@@ -100,6 +110,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/port2.png"
                     className="rounded-xl border-4 border-gradient1  shadow-sm"
                     alt=""
@@ -107,6 +118,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/port3.png"
                     className="rounded-xl border-4 border-gradient1  shadow-sm"
                     alt=""
@@ -161,16 +173,21 @@ const Portfolio = () => {
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
                 <div className="flex space-x-4 w-14 mt-2">
-                  <img src="/images/htmlhij.png" alt="" />
-                  <img src="/images/csshij.png" alt="" />
-                  <img src="/images/tailhij.png" alt="" />
+                  <img loading="lazy" src="/images/htmlhij.png" alt="" />
+                  <img loading="lazy" src="/images/csshij.png" alt="" />
+                  <img loading="lazy" src="/images/tailhij.png" alt="" />
                 </div>
               </div>
             </div>
 
             <div className="w-full h-full relative bg-white border-2 p-4 border-primary rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/kodbar.png" className="w-10 h-10" alt="" />
+                <img
+                  loading="lazy"
+                  src="/images/kodbar.png"
+                  className="w-10 h-10"
+                  alt=""
+                />
                 <h1 className="ml-2 text-3xl md:text-4xl bg-gradient-to-r from-primary to-blue-500 inline-block text-transparent bg-clip-text font-bold">
                   Koding Bareng
                 </h1>
@@ -199,6 +216,7 @@ const Portfolio = () => {
               >
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/kod1.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -206,6 +224,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/kod2.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -213,6 +232,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/kod3.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -220,6 +240,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/kod4.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -227,6 +248,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/kod5.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -284,11 +306,11 @@ const Portfolio = () => {
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
                 <div className="flex space-x-4 w-8 md:w-14 mt-2">
-                  <img src="/images/html.png" alt="" />
-                  <img src="/images/css.png" alt="" />
-                  <img src="/images/tailwind.png" alt="" />
-                  <img src="/images/react.png" alt="" />
-                  <img src="/images/ts.png" alt="" />
+                  <img loading="lazy" src="/images/html.png" alt="" />
+                  <img loading="lazy" src="/images/css.png" alt="" />
+                  <img loading="lazy" src="/images/tailwind.png" alt="" />
+                  <img loading="lazy" src="/images/react.png" alt="" />
+                  <img loading="lazy" src="/images/ts.png" alt="" />
                 </div>
               </div>
             </div>
@@ -296,7 +318,12 @@ const Portfolio = () => {
           <div className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
             <div className="w-full relative h-full bg-white border-2 p-4 border-primary rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/port/jt.svg" className="w-10 h-10" alt="" />
+                <img
+                  loading="lazy"
+                  src="/images/port/jt.svg"
+                  className="w-10 h-10"
+                  alt=""
+                />
                 <h1 className="ml-2 text-2xl  md:text-4xl bg-gradient-to-r from-[#C6F8E7] to-[#2978F3] inline-block text-transparent bg-clip-text font-bold">
                   EMS Jasa Tirta
                 </h1>
@@ -325,6 +352,7 @@ const Portfolio = () => {
               >
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/pjt.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -332,6 +360,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/pjt2.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -339,6 +368,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/pjt3.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -365,17 +395,22 @@ const Portfolio = () => {
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
                 <div className="flex space-x-4 w-8 md:w-14 mt-2">
-                  <img src="/images/html.png" alt="" />
-                  <img src="/images/css.png" alt="" />
-                  <img src="/images/js.png" alt="" />
-                  <img src="/images/php.png" alt="" />
-                  <img src="/images/mysql.png" alt="" />
+                  <img loading="lazy" src="/images/html.png" alt="" />
+                  <img loading="lazy" src="/images/css.png" alt="" />
+                  <img loading="lazy" src="/images/js.png" alt="" />
+                  <img loading="lazy" src="/images/php.png" alt="" />
+                  <img loading="lazy" src="/images/mysql.png" alt="" />
                 </div>
               </div>
             </div>
             <div className="w-full relative h-full bg-white border-2 p-4 border-[#3A298A] rounded-2xl">
               <div className="flex mb-4">
-                <img src="/images/port/auto.png" className="w-20 h-10" alt="" />
+                <img
+                  loading="lazy"
+                  src="/images/port/auto.png"
+                  className="w-20 h-10"
+                  alt=""
+                />
                 <h1 className="ml-2 text-2xl md:text-4xl bg-gradient-to-r from-[#3A298A] to-primary inline-block text-transparent bg-clip-text font-bold">
                   AutoLearn{" "}
                 </h1>
@@ -404,6 +439,7 @@ const Portfolio = () => {
               >
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/auto1.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -411,6 +447,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/auto2.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -418,6 +455,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/auto3.png"
                     className="rounded-xl border-4 border-gradient  shadow-sm"
                     alt=""
@@ -472,11 +510,11 @@ const Portfolio = () => {
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
                 <div className="flex space-x-4 w-10 md:w-14 mt-2">
-                  <img src="/images/html.png" alt="" />
-                  <img src="/images/css.png" alt="" />
-                  <img src="/images/js.png" alt="" />
-                  <img src="/images/php.png" alt="" />
-                  <img src="/images/mysql.png" alt="" />
+                  <img loading="lazy" src="/images/html.png" alt="" />
+                  <img loading="lazy" src="/images/css.png" alt="" />
+                  <img loading="lazy" src="/images/js.png" alt="" />
+                  <img loading="lazy" src="/images/php.png" alt="" />
+                  <img loading="lazy" src="/images/mysql.png" alt="" />
                 </div>
               </div>
             </div>
@@ -486,6 +524,7 @@ const Portfolio = () => {
             <div className="md:w-[900px] w-full h-full bg-white border-2 p-4 border-[#9006B9] rounded-2xl">
               <div className="flex mb-4">
                 <img
+                  loading="lazy"
                   src="/images/port/dplogo.png"
                   className="w-10 h-10"
                   alt=""
@@ -517,6 +556,7 @@ const Portfolio = () => {
               >
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/dp4.png"
                     className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
@@ -524,6 +564,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/dp1.png"
                     className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
@@ -531,6 +572,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/dp2.png"
                     className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
@@ -538,6 +580,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
+                    loading="lazy"
                     src="/images/port/dp3.png"
                     className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
@@ -590,12 +633,12 @@ const Portfolio = () => {
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
                 <div className="flex space-x-4 w-8 md:w-14 mt-2">
-                  <img src="/images/htmlp.png" alt="" />
-                  <img src="/images/cssp.png" alt="" />
-                  <img src="/images/jsp.png" alt="" />
-                  <img src="/images/tailp.png" alt="" />
-                  <img src="/images/reactp.png" alt="" />
-                  <img src="/images/firebasep.png" alt="" />
+                  <img loading="lazy" src="/images/htmlp.png" alt="" />
+                  <img loading="lazy" src="/images/cssp.png" alt="" />
+                  <img loading="lazy" src="/images/jsp.png" alt="" />
+                  <img loading="lazy" src="/images/tailp.png" alt="" />
+                  <img loading="lazy" src="/images/reactp.png" alt="" />
+                  <img loading="lazy" src="/images/firebasep.png" alt="" />
                 </div>
               </div>
             </div>
@@ -608,10 +651,15 @@ const Portfolio = () => {
             </h1>
             {/* <h1 className="text-slate-500 text-md">Here's my another portfolio that I have!</h1> */}
           </div>
-          <div  className="md:flex justify-center md:space-x-10 space-y-10 md:space-y-0 container pt-10">
-            <div data-aos="fade-up" data-aos-duration="1000" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+          <div className="md:flex justify-center md:space-x-10 space-y-10 md:space-y-0 container pt-10">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1000"
+              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+            >
               <div className="flex">
                 <img
+                  loading="lazy"
                   src="/images/port/ui1.png"
                   className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
                   alt=""
@@ -628,7 +676,12 @@ const Portfolio = () => {
               <div className="flex space-y-4 -mt-3 justify-between items-center ">
                 <div className="flex items-center mt-2">
                   <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
-                  <img src="/images/figma.png" className="w-8" alt="" />
+                  <img
+                    loading="lazy"
+                    src="/images/figma.png"
+                    className="w-8"
+                    alt=""
+                  />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
                   <a
@@ -641,9 +694,14 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="1500" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+            >
               <div className="flex">
                 <img
+                  loading="lazy"
                   src="/images/port/ui2.png"
                   className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
                   alt=""
@@ -660,7 +718,12 @@ const Portfolio = () => {
               <div className="flex space-y-4  justify-between items-center ">
                 <div className="flex items-center mt-2">
                   <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
-                  <img src="/images/figma.png" className="w-8" alt="" />
+                  <img
+                    loading="lazy"
+                    src="/images/figma.png"
+                    className="w-8"
+                    alt=""
+                  />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-16 md:ml-4">
                   <a
@@ -673,9 +736,14 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="2000" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+            >
               <div className="flex">
                 <img
+                  loading="lazy"
                   src="/images/port/ui3.png"
                   className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
                   alt=""
@@ -692,7 +760,12 @@ const Portfolio = () => {
               <div className="flex space-y-4  -mt-3 justify-between items-center ">
                 <div className="flex items-center">
                   <h1 className=" ml-2 font-semibold -mt-2">Technology Used</h1>
-                  <img src="/images/figma.png" className="w-8" alt="" />
+                  <img
+                    loading="lazy"
+                    src="/images/figma.png"
+                    className="w-8"
+                    alt=""
+                  />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
                   <a
@@ -705,9 +778,14 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div data-aos="fade-up" data-aos-duration="2500" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+            <div
+              data-aos="fade-up"
+              data-aos-duration="2500"
+              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+            >
               <div className="flex">
                 <img
+                  loading="lazy"
                   src="/images/port/art1.png"
                   className="w-40 rounded-xl  border-gradient2 duration-150    shadow-sm  -mt-8 -ml-8"
                   alt=""

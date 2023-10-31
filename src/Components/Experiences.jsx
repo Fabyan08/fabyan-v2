@@ -4,13 +4,13 @@ const Experiences = () => {
     <>
       <div className="relative w-full " id="experience">
         <div className="bg-gradient-to-l py-10  pt-2 from-primary/30 border-t-primary/20 border-t-2  -p-20  -z-10 w-full h-full">
-          <img
+          <img loading="lazy"
             src="/images/pattern2.jpg"
             className="absolute -mt-40 md:-mt-0 h-full w-full -z-[400] opacity-[30%]"
             alt=""
           />
-          <img src="/images/man2.gif" className="hidden md:flex absolute left-0" alt="" />
-          <img src="/images/man3.gif" className="absolute hidden md:flex right-0  bottom-0" alt="" />
+          <img loading="lazy" src="/images/man2.gif" className="hidden md:flex absolute left-0" alt="" />
+          <img loading="lazy" src="/images/man3.gif" className="absolute hidden md:flex right-0  bottom-0" alt="" />
 
           <div className="text-right container">
             <h1 className="text-2xl md:text-7xl font-bold mt-10">
@@ -24,7 +24,7 @@ const Experiences = () => {
           <div className="mt-10 relative flex container  items-end justify-end">
             <div className="border-gradient4 hover:scale-105 duration-150 w-[600px] h-fit">
               <div className="flex justify-between p-2 items-center">
-                <img src="/images/bd.png" className="w-40 " alt="" />
+                <img loading="lazy" src="/images/bd.png" className="w-40 " alt="" />
                 <h1 className="border-t-4 text-center border-green-500 border-l-4 border-r-4 rounded-lg p-2">
                   Visual Creative Department Staff
                 </h1>
@@ -58,7 +58,7 @@ const Experiences = () => {
                 </div>
               </div>
             </div>
-            <img
+            <img loading="lazy"
               src="/images/arrow2.png"
               className="absolute bottom-0  -z-10 right-[450px] hidden md:flex"
               alt=""
@@ -104,7 +104,7 @@ const Experiences = () => {
                 </div>
               </div>
             </div>
-            <img
+            <img loading="lazy"
               src="/images/arrow2.png"
               className="absolute bottom-0  hidden md:flex -z-10 left-40"
               alt=""
@@ -114,7 +114,7 @@ const Experiences = () => {
           <div className="mt-10  flex container items-start justify-start">
             <div className="border-gradient3  hover:scale-105 duration-150 w-[600px] h-fit">
               <div className="flex justify-between space-x-4 p-2 items-center">
-                <img src="/images/logo.webp" className="w-40 " alt="" />
+                <img loading="lazy" src="/images/logo.webp" className="w-40 " alt="" />
                 <h1 className="border-t-4 text-center border-primary border-l-4 border-r-4 rounded-lg p-2">
                   Freelance Content Creator{" "}
                 </h1>
