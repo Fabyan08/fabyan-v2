@@ -14,48 +14,49 @@ const Nav = () => {
   }, []);
   return (
     <>
-      {/* <img src="/images/bg.png" className="absolute left-0 -z-10" alt="" /> */}
-      <div className="absolute -z-20 md:w-full md:ml-40 w-[900px]">
-        <div className="relative">
-          <div className="absolute z-20 bg-gradient-to-r from-white w-96 h-full"></div>
-          <div className="absolute z-20 bg-gradient-to-t from-white w-full h-full"></div>
-          <div className="absolute z-20 bg-gradient-to-l from-blue-100   w-full h-full"></div>
-          <img
-            src="/images/bgfull.png"
-            alt=""
-            className="relative z-10 -mt-10"
-          />
+      <div className="overflow-x-hidden">
+        {/* <img src="/images/bg.png" className="absolute left-0 -z-10" alt="" /> */}
+        <div className="absolute overflow-hidden  -z-20 md:w-full md:ml-40 w-[900px]">
+          <div className="relative">
+            <div className="absolute z-20 bg-gradient-to-r from-white w-96 h-full"></div>
+            <div className="absolute z-20 bg-gradient-to-t from-white w-full h-full"></div>
+            <div className="absolute z-20 bg-gradient-to-l from-blue-100   w-full h-full"></div>
+            <img
+              src="/images/bgfull.png"
+              alt=""
+              className="relative z-10 -mt-10"
+            />
+          </div>
         </div>
-      </div>
 
-      <nav
-        data-aos="fade-down"
-        data-aos-duration="1000"
-        className="fixed  z-40 hidden md:flex container items-center justify-center py-5"
-      >
-        <div className="bg-white/30 text-slate-400 font-semibold hover:shadow-xl border-2 duration-150 border-primary/10 w-fit py-4 px-5 rounded-full backdrop-blur-sm">
-          <ul className="flex space-x-10">
-            <li className="hover:bg-white/20 hover:backdrop-blur-md hover:text-primary hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="#home">Home</a>
-            </li>
-            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="#about">About Me</a>
-            </li>
-            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="#portfolio">Portfolio</a>
-            </li>
-            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="#experience">Experience</a>
-            </li>
-            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="#certificate">Certificate</a>
-            </li>
-            <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-        {/* <div>
+        <nav
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          className="fixed  z-40 hidden md:flex container items-center justify-center py-5"
+        >
+          <div className="bg-white/30 text-slate-400 font-semibold hover:shadow-xl border-2 duration-150 border-primary/10 w-fit py-4 px-5 rounded-full backdrop-blur-sm">
+            <ul className="flex space-x-10">
+              <li className="hover:bg-white/20 hover:backdrop-blur-md hover:text-primary hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
+                <a href="#home">Home</a>
+              </li>
+              <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
+                <a href="#about">About Me</a>
+              </li>
+              <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
+                <a href="#portfolio">Portfolio</a>
+              </li>
+              <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
+                <a href="#experience">Experience</a>
+              </li>
+              <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
+                <a href="#certificate">Certificate</a>
+              </li>
+              <li className="hover:bg-white/20 hover:text-primary  hover:backdrop-blur-md  hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+          {/* <div>
           <a
             className="bg-blue-300 text-white p-2 rounded-full text-center"
             href=""
@@ -63,9 +64,9 @@ const Nav = () => {
             Connect!
           </a>
         </div> */}
-      </nav>
+        </nav>
 
-      <div className="md:hidden fixed bottom-12 space-x-8  z-40  flex justify-center  items-center bg-white/30 backdrop-blur-lg">
+        {/* <div className="md:hidden fixed bottom-12 space-x-8  z-40  flex justify-center  items-center bg-white/30 backdrop-blur-lg">
         <a href="#home">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -98,44 +99,45 @@ const Nav = () => {
             />
           </svg>
         </a>
-      </div>
-
-      {/* <div className="md:hidden absolute z-40  flex justify-center">
-        <div className="btm-nav mb-10  w-fit rounded-full bg-white/30 backdrop-blur-lg text-primary border-2 border-primary/30">
-          <a href="#home">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="hover:scale-110 hover:rounded-lg h-5 w-5 hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 "
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-              />
-            </svg>
-          </a>
-          <a href="#about">
-            <BiUser className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
-          </a>
-
-          <a href="#portfolio">
-            <MdOutlineWebAsset className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
-          </a>
-          <a href="#experience">
-            <GiPapers className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
-          </a>
-          <a href="#certificate">
-            <RiFilePaperLine className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
-          </a>
-          <a href="#contact">
-            <AiOutlinePhone className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
-          </a>
-        </div>
       </div> */}
+
+        <div className="md:hidden absolute z-40  flex justify-center">
+          <div className="btm-nav mb-10  w-96 flex items-center justify-center rounded-full bg-white/30 backdrop-blur-lg text-primary border-2 border-primary/30">
+            <a href="#home">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="hover:scale-110 hover:rounded-lg h-5 w-5 hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 "
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                />
+              </svg>
+            </a>
+            <a href="#about">
+              <BiUser className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+            </a>
+
+            <a href="#portfolio">
+              <MdOutlineWebAsset className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+            </a>
+            <a href="#experience">
+              <GiPapers className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+            </a>
+            <a href="#certificate">
+              <RiFilePaperLine className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+            </a>
+            <a href="#contact">
+              <AiOutlinePhone className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+            </a>
+          </div>
+        </div>
+      </div>
     </>
   );
 };
