@@ -9,6 +9,9 @@ const Experiences = () => {
             className="absolute -mt-40 md:-mt-0 h-full w-full -z-[400] opacity-[30%]"
             alt=""
           />
+          <img src="/images/man2.gif" className="hidden md:flex absolute left-0" alt="" />
+          <img src="/images/man3.gif" className="absolute hidden md:flex right-0  bottom-0" alt="" />
+
           <div className="text-right container">
             <h1 className="text-2xl md:text-7xl font-bold mt-10">
               My Experiences
@@ -39,7 +42,7 @@ const Experiences = () => {
                     🧑‍💻Responsibility and things I did
                   </h1>
                   <ul className="text-md font-semibold">
-                    <li>• Create designs for client's Instagram posts</li>
+                    <li>• Create designs for client&apos;s Instagram posts</li>
                     <li>
                       • Adjust performance with KPIs that must be achieved
                     </li>

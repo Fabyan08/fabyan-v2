@@ -37,7 +37,7 @@ const Portfolio = () => {
         className="relative mt-12 md:mt-0 w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen"
       >
         <div className=" container">
-          <h1 className="font-bold text-5xl md:text-7xl">My Best Project</h1>
+          <h1 className="font-bold text-5xl md:text-7xl">My Best Portfolio</h1>
           <p className="font-semibold text-xl md:text-2xl md:w-[800px] mt-4">
             These are some of the projects that I highlighted as portfolio
             pieces!
@@ -61,7 +61,7 @@ const Portfolio = () => {
             `}
         </style>
         <div className="space-y-4 relative w-full container">
-          <div className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
+          <div data-aos="fade-up" data-aos-duration="2000" className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
             <div className="w-full h-full bg-white border-2 p-4 border-green-500 rounded-2xl">
               <div className="flex mb-4">
                 <img src="/images/fasite.png" className="w-10 h-10" alt="" />
@@ -119,20 +119,26 @@ const Portfolio = () => {
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
                   <hr className="bg-white absolute rounded-full ml-[1px] h-4 w-4" />
                   <hr className="border-2 h-8 absolute bottom-0 ml-2" />
-                  <div
-                    className=" md:text-2xl rounded-xl text-white ml-3"
-                  >
+                  <div className=" md:text-2xl rounded-xl text-white ml-3">
                     In Production Now!
                   </div>
 
                   <div className="bg-green-500 hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://fabyan-site.vercel.app" target="_blank">
+                    <a
+                      href="https://fabyan-site.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <RxArrowTopRight />
                     </a>
                   </div>
                 </div>
                 <div className=" font-bold text-slate-500 mt-4 hover:text-green-500 duration-150">
-                  <a href="https://github.com/Fabyan08/fabyan-site" target="_blank">
+                  <a
+                    href="https://github.com/Fabyan08/fabyan-site"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div>
                       <h1 className="text-2xl">Fabyan Site</h1>
                     </div>
@@ -241,13 +247,21 @@ const Portfolio = () => {
                   </div>
 
                   <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://kodingbareng.vercel.app" target="_blank">
+                    <a
+                      href="https://kodingbareng.vercel.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <RxArrowTopRight />
                     </a>
                   </div>
                 </div>
                 <div className=" font-bold text-slate-500 mt-4 hover:text-primary duration-150">
-                  <a href="https://github.com/Fabyan08/kodingbareng" target="_blank">
+                  <a
+                    href="https://github.com/Fabyan08/kodingbareng"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div>
                       <h1 className="text-2xl">Koding Bareng</h1>
                     </div>
@@ -421,13 +435,21 @@ const Portfolio = () => {
                   </div>
 
                   <div className="bg-primary absolute right-12 hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
+                    <a
+                      href="https://github.com/Fabyan08/Sevima-AutoLearn"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <RxArrowTopRight />
                     </a>
                   </div>
                 </div>
                 <div className=" font-bold text-slate-500 mt-4 hover:text-primary duration-150">
-                  <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
+                  <a
+                    href="https://github.com/Fabyan08/Sevima-AutoLearn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div>
                       <h1 className="text-2xl">Auto Learn</h1>
                     </div>
@@ -527,16 +549,25 @@ const Portfolio = () => {
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
 
                   <a className="md:text-2xl rounded-xl text-white ml-3" href="">
-Still Not Hosted                  </a>
+                    Not Hosted Too{" "}
+                  </a>
 
                   <div className="bg-[#3A298A]  primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
+                    <a
+                      href="https://github.com/Fabyan08/Depublic"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <RxArrowTopRight />
                     </a>
                   </div>
                 </div>
                 <div className=" font-bold text-slate-500 mt-4 hover:text-[#3A298A] duration-150">
-                  <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
+                  <a
+                    href="https://github.com/Fabyan08/Depublic"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <div>
                       <h1 className="text-2xl">Depublic</h1>
                     </div>
@@ -577,8 +608,8 @@ Still Not Hosted                  </a>
             </h1>
             {/* <h1 className="text-slate-500 text-md">Here's my another portfolio that I have!</h1> */}
           </div>
-          <div className="md:flex justify-center md:space-x-10 space-y-10 md:space-y-0 container pt-10">
-            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+          <div  className="md:flex justify-center md:space-x-10 space-y-10 md:space-y-0 container pt-10">
+            <div data-aos="fade-up" data-aos-duration="1000" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
               <div className="flex">
                 <img
                   src="/images/port/ui1.png"
@@ -600,13 +631,17 @@ Still Not Hosted                  </a>
                   <img src="/images/figma.png" className="w-8" alt="" />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                  <a href="https://www.figma.com/file/bqrOZYvQqQi6HiVCKYggvP/Design-APP-Mobile-Outfit?type=design&node-id=0%3A1&mode=design&t=eqZGkf3tR8B5I08w-1" target="_blank">
+                  <a
+                    href="https://www.figma.com/file/bqrOZYvQqQi6HiVCKYggvP/Design-APP-Mobile-Outfit?type=design&node-id=0%3A1&mode=design&t=eqZGkf3tR8B5I08w-1"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+            <div data-aos="fade-up" data-aos-duration="1500" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
               <div className="flex">
                 <img
                   src="/images/port/ui2.png"
@@ -629,16 +664,16 @@ Still Not Hosted                  </a>
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-16 md:ml-4">
                   <a
-                  
                     href="https://www.figma.com/file/2pQkTxAsrCGCTNG7CwDovD/Techno-Game?type=design&node-id=0%3A1&mode=design&t=QZKlP0B0Dsr8D0xs-1"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+            <div data-aos="fade-up" data-aos-duration="2000" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
               <div className="flex">
                 <img
                   src="/images/port/ui3.png"
@@ -650,7 +685,7 @@ Still Not Hosted                  </a>
                     UI Design
                   </h1>
                   <h1 className=" font-semibold w-32 md:w-40 pl-2">
-                    Redesign D-3 RPLA Telkom University's Website{" "}
+                    Redesign D-3 RPLA Telkom University&apos;s Website{" "}
                   </h1>
                 </div>
               </div>
@@ -663,13 +698,14 @@ Still Not Hosted                  </a>
                   <a
                     href="https://www.figma.com/file/6TRkJ5nT6lTxCfSnnFto4s/Telkom-University?type=design&node-id=0%3A1&mode=design&t=iEidD0zpEcI5VE2t-1"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>
                 </div>
               </div>
             </div>
-            <div className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
+            <div data-aos="fade-up" data-aos-duration="2500" className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl">
               <div className="flex">
                 <img
                   src="/images/port/art1.png"
@@ -695,6 +731,7 @@ Still Not Hosted                  </a>
                   <a
                     href="https://www.aboutmalang.com/author/23196/Fabyan-Yastika-Permana"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>

@@ -1,4 +1,4 @@
-import { GrNext } from "react-icons/gr";
+import { AiOutlineLinkedin } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -23,7 +23,7 @@ const About = () => {
                 className="flex items-center"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                data-aos-delay="1000"
+                
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-10" />
                 <img src="/images/html.png" className="-ml-4" alt="" />
@@ -32,7 +32,7 @@ const About = () => {
                 className="flex items-center"
                 data-aos="fade-right"
                 data-aos-duration="3000"
-                data-aos-delay="1000"
+                
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-12" />
                 <img src="/images/css.png" className="-ml-4" alt="" />
@@ -41,7 +41,7 @@ const About = () => {
                 className="flex items-center -mt-4"
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                data-aos-delay="1000"
+                
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-14" />
                 <img src="/images/js.png" className="-ml-4" alt="" />
@@ -50,7 +50,7 @@ const About = () => {
                 className="flex items-center"
                 data-aos="fade-right"
                 data-aos-duration="3000"
-                data-aos-delay="1000"
+                
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-16" />
                 <img src="/images/btr.png" className="-ml-4" alt="" />
@@ -58,7 +58,7 @@ const About = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                data-aos-delay="1000"
+                
                 className="flex items-center"
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-20" />
@@ -67,7 +67,7 @@ const About = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="3000"
-                data-aos-delay="1000"
+                
                 className="flex items-center"
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-24" />
@@ -76,7 +76,7 @@ const About = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                data-aos-delay="1000"
+                
                 className="flex items-center"
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-28" />
@@ -85,7 +85,7 @@ const About = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="3000"
-                data-aos-delay="1000"
+                
                 className="flex items-center"
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-32" />
@@ -94,7 +94,7 @@ const About = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                data-aos-delay="1000"
+                
                 className="flex items-center"
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-36" />
@@ -103,7 +103,7 @@ const About = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="3000"
-                data-aos-delay="1000"
+                
                 className="flex items-center"
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-40" />
@@ -112,7 +112,7 @@ const About = () => {
               <div
                 data-aos="fade-right"
                 data-aos-duration="2000"
-                data-aos-delay="1000"
+                
                 className="flex items-center"
               >
                 <hr className="border-4 border-primary rounded-tr-lg w-44" />
@@ -124,7 +124,7 @@ const About = () => {
               <h1 className="text-4xl font-bold mb-4 absolute -bottom-[250px] md:relative md:bottom-0 right-0 bg-gradient-to-l pr-2 text-white  from-primary rounded-xl">
                 🚀About Me
               </h1>
-              <div className="absolute mx-2 -bottom-[410px] md:relative md:bottom-0">
+              <div className="absolute mx-2 ml-14 -bottom-[410px] md:relative md:bottom-0" >
                 <div className="bg-white px-2 md:w-[600px] border-2 h-40 rounded-xl p-4">
                   <h1 className="text-right">
                     My name is Fabyan Yastika Permana, a website developer that
@@ -150,10 +150,12 @@ const About = () => {
               </div>
             </div>
 
-            <div className="md:-mr-20 absolute z-20 right-0  w-44 md:w-[500px] ">
+            <div data-aos="fade-left" data-aos-duration="3000" className="md:-mr-20 absolute z-20 right-0  w-44 md:w-[500px] ">
               <div className="bg-primary/30 w-[220px] h-[220px] md:w-[600px] md:h-[600px] absolute right-0 -mr-10 md:-mr-20 -z-10 rounded-full shadow-xl"></div>
-              <div className="bg-white cursor-pointer md:w-20 md:h-20 w-10 h-10 absolute text-4xl flex items-center justify-center rounded-full bottom-6 -ml-4 shadow-xl md:bottom-24">
-                <GrNext />{" "}
+              <div className="bg-white text-primary hover:bg-primary hover:text-white hover:scale-110 duration-150 cursor-pointer md:w-20 md:h-20 w-10 h-10 absolute text-4xl flex items-center justify-center rounded-full bottom-6 -ml-4 shadow-xl md:bottom-24">
+                <a href="https://www.linkedin.com/in/fabyan-yastika-permana/" target="_blank" rel="noreferrer">
+                  <AiOutlineLinkedin />{" "}
+                </a>
               </div>
               <img src="/images/Foto.jpg" className="rounded-full" alt="" />
               <div className="bg-blue-500 md:w-4 md:h-4 w-2 h-2 absolute md:-mt-20 md:ml-10 -mt-4 ml-6 rounded-full"></div>
