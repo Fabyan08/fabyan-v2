@@ -224,7 +224,7 @@ const About = () => {
             </div>
             {/* <div className="absolute bg-primary -rotate-[20deg] w-[2500px] -right-[800px] h-40 -z-[999]" />
       <div className="absolute bg-primary  w-[2500px] -right-[800px] h-40 -z-[999]" /> */}
-            <div className="w-16 overflow-hidden inline-block">
+            <div className="w-16  inline-block">
               {/* <div className=" h-11 w-11 bg-primary transform origin-top-left"></div> */}
             </div>
           </div>
