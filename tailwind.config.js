@@ -12,11 +12,14 @@ export default {
       colors: {
         primary: "#6DA9E4",
         second: "#ADE4DB",
-        third: "#F6BA6F"
+        third: "#F6BA6F",
       },
       container: {
         center: true,
         padding: "32px",
+      },
+      animation: {
+        wiggle: "wiggle 1s ease-in-out infinite",
       },
     },
   },

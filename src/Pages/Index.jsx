@@ -6,7 +6,11 @@ import Experiences from "../Components/Experiences";
 import Certificate from "../Components/Certificate";
 import Footer from "../Components/Footer";
 import { AiOutlineArrowUp } from "react-icons/ai";
+// import  
 const Index = () => {
+
+
+  
   return (
     <>
       <Nav />

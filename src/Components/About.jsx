@@ -1,5 +1,13 @@
 import { GrNext } from "react-icons/gr";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 const About = () => {
+  useEffect(() => {
+    AOS.init();
+    once: true;
+    AOS.refresh();
+  }, []);
   return (
     <>
       <div className="relative " id="about">
@@ -11,53 +19,108 @@ const About = () => {
           />
           <div className="flex justify-between mt-[100px]">
             <div className=" relative z-20 left-0 -space-y-4">
-              <div className="flex items-center">
+              <div
+                className="flex items-center"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="1000"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-10" />
                 <img src="/images/html.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                className="flex items-center"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-delay="1000"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-12" />
                 <img src="/images/css.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center -mt-4">
+              <div
+                className="flex items-center -mt-4"
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="1000"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-14" />
                 <img src="/images/js.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                className="flex items-center"
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-delay="1000"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-16" />
                 <img src="/images/btr.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="1000"
+                className="flex items-center"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-20" />
                 <img src="/images/tailwind.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-delay="1000"
+                className="flex items-center"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-24" />
                 <img src="/images/react.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="1000"
+                className="flex items-center"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-28" />
                 <img src="/images/php.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-delay="1000"
+                className="flex items-center"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-32" />
                 <img src="/images/laravel.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="1000"
+                className="flex items-center"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-36" />
                 <img src="/images/mysql.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="3000"
+                data-aos-delay="1000"
+                className="flex items-center"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-40" />
                 <img src="/images/firebase.png" className="-ml-4" alt="" />
               </div>
-              <div className="flex items-center">
+              <div
+                data-aos="fade-right"
+                data-aos-duration="2000"
+                data-aos-delay="1000"
+                className="flex items-center"
+              >
                 <hr className="border-4 border-primary rounded-tr-lg w-44" />
                 <img src="/images/ts.png" className="-ml-4" alt="" />
               </div>
             </div>
 
-            <div className="absolute w-full  md:-mt-60 md:w-[670px] md:mx-80 pt-[360px] text-right">
+            <div className="absolute w-full  md:-mt-60 md:w-[670px] md:mx-80 pt-[420px] text-right">
               <h1 className="text-4xl font-bold mb-4 absolute -bottom-[250px] md:relative md:bottom-0 right-0 bg-gradient-to-l pr-2 text-white  from-primary rounded-xl">
                 🚀About Me
               </h1>

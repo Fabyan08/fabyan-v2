@@ -1,5 +1,17 @@
-import {BiUser} from "react-icons/bi";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+// import { useState } from "react";
+import { BiUser } from "react-icons/bi";
+import { MdOutlineWebAsset } from "react-icons/md";
+import { GiPapers } from "react-icons/gi";
+import { RiFilePaperLine } from "react-icons/ri";
+import { AiOutlinePhone } from "react-icons/ai";
 const Nav = () => {
+  useEffect(() => {
+    AOS.init();
+    once: true;
+  }, []);
   return (
     <>
       {/* <img src="/images/bg.png" className="absolute left-0 -z-10" alt="" /> */}
@@ -16,7 +28,11 @@ const Nav = () => {
         </div>
       </div>
 
-      <nav className="fixed  z-40 hidden md:flex container items-center justify-center py-5">
+      <nav
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        className="fixed  z-40 hidden md:flex container items-center justify-center py-5"
+      >
         <div className="bg-white/30 text-slate-400 font-semibold hover:shadow-xl border-2 duration-150 border-primary/10 w-fit py-4 px-5 rounded-full backdrop-blur-sm">
           <ul className="flex space-x-10">
             <li className="hover:bg-white/20 hover:backdrop-blur-md hover:text-primary hover:p-2 duration-150 rounded-xl  hover:shadow-xl">
@@ -51,10 +67,10 @@ const Nav = () => {
 
       <div className="md:hidden absolute z-40">
         <div className="btm-nav mb-10 mx-auto w-80 rounded-full bg-white/30 backdrop-blur-lg text-primary border-2 border-primary/30">
-          <button>
+          <a href="#home">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
+              className="hover:scale-110 hover:rounded-lg h-5 w-5 hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 "
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -66,59 +82,23 @@ const Nav = () => {
                 d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
               />
             </svg>
-          </button>
-          <button>
-            <BiUser />
-          </button>
+          </a>
+          <a href="#about">
+            <BiUser className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+          </a>
 
-          <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-              />
-            </svg>
-          </button>
-          <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-              />
-            </svg>
-          </button>
-          <button>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-              />
-            </svg>
-          </button>
+          <a href="#portfolio">
+            <MdOutlineWebAsset className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+          </a>
+          <a href="#experience">
+            <GiPapers className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+          </a>
+          <a href="#certificate">
+            <RiFilePaperLine className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+          </a>
+          <a href="#contact">
+            <AiOutlinePhone className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
+          </a>
         </div>
       </div>
     </>

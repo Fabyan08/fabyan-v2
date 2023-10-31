@@ -1,4 +1,7 @@
-import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+// import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import "./style.css";
 
 const Hero = () => {
@@ -33,7 +36,10 @@ const Hero = () => {
   }, []);
 
   const isScrollingDown = scrollPosition > 0; // Check if scrolling down
-
+  useEffect(() => {
+    AOS.init();
+    once: true;
+  }, []);
   return (
     <>
       <div id="home" className="relative">
@@ -43,24 +49,19 @@ const Hero = () => {
           }}
         >
           <div className="pt-96">
+         
             <img
               src="/images/spread2.png"
-              className={`absolute -z-20 blur-md -left-10 md:-left-40 md:w-[600px] w-40 transition-transform duration-1000 ${
-                isScrollingDown ? "bottom-0" : "top-0"
-              }`}
-              alt=""
-            />
-            <img
-              src="/images/spread2.png"
-              className={`absolute -z-20 -right-10 md:-right-40 blur-md  md:w-[600px] w-40 transition-transform duration-1000 ${
-                isScrollingDown ? "top-0" : "bottom-0"
-              }`}
+              data-aos="fade-up"
+              data-aos-duration="2000"
+              className="absolute -z-20 -right-10 md:-right-40 blur-md  md:w-[600px] w-40 transition-transform duration-1000 ${
+               bottom-0"
               alt=""
             />
           </div>
           <img
             src="/images/vector2.png"
-            className="absolute left-24 hidden md:flex top-0"
+            className="absolute left-24 hidden md:flex -top-12"
             alt=""
           />
           <img
@@ -70,7 +71,7 @@ const Hero = () => {
           />
           <img
             src="/images/rounded.png"
-            className="absolute bottom-6 md:-bottom-96 -z-10 md:ml-40  moving-rounded-image"
+            className="absolute bottom-6 md:-bottom-96 -z-10 md:ml-80  moving-rounded-image"
             alt=""
             onMouseMove={handleMouseMove}
           />
@@ -82,16 +83,58 @@ const Hero = () => {
           />
         </div>
         <div className="relative -mt-96">
+          <div className="flex items-center justify-center">
+            <img
+              src="/images/man2.gif "  data-aos="fade-up" data-aos-duration="1000"
+              className="md:right-0 md:bottom-0 md:hidden -bottom-60 shadow-sm absolute w-40"
+              alt=""
+            />
+          </div>
+
           <img
-            src="/images/man.gif"
-            className="absolute w-32 bottom-0"
+            src="/images/kotak.png"
+            className="absolute -top-5 md:bottom-0 custom-rotate left-12"
+            alt=""
+            // onMouseMove={handleMouseMove}
+          />
+          <img
+            src="/images/spread2.png"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+            className="absolute  -z-20 blur-md -left-10 md:-left-40 md:w-[600px] w-40 transition-transform duration-1000 "
             alt=""
           />
- 
-          <div className="flex items-center justify-center">
+
+          <img
+            src="/images/segit.png"
+            className="absolute -top-16 md:top-12 custom-rotate right-6 md:left-80"
+            alt=""
+            // onMouseMove={handleMouseMove}
+          />
+          <img
+            src="/images/segit.png"
+            className="absolute -bottom-40 md:bottom-20 custom-rotate ml-10 right-80"
+            alt=""
+            // onMouseMove={handleMouseMove}
+          />
+
+          {/* <div className="relative"> */}
+          <img
+            src="/images/vect3.png"
+            className="ml-2 -z-10 animate-[wiggle_1s_ease-in-out_infinite] md:bottom-0 right-0 -bottom-40  absolute"
+            alt=""
+          ></img>
+          {/* </div> */}
+          {/* <img
+            src="/images/man.gif"
+            className="absolute w-96 bottom-0 ml-2"
+            alt=""
+          /> */}
+
+          <div className="flex items-center justify-center" data-aos="fade-right" data-aos-duration="1000">
             <img src="/images/role.png" alt="" />
           </div>
-          <div className="flex items-center -mt-10 md:-mt-32 justify-center">
+          <div className="flex items-center -mt-10 md:-mt-32 justify-center" data-aos="fade-left"  data-aos-duration="1000">
             <img src="/images/head.png" alt="" />
           </div>
         </div>

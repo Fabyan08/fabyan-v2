@@ -34,7 +34,7 @@ const Portfolio = () => {
     <>
       <div
         id="portfolio"
-        className="relative w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen"
+        className="relative mt-12 md:mt-0 w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen"
       >
         <div className=" container">
           <h1 className="font-bold text-5xl md:text-7xl">My Best Project</h1>
@@ -649,14 +649,14 @@ Still Not Hosted                  </a>
                   <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
                     UI Design
                   </h1>
-                  <h1 className=" font-semibold w-40 pl-2">
+                  <h1 className=" font-semibold w-32 md:w-40 pl-2">
                     Redesign D-3 RPLA Telkom University's Website{" "}
                   </h1>
                 </div>
               </div>
-              <div className="flex space-y-4 justify-between items-center ">
-                <div className="flex items-center mt-2">
-                  <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
+              <div className="flex space-y-4  -mt-3 justify-between items-center ">
+                <div className="flex items-center">
+                  <h1 className=" ml-2 font-semibold -mt-2">Technology Used</h1>
                   <img src="/images/figma.png" className="w-8" alt="" />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
@@ -677,15 +677,15 @@ Still Not Hosted                  </a>
                   alt=""
                 />
                 <div className="grid">
-                  <h1 className="ml-2 text-xl   z-10 text-primary font-bold ">
+                  <h1 className="ml-2 text-xl  w-2 md:w-full z-10 text-primary font-bold ">
                     Article Writing{" "}
                   </h1>
-                  <h1 className="-mt-4 font-semibold w-40 pl-2">
+                  <h1 className=" font-semibold w-32 md:w-40 pl-2">
                     Freelance Content Creator{" "}
                   </h1>
                 </div>
               </div>
-              <div className="flex space-y-4 mt-1 justify-between items-center ">
+              <div className="flex space-y-4 -mt-1 justify-between items-center ">
                 <div className="flex items-center mt-2">
                   <h1 className="mt-2 ml-2 font-semibold">
                     Write an article on AboutMalang.com
