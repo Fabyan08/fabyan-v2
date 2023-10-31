@@ -65,8 +65,43 @@ const Nav = () => {
         </div> */}
       </nav>
 
-      <div className="md:hidden mx-auto absolute z-40">
-        <div className="btm-nav mb-10 mx-auto w-80 rounded-full bg-white/30 backdrop-blur-lg text-primary border-2 border-primary/30">
+      <div className="md:hidden fixed bottom-12 space-x-8  z-40  flex justify-center  items-center bg-white backdrop-blur-lg">
+        <a href="#home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="hover:scale-110 hover:rounded-lg h-5 w-5 hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 "
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            />
+          </svg>
+        </a>
+        <a href="#home">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="hover:scale-110 hover:rounded-lg h-5 w-5 hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 "
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            />
+          </svg>
+        </a>
+      </div>
+
+      {/* <div className="md:hidden absolute z-40  flex justify-center">
+        <div className="btm-nav mb-10  w-fit rounded-full bg-white/30 backdrop-blur-lg text-primary border-2 border-primary/30">
           <a href="#home">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +135,7 @@ const Nav = () => {
             <AiOutlinePhone className="hover:scale-110 hover:rounded-lg hover:bg-white/70 hover:p-2 backdrop-blur-md hover:w-8  hover:h-8 " />
           </a>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

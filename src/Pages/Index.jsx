@@ -11,18 +11,16 @@ import { AiOutlineArrowUp } from "react-icons/ai";
 const Index = () => {
   return (
     <>
-      <div className="overflow-x-hidden">
-        <Nav />
-        <div className="pt-20">
-          <Hero id="home" />
-        </div>
-        <About />
-        <Portfolio />
-        <Experiences />
-        <Certificate />
-        <BackToTopButton />
-        <Footer />
+      <Nav />
+      <div className="pt-20">
+        <Hero id="home" />
       </div>
+      <About />
+      <Portfolio />
+      <Experiences />
+      <Certificate />
+      <BackToTopButton />
+      <Footer />
     </>
   );
 };
