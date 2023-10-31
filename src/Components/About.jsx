@@ -181,7 +181,7 @@ const About = () => {
                     ~ Fabyan Yastika Permana
                   </h1>
                 </div>
-                <div className="bg-primary w-[600px] absolute -mt-36 ml-4 -z-10 h-40 rounded-xl shadow-2xl"></div>
+                <div className="bg-primary w-full absolute -mt-36 ml-4 -z-10 h-40 rounded-xl shadow-2xl"></div>
               </div>
               <div className="mt-24 flex -ml-20">
                 <img

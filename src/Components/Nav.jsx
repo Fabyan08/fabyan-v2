@@ -65,7 +65,7 @@ const Nav = () => {
         </div> */}
       </nav>
 
-      <div className="md:hidden fixed bottom-12 space-x-8  z-40  flex justify-center  items-center bg-white backdrop-blur-lg">
+      <div className="md:hidden fixed bottom-12 space-x-8  z-40  flex justify-center  items-center bg-white/30 backdrop-blur-lg">
         <a href="#home">
           <svg
             xmlns="http://www.w3.org/2000/svg"
