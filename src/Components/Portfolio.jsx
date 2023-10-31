@@ -43,21 +43,38 @@ const Portfolio = () => {
             pieces!
           </p>
         </div>
+        <style>
+          {`
+              .swiper-pagination-bullet-active {
+                background: #F7EFE5; 
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border-radius: 40px;
+                width: 30px;
+              }
+              .swiper-pagination-bullet {
+                background: #B3A492; 
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border-radius: 40px;
+                {/* width: 30px; */}
+              }
+
+            `}
+        </style>
         <div className="space-y-4 relative w-full container">
           <div className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0">
             <div className="w-full h-full bg-white border-2 p-4 border-green-500 rounded-2xl">
               <div className="flex mb-4">
                 <img src="/images/fasite.png" className="w-10 h-10" alt="" />
-                <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-primary inline-block text-transparent bg-clip-text font-bold">
+                <h1 className="ml-2 text-4xl bg-gradient-to-r from-green-500 to-green-300 inline-block text-transparent bg-clip-text font-bold">
                   Fabyan Site
                 </h1>
               </div>
               <div className="relative">
                 <h1 className="text-xl">
-                  <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Officiis praesentium illo
-                  nostrum facere repudiandae! Corporis in illum perferendis
-                  dolorum placeat.
+                  <b>My First Personal Website</b> - Trying Tailwind CSS for the
+                  first time as the <span>best</span> utility in my opinion to
+                  build a website. Until it can create a look that is fairly
+                  relevant modern.
                 </h1>
                 <div className="absolute z-10 hover:scale-110 duration-150 -top-[60px] -right-[50px] md:-top-[45px] font-semibold bg-green-500 text-white w-40 text-center rounded-full animate-pulse rotate-[30deg] md:-right-[30px]">
                   <h1>Personal Project</h1>
@@ -98,23 +115,24 @@ const Portfolio = () => {
               </Swiper>
 
               <div className="md:flex items-center md:space-x-5">
-                <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
+                <div className="bg-gradient-to-r relative  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-green-500 w-fit h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
-                  <a
+                  <hr className="bg-white absolute rounded-full ml-[1px] h-4 w-4" />
+                  <hr className="border-2 h-8 absolute bottom-0 ml-2" />
+                  <div
                     className=" md:text-2xl rounded-xl text-white ml-3"
-                    href=""
                   >
                     In Production Now!
-                  </a>
+                  </div>
 
-                  <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                  <div className="bg-green-500 hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
                     <a href="https://fabyan-site.vercel.app" target="_blank">
                       <RxArrowTopRight />
                     </a>
                   </div>
                 </div>
-                <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
-                  <a href="">
+                <div className=" font-bold text-slate-500 mt-4 hover:text-green-500 duration-150">
+                  <a href="https://github.com/Fabyan08/fabyan-site" target="_blank">
                     <div>
                       <h1 className="text-2xl">Fabyan Site</h1>
                     </div>
@@ -137,9 +155,9 @@ const Portfolio = () => {
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
                 <div className="flex space-x-4 w-14 mt-2">
-                  <img src="/images/html.png" alt="" />
-                  <img src="/images/css.png" alt="" />
-                  <img src="/images/tailwind.png" alt="" />
+                  <img src="/images/htmlhij.png" alt="" />
+                  <img src="/images/csshij.png" alt="" />
+                  <img src="/images/tailhij.png" alt="" />
                 </div>
               </div>
             </div>
@@ -153,10 +171,10 @@ const Portfolio = () => {
               </div>
               <div className="relative">
                 <h1 className="text-xl">
-                  <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Officiis praesentium illo
-                  nostrum facere repudiandae! Corporis in illum perferendis
-                  dolorum placeat.
+                  <b>Coding Community</b> - This is a website that I created to
+                  build a community in the IT field. As the creator of this
+                  website, I use React Typescript and Tailwind to build a bigger
+                  community later.
                 </h1>
                 <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
                   <h1>Personal Project</h1>
@@ -210,15 +228,17 @@ const Portfolio = () => {
                 </SwiperSlide>
               </Swiper>
 
-              <div className="md:flex items-center md:space-x-5">
-                <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
+              <div className="md:flex  items-center md:space-x-5">
+                <div className="bg-gradient-to-r relative hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
-                  <a
+                  <hr className="bg-white absolute rounded-full ml-[1px] h-4 w-4" />
+                  <hr className="border-2 h-8 absolute bottom-0 ml-2" />
+                  <div
                     className=" md:text-2xl rounded-xl text-white ml-3"
                     href="https://kodingbareng.vercel.app"
                   >
                     In Production Now!
-                  </a>
+                  </div>
 
                   <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
                     <a href="https://kodingbareng.vercel.app" target="_blank">
@@ -226,8 +246,8 @@ const Portfolio = () => {
                     </a>
                   </div>
                 </div>
-                <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
-                  <a href="">
+                <div className=" font-bold text-slate-500 mt-4 hover:text-primary duration-150">
+                  <a href="https://github.com/Fabyan08/kodingbareng" target="_blank">
                     <div>
                       <h1 className="text-2xl">Koding Bareng</h1>
                     </div>
@@ -254,7 +274,7 @@ const Portfolio = () => {
                   <img src="/images/css.png" alt="" />
                   <img src="/images/tailwind.png" alt="" />
                   <img src="/images/react.png" alt="" />
-                  <img src="/images/js.png" alt="" />
+                  <img src="/images/ts.png" alt="" />
                 </div>
               </div>
             </div>
@@ -269,10 +289,9 @@ const Portfolio = () => {
               </div>
               <div className="relative">
                 <h1 className="text-xl">
-                  <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Officiis praesentium illo
-                  nostrum facere repudiandae! Corporis in illum perferendis
-                  dolorum placeat.
+                  <b>Freelance Project for Company</b> - Build a website to
+                  manage employee data and data printing needs as desired. Using
+                  PHP as a fullstack language and Mysql database.
                 </h1>
 
                 <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
@@ -313,34 +332,14 @@ const Portfolio = () => {
                 </SwiperSlide>
               </Swiper>
               <div className="md:flex items-center md:space-x-5">
-                <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
+                <div className="bg-slate-400  hover:scale-[1.05] duration-150  items-center rounded-xl flex  w-fit h-10 p-8 mt-5 ">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
-                  <a
+                  <div
                     className=" md:text-2xl rounded-xl text-white ml-3"
                     href=""
                   >
-                    In Production Now!
-                  </a>
-
-                  <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://fabyan-site.vercel.app" target="_blank">
-                      <RxArrowTopRight />
-                    </a>
+                    Sorry, Private Project👋
                   </div>
-                </div>
-                <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
-                  <a href="">
-                    <div>
-                      <h1 className="text-2xl">EMS Jasa Tirta</h1>
-                    </div>
-                    <div className="text-md flex items-center space-x-1">
-                      <h1>on</h1>
-                      <h1>
-                        <AiFillGithub />
-                      </h1>
-                      <h1>github.com</h1>
-                    </div>
-                  </a>
                 </div>
               </div>
 
@@ -369,13 +368,13 @@ const Portfolio = () => {
               </div>
               <div className="relative">
                 <h1 className="text-xl">
-                  <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Officiis praesentium illo
-                  nostrum facere repudiandae! Corporis in illum perferendis
-                  dolorum placeat.
+                  <b>Hackathon Competition</b> - I created this website using
+                  PHP and utilized the API from OpenAPI as a fairly popular AI
+                  chat provider. Alhamdulillah, I was selected and included in
+                  the top 10!
                 </h1>
                 <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
-                  <h1>Freelance Project</h1>
+                  <h1>Personal Project</h1>
                 </div>
               </div>
               <Swiper
@@ -412,23 +411,23 @@ const Portfolio = () => {
                 </SwiperSlide>
               </Swiper>
               <div className="md:flex items-center md:space-x-5">
-                <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
+                <div className="bg-gradient-to-r relative  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-full md:w-96  h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
-                  <a
+                  <div
                     className=" md:text-2xl rounded-xl text-white ml-3"
                     href=""
                   >
-                    In Production Now!
-                  </a>
+                    Not Hosted{" "}
+                  </div>
 
-                  <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://fabyan-site.vercel.app" target="_blank">
+                  <div className="bg-primary absolute right-12 hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                    <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
                       <RxArrowTopRight />
                     </a>
                   </div>
                 </div>
-                <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
-                  <a href="">
+                <div className=" font-bold text-slate-500 mt-4 hover:text-primary duration-150">
+                  <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
                     <div>
                       <h1 className="text-2xl">Auto Learn</h1>
                     </div>
@@ -475,13 +474,12 @@ const Portfolio = () => {
               </div>
               <div className="relative">
                 <h1 className="text-xl">
-                  <b>My First Personal Website</b> - Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Officiis praesentium illo
-                  nostrum facere repudiandae! Corporis in illum perferendis
-                  dolorum placeat.
+                  <b>Coding League</b> - Join the SMKDEV Project Based Coding
+                  Challenge competition to build a mobile-first website using
+                  React JS and other tech sweeteners!
                 </h1>
-                <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
-                  <h1>Freelance Project</h1>
+                <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-[#3A298A] text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
+                  <h1>Competition Project</h1>
                 </div>
               </div>
               <Swiper
@@ -498,47 +496,47 @@ const Portfolio = () => {
                 <SwiperSlide>
                   <img
                     src="/images/port/dp4.png"
-                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     src="/images/port/dp1.png"
-                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     src="/images/port/dp2.png"
-                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
                 <SwiperSlide>
                   <img
                     src="/images/port/dp3.png"
-                    className="rounded-xl border-4 border-gradient  shadow-sm"
+                    className="rounded-xl border-4 border-gradient7  shadow-sm"
                     alt=""
                   />
                 </SwiperSlide>
               </Swiper>
               <div className="md:flex items-center md:space-x-5">
-                <div className="bg-gradient-to-r  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
+                <div className="bg-gradient-to-r from-[#3A298A]  to-[#6a54c8] hover:scale-[1.05] duration-150  items-center rounded-xl flex w-fit h-10 p-8 mt-5 ">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
-                  <a className="md:text-2xl rounded-xl text-white ml-3" href="">
-                    In Production Now!
-                  </a>
 
-                  <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                    <a href="https://fabyan-site.vercel.app" target="_blank">
+                  <a className="md:text-2xl rounded-xl text-white ml-3" href="">
+Still Not Hosted                  </a>
+
+                  <div className="bg-[#3A298A]  primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                    <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
                       <RxArrowTopRight />
                     </a>
                   </div>
                 </div>
-                <div className=" font-bold text-slate-500 mt-4 hover:text-black duration-150">
-                  <a href="">
+                <div className=" font-bold text-slate-500 mt-4 hover:text-[#3A298A] duration-150">
+                  <a href="https://github.com/Fabyan08/Sevima-AutoLearn" target="_blank">
                     <div>
                       <h1 className="text-2xl">Depublic</h1>
                     </div>
@@ -560,12 +558,13 @@ const Portfolio = () => {
                   </h1>
                   <ImArrowDown2 className="animate-bounce" />
                 </div>
-                <div className="flex space-x-4 w-10 md:w-14 mt-2">
-                  <img src="/images/html.png" alt="" />
-                  <img src="/images/css.png" alt="" />
-                  <img src="/images/tailwind.png" alt="" />
-                  <img src="/images/react.png" alt="" />
-                  <img src="/images/firebase.png" alt="" />
+                <div className="flex space-x-4 w-8 md:w-14 mt-2">
+                  <img src="/images/htmlp.png" alt="" />
+                  <img src="/images/cssp.png" alt="" />
+                  <img src="/images/jsp.png" alt="" />
+                  <img src="/images/tailp.png" alt="" />
+                  <img src="/images/reactp.png" alt="" />
+                  <img src="/images/firebasep.png" alt="" />
                 </div>
               </div>
             </div>
@@ -601,7 +600,7 @@ const Portfolio = () => {
                   <img src="/images/figma.png" className="w-8" alt="" />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                  <a href="https://www.figma.com/file/bqrOZYvQqQi6HiVCKYggvP/Design-APP-Mobile-Outfit?type=design&node-id=0%3A1&mode=design&t=eqZGkf3tR8B5I08w-1" target="_blank">
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>
                 </div>
@@ -629,7 +628,11 @@ const Portfolio = () => {
                   <img src="/images/figma.png" className="w-8" alt="" />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-16 md:ml-4">
-                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                  <a
+                  
+                    href="https://www.figma.com/file/2pQkTxAsrCGCTNG7CwDovD/Techno-Game?type=design&node-id=0%3A1&mode=design&t=QZKlP0B0Dsr8D0xs-1"
+                    target="_blank"
+                  >
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>
                 </div>
@@ -646,18 +649,21 @@ const Portfolio = () => {
                   <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
                     UI Design
                   </h1>
-                  <h1 className="-mt-4 font-semibold w-40 pl-2">
-                    For Outfit App Design
+                  <h1 className=" font-semibold w-40 pl-2">
+                    Redesign D-3 RPLA Telkom University's Website{" "}
                   </h1>
                 </div>
               </div>
-              <div className="flex space-y-4 mt-2 justify-between items-center ">
+              <div className="flex space-y-4 justify-between items-center ">
                 <div className="flex items-center mt-2">
                   <h1 className="mt-2 ml-2 font-semibold">Technology Used</h1>
                   <img src="/images/figma.png" className="w-8" alt="" />
                 </div>
                 <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
-                  <a href="https://fabyan-site.vercel.app" target="_blank">
+                  <a
+                    href="https://www.figma.com/file/6TRkJ5nT6lTxCfSnnFto4s/Telkom-University?type=design&node-id=0%3A1&mode=design&t=iEidD0zpEcI5VE2t-1"
+                    target="_blank"
+                  >
                     <BsBoxArrowInUpRight className="p-2" />
                   </a>
                 </div>
@@ -697,16 +703,6 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <style>
-          {`
-              .swiper-pagination-bullet-active {
-                background: #6da9e4; 
-                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-                border-radius: 40px;
-                width: 30px;
-              }
-            `}
-        </style>
       </div>
     </>
   );

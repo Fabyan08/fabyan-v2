@@ -28,7 +28,7 @@ const Certificate = () => {
           />
           <div className="container">
             <h1 className="text-center font-bold text-4xl md:text-7xl">
-              Certificate
+            👨🏼‍💻Certificate
             </h1>
             <Swiper
               slidesPerView={1}
@@ -50,28 +50,84 @@ const Certificate = () => {
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/images/cert/Certificate Google Digital Garage.jpg"
+                  src="/images/cert/015.FABYAN YASTIKA PERMANANOMINASI.jpg"
                   className="rounded-xl border-4 border-gradient  shadow-sm"
                   alt=""
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/images/cert/Certificate Google Digital Garage.jpg"
+                  src="/images/cert/Ai-SMK NEGERI 5_FABYAN YASTIKA (1).jpg"
                   className="rounded-xl border-4 border-gradient  shadow-sm"
                   alt=""
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/images/cert/Certificate Google Digital Garage.jpg"
+                  src="/images/cert/0001.jpg"
                   className="rounded-xl border-4 border-gradient  shadow-sm"
                   alt=""
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
-                  src="/images/cert/Certificate Google Digital Garage.jpg"
+                  src="/images/cert/Certificate Harvard Medical School.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Certificate Google Analitycs Academy.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Certificate Google Tag Manager Fundamental.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Certificate SoloLearn CSS.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Certificate SoloLearn HTML.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Certificate GCF Digital Photography.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Certificate Of Completion Unicef Online Child Safeguarding Training.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Fabyan.jpg"
+                  className="rounded-xl border-4 border-gradient  shadow-sm"
+                  alt=""
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img
+                  src="/images/cert/Sertifikat Penulis Resmi.jpg"
                   className="rounded-xl border-4 border-gradient  shadow-sm"
                   alt=""
                 />

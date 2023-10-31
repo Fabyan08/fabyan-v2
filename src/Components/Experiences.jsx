@@ -14,17 +14,15 @@ const Experiences = () => {
               My Experiences
             </h1>
             <h1 className="">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Blanditiis, magni ipsam. Nam, modi! Reprehenderit <br /> nisi
-              eligendi accusamus, distinctio eius hic.
+            This is my work experience that has started since I was in vocational high school until now.
             </h1>
           </div>
 
-          <div className="mt-10 relative flex container items-end justify-end">
-            <div className="border-gradient4  w-[600px] h-fit">
+          <div className="mt-10 relative flex container  items-end justify-end">
+            <div className="border-gradient4 hover:scale-105 duration-150 w-[600px] h-fit">
               <div className="flex justify-between p-2 items-center">
                 <img src="/images/bd.png" className="w-40 " alt="" />
-                <h1 className="border-t-4 border-green-500 border-l-4 border-r-4 rounded-lg p-2">
+                <h1 className="border-t-4 text-center border-green-500 border-l-4 border-r-4 rounded-lg p-2">
                   Visual Creative Department Staff
                 </h1>
               </div>
@@ -33,32 +31,25 @@ const Experiences = () => {
                   Nov 2021 - Mei 2022 · 7 Months
                 </h1>
                 <h1 className=" font-semibold">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Ullam expedita ipsa fugit dolor iste vero. Nemo repellendus
-                  iure in quos repudiandae sapiente nam. Qui obcaecati iure ad!
-                  Recusandae consequuntur vero similique nihil vel a quidem
-                  voluptatum incidunt? Quis, voluptates illum.
+                  Working from vocational high school in the field of social
+                  media development and design to increase engagement
                 </h1>
                 <div className="mt-4">
                   <h1 className="text-green-500 w-fit font-bold text-3xl rounded-xl">
-                    Responsibility and things I did
+                    🧑‍💻Responsibility and things I did
                   </h1>
-                  <ul>
+                  <ul className="text-md font-semibold">
+                    <li>• Create designs for client's Instagram posts</li>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Adjust performance with KPIs that must be achieved
                     </li>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Responsible for the correctness of the post and the
+                      information included
                     </li>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
-                    </li>
-                    <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Posting uploads on Instagram with copywriting techniques
+                      as an attraction
                     </li>
                   </ul>
                 </div>
@@ -70,45 +61,41 @@ const Experiences = () => {
               alt=""
             />
           </div>
-          <div className="mt-10 relative flex container items-center justify-center">
-            <div className="border-gradient5  w-[600px] h-fit">
+          <div className="mt-10 relative flex container  items-center justify-center">
+            <div className="border-gradient5 hover:scale-105 duration-150  w-[600px] h-fit">
               <div className="flex justify-between p-2 items-center">
                 <h1 className="font-bold text-xl">💼Indonesia Multimedia</h1>{" "}
-                <h1 className="border-t-4 border-orange-300 border-l-4 border-r-4 rounded-lg p-2">
+                <h1 className="border-t-4 text-center border-orange-300 border-l-4 border-r-4 rounded-lg p-2">
                   Internship
                 </h1>
               </div>
               <div className="p-2">
                 <h1 className="text-xl text-slate-500 font-semibold">
-                  Nov 2021 - Mei 2022 · 7 Months
+                  Jan 2022 - Jun 2022 · 6 Months{" "}
                 </h1>
                 <h1 className=" font-semibold">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Ullam expedita ipsa fugit dolor iste vero. Nemo repellendus
-                  iure in quos repudiandae sapiente nam. Qui obcaecati iure ad!
-                  Recusandae consequuntur vero similique nihil vel a quidem
-                  voluptatum incidunt? Quis, voluptates illum.
+                  Internship at a CV that aims to learn the needs of the world
+                  of work and apply school knowledge to real work.
                 </h1>
                 <div className="mt-4">
                   <h1 className="text-orange-300 w-fit font-bold text-3xl rounded-xl">
-                    Responsibility and things I did
+                    👨🏻‍💻Responsibility and things I did
                   </h1>
                   <ul>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Learn everything related to social media and the world
+                      of online industry
                     </li>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Developing skills in making posts that are worth sharing
+                      on social media
                     </li>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Learning about wordpress and website development to
+                      UI/UX Design
                     </li>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Creating simple websites with PHP programming language
                     </li>
                   </ul>
                 </div>
@@ -121,46 +108,33 @@ const Experiences = () => {
             />
           </div>
 
-          <div className="mt-10 flex container items-start justify-start">
-            <div className="border-gradient3  w-[600px] h-fit">
-              <div className="flex justify-between p-2 items-center">
+          <div className="mt-10  flex container items-start justify-start">
+            <div className="border-gradient3  hover:scale-105 duration-150 w-[600px] h-fit">
+              <div className="flex justify-between space-x-4 p-2 items-center">
                 <img src="/images/logo.webp" className="w-40 " alt="" />
-                <h1 className="border-t-4 border-primary border-l-4 border-r-4 rounded-lg p-2">
-                  Content Creator{" "}
+                <h1 className="border-t-4 text-center border-primary border-l-4 border-r-4 rounded-lg p-2">
+                  Freelance Content Creator{" "}
                 </h1>
               </div>
               <div className="p-2">
                 <h1 className="text-xl text-slate-500 font-semibold">
-                  Nov 2021 - Mei 2022 · 7 Months
+                  Jun 2022 - Now · 1 Year 5 Months{" "}
                 </h1>
                 <h1 className=" font-semibold">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Ullam expedita ipsa fugit dolor iste vero. Nemo repellendus
-                  iure in quos repudiandae sapiente nam. Qui obcaecati iure ad!
-                  Recusandae consequuntur vero similique nihil vel a quidem
-                  voluptatum incidunt? Quis, voluptates illum.
+                  Working as a freelance content creator is writing articles
+                  with SEO techniques to attract readers to generate profits.
                 </h1>
                 <div className="mt-4">
                   <h1 className="text-primary w-fit font-bold text-3xl rounded-xl">
-                    Responsibility and things I did
+                    🙇🏼‍♂️Responsibility and things I did
                   </h1>
                   <ul>
                     <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
+                      • Meet Expecation Award (586 articles during 3 months of
+                      training)
                     </li>
-                    <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
-                    </li>
-                    <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
-                    </li>
-                    <li>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Beatae, fugit!
-                    </li>
+                    <li>• Able and willing to produce 10 articles per day</li>
+                    <li>• Make an article worth reading without plagiarism</li>
                   </ul>
                 </div>
               </div>

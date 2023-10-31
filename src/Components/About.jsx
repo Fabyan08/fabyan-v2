@@ -51,6 +51,10 @@ const About = () => {
                 <hr className="border-4 border-primary rounded-tr-lg w-40" />
                 <img src="/images/firebase.png" className="-ml-4" alt="" />
               </div>
+              <div className="flex items-center">
+                <hr className="border-4 border-primary rounded-tr-lg w-44" />
+                <img src="/images/ts.png" className="-ml-4" alt="" />
+              </div>
             </div>
 
             <div className="absolute w-full  md:-mt-60 md:w-[670px] md:mx-80 pt-[360px] text-right">

@@ -36,7 +36,7 @@ const Hero = () => {
 
   return (
     <>
-      <div id="home">
+      <div id="home" className="relative">
         <div
           style={{
             transform: `translateX(${translateX}px) rotate(${translateY}deg) translateY(${translateY}px)`,
@@ -82,6 +82,12 @@ const Hero = () => {
           />
         </div>
         <div className="relative -mt-96">
+          <img
+            src="/images/man.gif"
+            className="absolute w-32 bottom-0"
+            alt=""
+          />
+ 
           <div className="flex items-center justify-center">
             <img src="/images/role.png" alt="" />
           </div>
