@@ -102,7 +102,7 @@ const Nav = () => {
       </div> */}
 
         <div className="md:hidden flex justify-center relative z-40 ">
-          <div className="btm-nav fixed mb-20 mx-auto border-primary/30 shadow-sm border-2 rounded-full px-5 bg-white/40 backdrop-blur-2xl text-primary w-fit space-x-10">
+          <div className="btm-nav fixed mb-10 mx-auto border-primary/30 shadow-sm border-2 rounded-full px-5 bg-white/40 backdrop-blur-2xl text-primary w-fit space-x-10">
             <a href="#home">
               <svg
                 xmlns="http://www.w3.org/2000/svg"

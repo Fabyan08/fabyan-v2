@@ -124,7 +124,7 @@ const Hero = () => {
           <img
             loading="lazy"
             src="/images/segit.png"
-            className="absolute -bottom-20 md:bottom-20 custom-rotate right-"
+            className="absolute -bottom-20 md:bottom-20 custom-rotate left-12 md:right-40"
             alt=""
             // onMouseMove={handleMouseMove}
           />
