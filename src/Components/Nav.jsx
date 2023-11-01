@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -56,6 +57,7 @@ const Nav = () => {
               </li>
             </ul>
           </div>
+
           {/* <div>
           <a
             className="bg-blue-300 text-white p-2 rounded-full text-center"
@@ -64,6 +66,17 @@ const Nav = () => {
             Connect!
           </a>
         </div> */}
+          <div className="absolute md:hidden lg:flex lg:right-52 rotate-12 hover:rotate-0 duration-150 hover:scale-110">
+            <hr className="border-2 border-white h-40 rounded-full right-20 " />
+          </div>
+          <div className="absolute md:hidden lg:flex lg:right-40 rotate-12 hover:rotate-0 duration-150 hover:scale-110">
+            <Link
+              to="/blog"
+              className="text-white hover:text-primary hover:bg-white hover:border-primary bg-primary border-4 border-white p-3 rounded-full font-bold"
+            >
+              My Blog
+            </Link>
+          </div>
         </nav>
 
         {/* <div className="md:hidden fixed bottom-12 space-x-8  z-40  flex justify-center  items-center bg-white/30 backdrop-blur-lg">
