@@ -115,6 +115,22 @@ const Qris = () => {
             QRIS, sebuah angka yang cukup fantastis bukan? Jika kamu tahu juga,
             lebih dari 90% atauu tepatnya 91,7% penggunanya adalah UMKM.
           </h1>
+          <div className="relative">
+            <h1 className="text-center text-4xl">
+              Seiring berkembangnya,{" "}
+              <i>
+                QRIS Cross-Border akan hadir di negara-negara ASEAN lainnya.
+              </i>
+            </h1>
+            <div className="flex justify-center">
+              <img
+                src="/images/blog/detail/qr.png"
+                className="absolute w-20 bottom-12 "
+                alt=""
+              />
+            </div>
+            <img src="/images/blog/detail/asean.png" alt="" />
+          </div>
           <h1>
             Makin ajaib dan bertambah canggih. Saat ini, QRIS mewujudkan impian
             kamu agar dapat juga digunakan dengan mudah di luar negeri,
