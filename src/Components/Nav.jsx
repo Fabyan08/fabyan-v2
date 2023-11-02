@@ -8,6 +8,7 @@ import { MdOutlineWebAsset } from "react-icons/md";
 import { GiPapers } from "react-icons/gi";
 import { RiFilePaperLine } from "react-icons/ri";
 import { AiOutlinePhone } from "react-icons/ai";
+import { HiOutlinePencil } from "react-icons/hi";
 const Nav = () => {
   useEffect(() => {
     AOS.init();
@@ -150,6 +151,12 @@ const Nav = () => {
             </a>
           </div>
         </div>
+        <Link
+          to="/blog"
+          className="fixed bottom-40  z-[999999] -right-5 bg-primary/90 shadow-sm backdrop-blur-lg text-white w-24 p-2 rounded-lg flex items-center "
+        >
+          <HiOutlinePencil className="mr-2" /> Blog
+        </Link>
       </div>
     </>
   );
