@@ -153,7 +153,7 @@ const Nav = () => {
         </div>
         <Link
           to="/blog"
-          className="fixed bottom-40  z-[999999] -right-5 bg-primary/90 shadow-sm backdrop-blur-lg text-white w-24 p-2 rounded-lg flex items-center "
+          className="fixed bottom-40 md:hidden  z-[999999] -right-5 bg-primary/90 shadow-sm backdrop-blur-lg text-white w-24 p-2 rounded-lg flex items-center "
         >
           <HiOutlinePencil className="mr-2" /> Blog
         </Link>
