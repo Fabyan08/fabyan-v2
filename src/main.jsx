@@ -4,6 +4,7 @@ import "./index.css";
 import Index from "./Pages/Index.jsx";
 import Blog from "./Pages/Blog/Index";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Qris from "./Pages/Blog/Detail/Qris";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/blog",
     element: <Blog />,
+  },
+  {
+    path: "/detail/qris-23791",
+    element: <Qris />,
   },
   // {
   //   path: "/contact",
