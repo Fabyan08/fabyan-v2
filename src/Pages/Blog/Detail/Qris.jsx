@@ -372,7 +372,7 @@ const Qris = () => {
 
               <div className="flex justify-end items-center">
                 <h1 className="text-2xl md:text-4xl font-bold">
-                  Masih Bingung? Begini Cara Pakainya!
+                  Masih Bingung Juga? Begini Cara Pakainya!
                 </h1>
                 <img
                   loading="lazy"
