@@ -656,9 +656,9 @@ const Qris = () => {
             </div>
             {/* <BacktoTopButton /> */}
             <p className="-mb-20 text-sm text-slate-400">
-              Asset diolah dari berbagai sumber:{" "}
+              (Aset diolah dari berbagai sumber:{" "}
               <a href="https://icons8.com/illustrations">Icons8</a>,{" "}
-              <a href="https://www.freepik.com">Freepik</a>{" "}
+              <a href="https://www.freepik.com">Freepik)</a>{" "}
             </p>
           </div>
         </div>
