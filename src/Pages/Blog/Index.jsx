@@ -148,11 +148,11 @@ const Blog = () => {
 
               <div className="flex-col justify-between flex mt-4 md:mt-0">
                 <div className="flex space-x-4">
-                  <a className="text-primary font-bold">Development</a>
+                  <a className="text-primary font-bold">Featured</a>
                   <h1>∙</h1>
                   <div className="flex space-x-1 items-center">
                     <BiTimeFive />
-                    <h1>2 hr ago</h1>
+                    <h1>Any days ago</h1>
                   </div>
                 </div>
                 <Link to="/detail/qris-23791" className="font-bold text-5xl hover:text-primary">
@@ -177,7 +177,7 @@ const Blog = () => {
                     </div>
                     <div className="flex">
                       <h1 className="font-bold text-3xl">
-                        Lorem ipsum dolor, sit...
+                        Coming Soon...
                       </h1>{" "}
                     </div>
                   </div>

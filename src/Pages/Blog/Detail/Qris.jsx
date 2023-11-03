@@ -50,14 +50,14 @@ const Qris = () => {
             <div className="flex items-center justify-center">
               <Link
                 to="/blog"
-                className="text-2xl bg-slate-200  shadow-sm text-primary rounded-lg w-48 h-10  flex items-center justify-center"
+                className="text-2xl bg-slate-200  shadow-sm text-primary rounded-lg w-fit px-2 h-10  flex items-center justify-center"
               >
                 <div className="flex items-center">
                   <div className="bg-white rounded-lg hover:scale-110 duration-150 w-full h-full ">
                     <BsArrowLeftShort />
                   </div>
                   <div>
-                    <h1 className="ml-2 font-semibold">Technologies</h1>
+                    <h1 className="ml-2 font-semibold">Featured</h1>
                   </div>
                 </div>
               </Link>
@@ -69,7 +69,7 @@ const Qris = () => {
                   data-aos="fade-right"
                   className="text-2xl text-center md:text-7xl font-bold text-slate-700"
                 >
-                  Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenalan Sama
+                  Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenali
                   QRIS Cross-Border!
                 </h1>
                 <div className="flex items-center justify-center space-x-2 md:hidden py-2">
