@@ -361,7 +361,7 @@ const Qris = () => {
                 alt=""
               />
             </div>
-            <div className="flex flex-col justify-center space-y-40 mx-5  text-white text-4xl">
+            <div className="flex-col justify-center hidden md:flex space-y-40 mx-5  text-white text-4xl">
               <BsArrowBarLeft className="animate-bounce" />
               <BsArrowBarRight className="animate-bounce" />
             </div>
