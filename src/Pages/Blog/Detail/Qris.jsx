@@ -19,6 +19,7 @@ const Qris = () => {
   return (
     <>
       <img
+        loading="lazy"
         src="/images/blog/detail/bg.jpg"
         className="w-full absolute h-[660px] md:h-[680px] -z-10 top-0 opacity-20"
         alt=""
@@ -52,6 +53,7 @@ const Qris = () => {
               <h1 className="text-slate-800">Kamis, 2 November 2023</h1>
             </div>
             <img
+              loading="lazy"
               src="/images/blog/detail/bg.jpg"
               className=" md:hidden rounded-lg "
               alt=""
@@ -60,6 +62,7 @@ const Qris = () => {
               Ilustrasi QRIS Cross Border | Foto: qris.online
             </h1>
             <img
+              loading="lazy"
               src="/images/blog/detail/mon2.gif"
               className="w-96 hidden md:flex"
               alt=""
@@ -82,7 +85,7 @@ const Qris = () => {
             {/* <BiSolidQuoteAltLeft className="text-white text-xl absolute bottom-0 right-0 ml-40" /> */}
           </div>
           <div>
-            <img src="/images/blog/detail/.gif" alt="" />
+            <img loading="lazy" src="/images/blog/detail/.gif" alt="" />
           </div>
           <div className="mt-10 md:mt-28 md:w-[800px] md:ml-10 text-xl">
             <h1>
@@ -100,7 +103,7 @@ const Qris = () => {
           </div>
         </div>
         <div className="flex items-center justify-center mt-4">
-          <img src="/images/blog/detail/line1.png" alt="" />
+          <img loading="lazy" src="/images/blog/detail/line1.png" alt="" />
         </div>
         <div className="bg-gradient-to-r from-white to-primary w-96 h-96 rounded-full absolute blur-2xl -z-10 -right-40"></div>
         <div className="md:px-[125px] text-xl px-4 md:text-2xl mt-10 space-y-4">
@@ -140,6 +143,7 @@ const Qris = () => {
             </h1>
             <div className="flex justify-center">
               <img
+                loading="lazy"
                 src="/images/blog/detail/aseanqr.png"
                 className="w-full md:w-[800px]"
                 alt=""
@@ -176,7 +180,7 @@ const Qris = () => {
           </h1>
           <div className="flex justify-center items-center font-bold">
             <div>
-              <img src="/images/blog/detail/think.gif" alt="" />
+              <img loading="lazy" src="/images/blog/detail/think.gif" alt="" />
             </div>
             <h1 className="text-4xl">
               Singkatnya, <i>QRIS Cross-Border itu...</i>
@@ -194,7 +198,12 @@ const Qris = () => {
               </h1>
             </div>
             <div>
-              <img src="/images/blog/detail/seru.gif" className="w-40" alt="" />
+              <img
+                loading="lazy"
+                src="/images/blog/detail/seru.gif"
+                className="w-40"
+                alt=""
+              />
             </div>
           </div>
           <h1>
@@ -211,11 +220,17 @@ const Qris = () => {
           </h1>
           <div className="md:flex justify-center space-y-5 md:space-y-0 md:space-x-20">
             <img
+              loading="lazy"
               src="/images/blog/detail/kerjasama.png"
               className="w-96"
               alt=""
             />
-            <img src="/images/blog/detail/pidato.png" className="w-96" alt="" />
+            <img
+              loading="lazy"
+              src="/images/blog/detail/pidato.png"
+              className="w-96"
+              alt=""
+            />
           </div>
           <h1 className="text-sm text-center ">
             (Potret kerja sama <i> QRIS Cross-Border </i> antara Indonesia,
@@ -234,7 +249,12 @@ const Qris = () => {
           </h1>
           <div className="flex items-center">
             <div>
-              <img src="/images/blog/detail/mon1.gif" className="w-40" alt="" />
+              <img
+                loading="lazy"
+                src="/images/blog/detail/mon1.gif"
+                className="w-40"
+                alt=""
+              />
             </div>
             <div className="flex  space-x-4 items-center">
               <h1 className="text-2xl md:text-4xl font-bold">
@@ -259,7 +279,12 @@ const Qris = () => {
             <h1 className="text-2xl md:text-4xl font-bold">
               Begini Cara Pakainya yang Pasti Mudah!
             </h1>
-            <img src="/images/blog/detail/cart.gif" className="w-40" alt="" />
+            <img
+              loading="lazy"
+              src="/images/blog/detail/cart.gif"
+              className="w-40"
+              alt=""
+            />
           </div>
           <div className="flex items-center space-x-2">
             <LiaArrowAltCircleRightSolid className="w-10 md:w-6" />
@@ -330,6 +355,7 @@ const Qris = () => {
           <div className="pt-10 md:pt-20 md:flex ">
             <div>
               <img
+                loading="lazy"
                 src="/images/blog/detail/dok1.png"
                 className="w-[450px] rounded-xl"
                 alt=""
@@ -387,6 +413,7 @@ const Qris = () => {
                       </div>
                     </div>
                     <img
+                      loading="lazy"
                       src="/images/blog/detail/guna.png"
                       className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
                       alt=""
@@ -405,6 +432,7 @@ const Qris = () => {
                       </div>
                     </div>
                     <img
+                      loading="lazy"
                       src="/images/blog/detail/guna2.png"
                       className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
                       alt=""
@@ -423,6 +451,7 @@ const Qris = () => {
                       </div>
                     </div>
                     <img
+                      loading="lazy"
                       src="/images/blog/detail/guna3.png"
                       className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
                       alt=""
@@ -441,6 +470,7 @@ const Qris = () => {
                       </div>
                     </div>
                     <img
+                      loading="lazy"
                       src="/images/blog/detail/guna4.png"
                       className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
                       alt=""
@@ -459,6 +489,7 @@ const Qris = () => {
                       </div>
                     </div>
                     <img
+                      loading="lazy"
                       src="/images/blog/detail/guna5.png"
                       className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
                       alt=""
@@ -477,6 +508,7 @@ const Qris = () => {
                       </div>
                     </div>
                     <img
+                      loading="lazy"
                       src="/images/blog/detail/guna6.png"
                       className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
                       alt=""
@@ -507,6 +539,7 @@ const Qris = () => {
           </div>
           <div className="flex justify-center">
             <img
+              loading="lazy"
               src="/images/blog/detail/foot.png"
               className="w-[500px]"
               alt=""
