@@ -199,8 +199,12 @@ const Qris = () => {
                     alt=""
                   />
                 </div>
+                <h1 className="text-sm text-center">
+                  (Peta ASEAN dengan perkembangan QRIS | Foto: Diolah dari
+                  Freepik.com)
+                </h1>
               </div>
-              <div data-aos="fade-down">
+              <div data-aos="fade-down" className="space-y-5">
                 <h1>
                   Makin ajaib dan bertambah canggih. Saat ini, QRIS mewujudkan
                   impian kamu agar dapat juga digunakan dengan mudah di luar
@@ -426,9 +430,10 @@ const Qris = () => {
                     </h1>
                     <h1 className="mt-5">
                       <i>QRIS Cross-Border</i> berusaha untuk menciptakan sistem
-                      ekonomi internasional yang digital serta berkolaborasi antar negara
-                      ASEAN untuk memudahkan kamu melakukan transaksi lintas
-                      negara dengan cepat dan tanpa perlu cara yang rumit!
+                      ekonomi internasional yang digital serta berkolaborasi
+                      antar negara ASEAN untuk memudahkan kamu melakukan
+                      transaksi lintas negara dengan cepat dan tanpa perlu cara
+                      yang rumit!
                     </h1>
                   </div>
                   <hr className="w-[2000px] top-32 -ml-32 border-8 border-primary absolute -z-10  " />
@@ -650,6 +655,11 @@ const Qris = () => {
               </a>
             </div>
             {/* <BacktoTopButton /> */}
+            <p className="-mb-20 text-sm text-slate-400">
+              Asset diolah dari berbagai sumber:{" "}
+              <a href="https://icons8.com/illustrations">Icons8</a>,{" "}
+              <a href="https://www.freepik.com">Freepik</a>{" "}
+            </p>
           </div>
         </div>
       )}
