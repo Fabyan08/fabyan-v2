@@ -105,7 +105,7 @@ const Qris = () => {
         <div className="flex items-center justify-center mt-4">
           <img loading="lazy" src="/images/blog/detail/line1.png" alt="" />
         </div>
-        <div className="bg-gradient-to-r from-white to-primary w-96 h-96 rounded-full absolute blur-2xl -z-10 -right-40"></div>
+        {/* <div className="bg-gradient-to-r from-white to-primary w-96 h-96 rounded-full absolute blur-2xl -z-10 -right-40"></div> */}
         <div className="md:px-[125px] text-xl px-4 md:text-2xl mt-10 space-y-4">
           <h1>
             Melansir laman resmi Bank Indonesia, bi.go.id. QRIS ada karena
