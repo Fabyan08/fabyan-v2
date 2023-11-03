@@ -482,7 +482,7 @@ const Qris = () => {
                 <div className="md:hidden flex-col mt-4 md:mt-0 justify-between">
                   <iframe
                     className="rounded-lg"
-                    width="330"
+                    width="300"
                     height="190"
                     src="https://www.youtube.com/embed/LnwvhuUxuVQ"
                   ></iframe>
