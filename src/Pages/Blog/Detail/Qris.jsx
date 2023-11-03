@@ -1,4 +1,6 @@
+import BacktoTopButton from "../../../Components/top";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
+import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
@@ -66,7 +68,7 @@ const Qris = () => {
         </div>
       </div>
       <div className="border-8 md:border-[20px]  border-primary/30 h-full pb-20">
-        <div className="-mt-36 md:-mt-20 md:px-16 md:flex mx-4">
+        <div className="-mt-36 md:-mt-24 md:px-16 md:flex mx-4">
           <div className="md:flex">
             <BiSolidQuoteAltLeft className="text-white text-4xl " />
             <div className="bg-white flex hover:border-2 hover:border-primary duration-150 border-primary/40 border-2 md:hover:scale-[1.05] md:w-[400px] rounded-lg shadow-xl h-full">
@@ -100,6 +102,7 @@ const Qris = () => {
         <div className="flex items-center justify-center mt-4">
           <img src="/images/blog/detail/line1.png" alt="" />
         </div>
+        <div className="bg-gradient-to-r from-white to-primary w-96 h-96 rounded-full absolute blur-2xl -z-10 -right-40"></div>
         <div className="md:px-[125px] text-xl px-4 md:text-2xl mt-10 space-y-4">
           <h1>
             Melansir laman resmi Bank Indonesia, bi.go.id. QRIS ada karena
@@ -314,7 +317,7 @@ const Qris = () => {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#6DA9E4"
-              fill-opacity="1"
+              // fill-opacity="1"
               d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
             ></path>
           </svg>
@@ -328,22 +331,19 @@ const Qris = () => {
             <div>
               <img
                 src="/images/blog/detail/dok1.png"
-                className="w-96 rounded-xl"
+                className="w-[450px] rounded-xl"
                 alt=""
               />
             </div>
-            <div>
-              <img
-                src="/images/blog/detail/point2.gif"
-                className="w-60 rounded-xl hidden md:flex"
-                alt=""
-              />
+            <div className="flex flex-col justify-center space-y-40 mx-5  text-white text-4xl">
+              <BsArrowBarLeft className="animate-bounce" />
+              <BsArrowBarRight className="animate-bounce" />
             </div>
             <div className="md:flex hidden flex-col justify-between">
               <iframe
                 className="rounded-lg"
-                width="700"
-                height="345"
+                width="900"
+                height="540"
                 src="https://www.youtube.com/embed/LnwvhuUxuVQ"
               ></iframe>
               <h1 className="text-white text-center text-2xl font-bold">
@@ -513,6 +513,7 @@ const Qris = () => {
             />
           </div>
         </div>
+        <BacktoTopButton />
       </div>
     </>
   );
