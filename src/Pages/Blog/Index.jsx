@@ -133,8 +133,8 @@ const Blog = () => {
 
             <div className="mt-10 md:flex justify-between space-x-4">
               <img
-                src="/images/Picture1.jpg"
-                className="w-[900px] rounded-lg hover:border-4 duration-150 hover:border-primary"
+                src="/images/blog/detail/bg.jpg"
+                className="w-[500px] rounded-lg hover:border-4 duration-150 hover:border-primary"
                 alt=""
               />
               <div className="hidden md:flex flex-col justify-between">
@@ -155,9 +155,8 @@ const Blog = () => {
                     <h1>2 hr ago</h1>
                   </div>
                 </div>
-                <h1 className="font-bold text-5xl">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing.
-                </h1>
+                <Link to="/detail/qris-23791" className="font-bold text-5xl hover:text-primary">
+                Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenalan....                </Link>
                 <div className="flex mt-2 md:mt-0 bg-primary w-fit h-fit items-center text-center text-white text-xl hover:scale-110 duration-150 hover:bg-white hover:text-primary hover:shadow-xl font-bold rounded-full p-2 space-x-2">
                   <Link to="/detail/qris-23791">Read More</Link>
                   <FiArrowRight />
@@ -165,7 +164,7 @@ const Blog = () => {
 
                 <div className="pt-4 hidden space-x-5 lg:flex items-center">
                   <div>
-                    <img src="/images/Picture1.jpg" className="w-60" alt="" />
+                    <img src="/images/blog/detail/nfound.png" className="w-60" alt="" />
                   </div>
                   <div className="">
                     <div className="flex space-x-4">
@@ -192,13 +191,12 @@ const Blog = () => {
               </div>{" "}
               <div className="grid md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
                 <div className=" w-96 space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                  <img src="/images/Picture1.jpg" alt="" />
+                  <img src="/images/blog/detail/nfound.png" alt="" />
                   <h1 className="text-xl text-primary font-bold">
                     Development
                   </h1>
                   <h1 className="text-2xl font-bold text-slate-900">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptate, nulla.
+                    Coming Soon...
                   </h1>
                   <h1 className="text-slate-800">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -218,13 +216,12 @@ const Blog = () => {
                   </div>
                 </div>
                 <div className=" w-96 space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                  <img src="/images/Picture1.jpg" alt="" />
+                  <img src="/images/blog/detail/nfound.png" alt="" />
                   <h1 className="text-xl text-primary font-bold">
                     Development
                   </h1>
                   <h1 className="text-2xl font-bold text-slate-900">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptate, nulla.
+                    Coming Soon...
                   </h1>
                   <h1 className="text-slate-800">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -244,13 +241,12 @@ const Blog = () => {
                   </div>
                 </div>
                 <div className=" w-96 space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                  <img src="/images/Picture1.jpg" alt="" />
+                  <img src="/images/blog/detail/nfound.png" alt="" />
                   <h1 className="text-xl text-primary font-bold">
                     Development
                   </h1>
                   <h1 className="text-2xl font-bold text-slate-900">
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Voluptate, nulla.
+                    Coming Soon...
                   </h1>
                   <h1 className="text-slate-800">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
