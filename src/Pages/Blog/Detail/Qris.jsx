@@ -15,9 +15,24 @@ import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { BsArrowLeftShort } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import { LiaArrowAltCircleRightSolid } from "react-icons/lia";
+import Loading from "../../../Components/Loading";
+import { useEffect, useState } from "react";
 const Qris = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Lakukan logika async untuk persiapan aplikasi Anda di sini
+    // Setelah semua persiapan selesai, atur isLoading menjadi false
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1000);
+  }, []);
   return (
     <>
+      {isLoading ? (
+        <Loading />
+      ) : (
+    <div>
       <img
         loading="lazy"
         src="/images/blog/detail/bg.jpg"
@@ -78,8 +93,8 @@ const Qris = () => {
               <h1 className="p-10 text-2xl">
                 Sekarang, jajan di luar negeri pakai mata uang Rupiah bukan lagi
                 hanya angan-angan semata! <i>QRIS Cross-Border</i> hadir sebagai
-                digital ekonomi keuangan untuk menyatukan transaksi ke luar
-                negeri hanya dalam genggaman HP!
+                inovasi digital ekonomi keuangan untuk menyatukan transaksi ke
+                luar negeri hanya dalam genggaman HP!
               </h1>
             </div>
             {/* <BiSolidQuoteAltLeft className="text-white text-xl absolute bottom-0 right-0 ml-40" /> */}
@@ -553,6 +568,8 @@ const Qris = () => {
         </div>
         {/* <BacktoTopButton /> */}
       </div>
+      </div>
+      )}
     </>
   );
 };
