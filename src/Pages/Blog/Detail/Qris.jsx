@@ -453,7 +453,7 @@ const Qris = () => {
 
             <div className="bg-primary -mt-[1px] w-full h-full pb-20 rounded-b-[40px] px-6 md:px-16">
               <h1 className="md:text-4xl text-2xl font-bold text-white">
-                Ketahui Lebih Dalam Soal <i>QRIS Cross-Border</i>!
+                Ketahui Lebih Dalam Tentang <i>QRIS Cross-Border</i>!
               </h1>
               <div className="pt-10 md:pt-20 md:flex ">
                 <div>
