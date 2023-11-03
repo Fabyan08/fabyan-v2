@@ -1,4 +1,4 @@
-import BacktoTopButton from "../../../Components/top";
+import { AiOutlineArrowUp } from "react-icons/ai";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -546,7 +546,12 @@ const Qris = () => {
             />
           </div>
         </div>
-        <BacktoTopButton />
+        <div className="flex z-[999999]  bg-primary/40 backdrop-blur-lg shadow-md text-white w-10 h-10 rounded-full right-12 bottom-12 fixed items-center justify-center text-2xl">
+          <a href="#">
+            <AiOutlineArrowUp />
+          </a>
+        </div>
+        {/* <BacktoTopButton /> */}
       </div>
     </>
   );
