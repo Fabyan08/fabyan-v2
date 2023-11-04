@@ -106,7 +106,7 @@ const Experiences = () => {
             </div>
             <img loading="lazy"
               src="/images/arrow2.png"
-              className="absolute bottom-0  hidden md:flex -z-10 left-40"
+              className="absolute bottom-0  hidden md:flex -z-10 left-40 md:left-10"
               alt=""
             />
           </div>

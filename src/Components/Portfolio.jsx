@@ -654,7 +654,7 @@ const Portfolio = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1000"
-              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+              className="bg-white pb-4 w-full h-40 md:w-1/4  rounded-xl"
             >
               <div className="flex">
                 <img
@@ -664,10 +664,10 @@ const Portfolio = () => {
                   alt=""
                 />
                 <div className="grid">
-                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
-                    UI Design
+                  <h1 className="ml-2 text-lg  z-10 text-primary font-bold ">
+                    UI DESIGN
                   </h1>
-                  <h1 className="-mt-4 font-semibold w-40 pl-2">
+                  <h1 className="-mt-4 text-sm font-semibold w-32  pl-2">
                     For Outfit App Design
                   </h1>
                 </div>
@@ -696,7 +696,7 @@ const Portfolio = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="1500"
-              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+              className="bg-white pb-4 w-full h-40 md:w-1/4  rounded-xl"
             >
               <div className="flex">
                 <img
@@ -706,10 +706,10 @@ const Portfolio = () => {
                   alt=""
                 />
                 <div className="grid">
-                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
+                  <h1 className="ml-2 text-lg  z-10 text-primary font-bold ">
                     UI Design
                   </h1>
-                  <h1 className="-mt-2 font-semibold w-40 pl-2">
+                  <h1 className="-mt-4 text-sm font-semibold w-32  pl-2">
                     For Game Store Design
                   </h1>
                 </div>
@@ -738,7 +738,7 @@ const Portfolio = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="2000"
-              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+              className="bg-white pb-4 w-full h-40 md:w-1/4  rounded-xl"
             >
               <div className="flex">
                 <img
@@ -748,17 +748,17 @@ const Portfolio = () => {
                   alt=""
                 />
                 <div className="grid">
-                  <h1 className="ml-2 text-2xl   z-10 text-primary font-bold ">
+                  <h1 className="ml-2 text-lg  z-10 text-primary font-bold ">
                     UI Design
                   </h1>
-                  <h1 className=" font-semibold w-32 md:w-40 pl-2">
+                  <h1 className="mt-2 text-sm font-semibold w-40  pl-2">
                     Redesign D-3 RPLA Telkom University&apos;s Website{" "}
                   </h1>
                 </div>
               </div>
-              <div className="flex space-y-4  -mt-3 justify-between items-center ">
+              <div className="flex space-y-4 mt-3 justify-between items-center ">
                 <div className="flex items-center">
-                  <h1 className=" ml-2 font-semibold -mt-2">Technology Used</h1>
+                  <h1 className=" ml-2 font-semibold">Technology Used</h1>
                   <img
                     loading="lazy"
                     src="/images/figma.png"
@@ -780,7 +780,7 @@ const Portfolio = () => {
             <div
               data-aos="fade-up"
               data-aos-duration="2500"
-              className="bg-white pb-4 w-full h-40 md:w-1/5  rounded-xl"
+              className="bg-white pb-4 w-full h-40 md:w-1/4  rounded-xl"
             >
               <div className="flex">
                 <img
@@ -790,10 +790,10 @@ const Portfolio = () => {
                   alt=""
                 />
                 <div className="grid">
-                  <h1 className="ml-2 text-xl  w-2 md:w-full z-10 text-primary font-bold ">
+                <h1 className="ml-2 text-lg  z-10 text-primary font-bold ">
                     Article Writing{" "}
                   </h1>
-                  <h1 className=" font-semibold w-32 md:w-40 pl-2">
+                  <h1 className="-mt-4 text-sm font-semibold w-32  pl-2">
                     Freelance Content Creator{" "}
                   </h1>
                 </div>
