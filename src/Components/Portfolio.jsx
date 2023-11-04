@@ -418,9 +418,8 @@ const Portfolio = () => {
               <div className="relative">
                 <h1 className="text-xl">
                   <b>Hackathon Competition</b> - I created this website using
-                  PHP and utilized the API from OpenAPI as a fairly popular AI
-                  chat provider. Alhamdulillah, I was selected and included in
-                  the top 10!
+                  PHP and API from OpenAPI as a fairly popular AI chat provider.
+                  Alhamdulillah, I was selected and included in the top 10!
                 </h1>
                 <div className="absolute z-10 -top-[60px] -right-[50px] rounded-full animate-pulse md:-top-[45px] hover:scale-110 duration-150 font-semibold bg-primary text-white w-40 text-center  rotate-[30deg] md:-right-[30px]">
                   <h1>Personal Project</h1>

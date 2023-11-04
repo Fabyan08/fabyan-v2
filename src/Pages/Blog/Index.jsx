@@ -155,8 +155,12 @@ const Blog = () => {
                     <h1>Any days ago</h1>
                   </div>
                 </div>
-                <Link to="/detail/qris-23791" className="font-bold text-5xl hover:text-primary">
-                Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenalan....                </Link>
+                <Link
+                  to="/detail/qris-23791"
+                  className="font-bold text-5xl hover:text-primary"
+                >
+                  Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenalan....{" "}
+                </Link>
                 <div className="flex mt-2 md:mt-0 bg-primary w-fit h-fit items-center text-center text-white text-xl hover:scale-110 duration-150 hover:bg-white hover:text-primary hover:shadow-xl font-bold rounded-full p-2 space-x-2">
                   <Link to="/detail/qris-23791">Read More</Link>
                   <FiArrowRight />
@@ -164,7 +168,11 @@ const Blog = () => {
 
                 <div className="pt-4 hidden space-x-5 lg:flex items-center">
                   <div>
-                    <img src="/images/blog/detail/nfound.png" className="w-60" alt="" />
+                    <img
+                      src="/images/blog/detail/nfound.png"
+                      className="w-60"
+                      alt=""
+                    />
                   </div>
                   <div className="">
                     <div className="flex space-x-4">
@@ -176,9 +184,7 @@ const Blog = () => {
                       </div>
                     </div>
                     <div className="flex">
-                      <h1 className="font-bold text-3xl">
-                        Coming Soon...
-                      </h1>{" "}
+                      <h1 className="font-bold text-3xl">Coming Soon...</h1>{" "}
                     </div>
                   </div>
                 </div>

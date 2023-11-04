@@ -10,7 +10,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <div className="relative md:-mt-10" id="about">
+      <div className="relative -mt-1 " id="about">
         <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 mt-[234px]  -p-20  -z-10 w-full h-[900px]">
           <img
             loading="lazy"

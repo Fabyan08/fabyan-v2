@@ -26,7 +26,7 @@ const Nav = () => {
             <img
               src="/images/bgfull.png"
               alt=""
-              className="relative hidden lg:flex -z-10  w-full  h-full -mt-10"
+              className="relative hidden lg:flex -z-10  w-full  h-full "
             />
           </div>
         </div>
