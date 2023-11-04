@@ -10,7 +10,7 @@ const About = () => {
   }, []);
   return (
     <>
-      <div className="relative " id="about">
+      <div className="relative -mt-1" id="about">
         <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 mt-[234px]  -p-20  -z-10 w-full h-[900px]">
           <img
             loading="lazy"
@@ -169,7 +169,7 @@ const About = () => {
               <h1 className="text-4xl mr-3 font-bold mb-4 absolute -bottom-[250px] md:relative md:bottom-0 right-0 bg-gradient-to-l pr-2 text-white  from-primary rounded-xl">
                 🚀About Me
               </h1>
-              <div className="absolute mx-2 mr-8 ml-14 -bottom-[410px] md:relative md:bottom-0">
+              <div className="absolute mx-2  -bottom-[410px] md:relative md:bottom-0">
                 <div className="bg-white px-2 md:w-[600px] border-2 h-40 rounded-xl p-4">
                   <h1 className="text-right">
                     My name is Fabyan Yastika Permana, a website developer that
@@ -181,7 +181,7 @@ const About = () => {
                     ~ Fabyan Yastika Permana
                   </h1>
                 </div>
-                <div className="bg-primary w-full absolute -mt-36 ml-4 -z-10 h-40 rounded-xl shadow-2xl"></div>
+                <div className="bg-primary w-full absolute -mt-36 ml-4 md:ml-0 -z-10 h-40 rounded-xl shadow-2xl"></div>
               </div>
               <div className="mt-24 flex -ml-20">
                 <img
