@@ -15,7 +15,7 @@ const Blog = () => {
     // Setelah semua persiapan selesai, atur isLoading menjadi false
     setTimeout(() => {
       setIsLoading(false);
-    }, 1000);
+    }, 500);
   }, []);
   return (
     <>

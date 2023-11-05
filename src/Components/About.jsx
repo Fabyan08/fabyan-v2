@@ -29,7 +29,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/html.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -42,7 +42,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/css.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -55,7 +55,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/js.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -68,7 +68,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/btr.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -81,7 +81,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/tailwind.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -94,7 +94,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/react.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -107,7 +107,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/php.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -120,7 +120,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/laravel.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -133,7 +133,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/mysql.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -146,7 +146,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/firebase.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>
@@ -159,7 +159,7 @@ const About = () => {
                 <img
                   loading="lazy"
                   src="/images/ts.png"
-                  className="-ml-4"
+                  className="-ml-4 hover:shadow-xl duration-150 hover:rounded-full hover:shadow-primary"
                   alt=""
                 />
               </div>

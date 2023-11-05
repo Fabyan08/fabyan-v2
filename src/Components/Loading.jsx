@@ -1,17 +1,14 @@
+import { AiOutlineLoading3Quarters } from "react-icons/ai";
 const Loading = () => {
   // Anda dapat menambahkan CSS styling atau animasi di sini
 
   return (
     <div className="bg-white md:w-full min-h-screen flex justify-center items-center ">
-      {/* Anda dapat mengganti pesan loading atau menambahkan elemen lain di sini */}
-      <div className="">
-        <div className="loading-animation">
-          {/* Misalnya, Anda dapat menambahkan gambar animasi di sini */}
-          <img src="/images/load2.gif" alt="Loading" />
-          <h1 className=" font-bold text-2xl text-center text-primary">
-            Loading...
-          </h1>
-        </div>
+      <div>
+        <AiOutlineLoading3Quarters className="text-center ml-8 text-[100px] font-black text-primary animate-spin " />{" "}
+        <h1 className="font-bold text-2xl text-center text-primary">
+          Wait a Second...
+        </h1>
       </div>
     </div>
   );

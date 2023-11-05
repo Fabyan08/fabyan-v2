@@ -87,17 +87,6 @@ const Hero = () => {
           />
         </div>
         <div className="relative -mt-96">
-          <div className="flex items-center justify-center">
-            <img
-              loading="lazy"
-              src="/images/man2.gif "
-              data-aos="fade-up"
-              data-aos-duration="1000"
-              className="md:right-0 md:bottom-0 md:hidden -bottom-60 shadow-sm absolute w-40"
-              alt=""
-            />
-          </div>
-
           <img
             loading="lazy"
             src="/images/kotak.png"
@@ -124,7 +113,7 @@ const Hero = () => {
           <img
             loading="lazy"
             src="/images/segit.png"
-            className="absolute -bottom-20 md:bottom-20 custom-rotate left-12 md:right-40"
+            className="absolute -bottom-20 md:bottom-20 custom-rotate right-80 "
             alt=""
             // onMouseMove={handleMouseMove}
           />
@@ -136,12 +125,6 @@ const Hero = () => {
             className="ml-2 -z-10 animate-[wiggle_1s_ease-in-out_infinite] md:bottom-0 right-0 -bottom-40  absolute"
             alt=""
           ></img>
-          {/* </div> */}
-          {/* <img
-            src="/images/man.gif"
-            className="absolute w-96 bottom-0 ml-2"
-            alt=""
-          /> */}
 
           <div
             className="flex items-center justify-center"

@@ -36,9 +36,10 @@ const Portfolio = () => {
         id="portfolio"
         className="relative mt-12 md:mt-0 w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen"
       >
-        <div className=" container">
-          <h1 className="font-bold text-5xl md:text-7xl">My Best Portfolio</h1>
-          <p className="font-semibold text-xl md:text-2xl md:w-[800px] mt-4">
+        <div className=" container relative">
+        <div className="bg-gradient-to-r from-primary/60 to-slate-100/40 rounded-sm w-80 h-10 absolute -z-10 -rotate-[5deg] mt-2"></div>
+          <h1 className="font-bold text-2xl pt-4 text-slate-700 md:text-6xl">👨🏻‍💻My Highlight Portfolio</h1>
+          <p className="text-md md:text-xl md:w-[800px] mt-4">
             These are some of the projects that I highlighted as portfolio
             pieces!
           </p>
