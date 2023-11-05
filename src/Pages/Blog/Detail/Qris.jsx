@@ -69,8 +69,8 @@ const Qris = () => {
                   data-aos="fade-right"
                   className="text-2xl text-center md:text-7xl font-bold text-slate-700"
                 >
-                  Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenali
-                  QRIS Cross-Border!
+                  Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenali QRIS
+                  Cross-Border!
                 </h1>
                 <div className="flex items-center justify-center space-x-2 md:hidden py-2">
                   <h1 className="text-primary">Admin</h1>
@@ -118,9 +118,7 @@ const Qris = () => {
                 </div>
                 {/* <BiSolidQuoteAltLeft className="text-white text-xl absolute bottom-0 right-0 ml-40" /> */}
               </div>
-              <div>
-                <img loading="lazy" src="/images/blog/detail/.gif" alt="" />
-              </div>
+
               <div className="mt-10 md:mt-28 md:w-[800px] md:ml-10 text-xl">
                 <h1>
                   Kamu pasti sudah tahu kan, bahwa kecanggihan digitalisasi saat
@@ -252,7 +250,8 @@ const Qris = () => {
                 <div>
                   <img
                     loading="lazy"
-                    src="/images/blog/detail/think.gif"
+                    src="/images/blog/detail/think.png"
+                    className="w-60"
                     alt=""
                   />
                 </div>
@@ -284,8 +283,8 @@ const Qris = () => {
                 <div>
                   <img
                     loading="lazy"
-                    src="/images/blog/detail/seru.gif"
-                    className="w-40"
+                    src="/images/blog/detail/seru.png "
+                    className="w-40 animate-pulse"
                     alt=""
                   />
                 </div>
@@ -344,7 +343,7 @@ const Qris = () => {
                 <div>
                   <img
                     loading="lazy"
-                    src="/images/blog/detail/mon1.gif"
+                    src="/images/blog/detail/think2.png"
                     className="w-40"
                     alt=""
                   />
@@ -376,7 +375,7 @@ const Qris = () => {
                 </h1>
                 <img
                   loading="lazy"
-                  src="/images/blog/detail/cart.gif"
+                  src="/images/blog/detail/money.png"
                   className="w-40"
                   alt=""
                 />
