@@ -176,7 +176,7 @@ const Blog = () => {
                   </div>
                   <div className="">
                     <div className="flex space-x-4">
-                      <a className="text-primary font-bold">Development</a>
+                      <a className="text-primary font-bold">Technologies</a>
                       <h1>∙</h1>
                       <div className="flex space-x-1 items-center">
                         <BiTimeFive />
@@ -184,7 +184,7 @@ const Blog = () => {
                       </div>
                     </div>
                     <div className="flex">
-                      <h1 className="font-bold text-3xl">Coming Soon...</h1>{" "}
+                      <a href="/detail/kirimin-aja-indonesia-72927" className="hover:text-primary font-bold text-3xl">Kirimin Aja</a>{" "}
                     </div>
                   </div>
                 </div>
