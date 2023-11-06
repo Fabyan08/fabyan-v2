@@ -30,7 +30,7 @@ const Kirim = () => {
         <div>
           <img
             loading="lazy"
-            src="/images/blog/kiriminaja/tim.webp"
+            src="/images/blog/kiriminaja/head1.jpg"
             className="w-full absolute h-[660px] md:h-[680px] -z-10 top-0 opacity-20"
             alt=""
           />
@@ -64,18 +64,18 @@ const Kirim = () => {
                 <div className="flex items-center justify-center space-x-2 md:hidden py-2">
                   <h1 className="text-[#4F378B]">Admin</h1>
                   <h1 className="text-slate-800">-</h1>
-                  <h1 className="text-slate-800">Kamis, 2 November 2023</h1>
+                  <h1 className="text-slate-800">Senin, 6 November 2023</h1>
                 </div>
                 <img
                   loading="lazy"
                   data-aos="fade-left"
                   data-aos-duration="1000"
-                  src="/images/blog/kiriminaja/tim.webp"
+                  src="/images/blog/kiriminaja/head2.jpg"
                   className=" md:hidden rounded-lg "
                   alt=""
                 />
                 <h1 className="text-[10px] text-white text-center mt-1 md:hidden">
-                  Ilustrasi QRIS Cross Border | Foto: qris.online
+                  KiriminAja: Aplikasi Kirim Paket #1 di Indonesia
                 </h1>
 
                 <div>
@@ -172,7 +172,7 @@ const Kirim = () => {
                     loading="lazy"
                     data-aos="fade-left"
                     data-aos-duration="1000"
-                    src="/images/blog/kiriminaja/head.webp"
+                    src="/images/blog/kiriminaja/head3.jpg"
                     className="w-96 hidden md:flex rounded-xl animate-headShake"
                     alt=""
                   />
@@ -200,9 +200,17 @@ const Kirim = () => {
                       perekonomian Indonesia.
                     </h1>
                     <h1 className="text-xl md:text-2xl mt-2">
-                      KiriminAja, agregator logistik yang berikan kemudahan
-                      untuk pengiriman paket COD & Non COD. Kembangkan bisnis
-                      Anda sekarang!
+                      <a
+                        href="https://kiriminaja.com"
+                        target="_blank"
+                        rel="noreferrer"
+                        className="underline text-new"
+                      >
+                        KiriminAja
+                      </a>{" "}
+                      , agregator logistik yang berikan kemudahan untuk
+                      pengiriman paket COD & Non COD. Kembangkan bisnis Anda
+                      sekarang!
                     </h1>
                   </div>
                 </div>
@@ -231,14 +239,19 @@ const Kirim = () => {
               </div>
             </div>
             <div className="flex items-center justify-center mt-4">
-              <img loading="lazy" src="/images/blog/kiriminaja/snake.png" className="w-96" alt="" />
+              <img
+                loading="lazy"
+                src="/images/blog/kiriminaja/snake.png"
+                className="w-80 md:w-96"
+                alt=""
+              />
             </div>
             {/* <div className="bg-gradient-to-r from-white to-primary w-96 h-96 rounded-full absolute blur-2xl -z-10 -right-40"></div> */}
             <div className="md:px-[125px] text-xl px-4 md:text-xl mt-10 space-y-4">
               <div className="flex flex-col justify-center items-center">
                 <img
                   src="/images/blog/kiriminaja/chart.png"
-                  className="w-full px-20 rounded-[100px]"
+                  className="md:w-full  md:px-20 rounded-xl md:rounded-[100px]"
                   alt=""
                 />
                 <h1 className="text-sm">
@@ -271,11 +284,18 @@ const Kirim = () => {
                 dari jasa kirim maupun kurir.
               </h1>
               <div className="md:flex space-x-2 items-center">
-                <img
-                  src="/images/blog/kiriminaja/user.png"
-                  className="w-40 rounded-full border-4 border-new"
-                  alt=""
-                />
+                <div>
+                  <div className="flex md:flex-none items-center justify-center">
+                    <img
+                      src="/images/blog/kiriminaja/user.png"
+                      className="w-40 rounded-full border-4 border-new"
+                      alt=""
+                    />
+                  </div>
+                  <h1 className="text-center text-sm w-60 ml-16 md:ml-0">
+                    Ilustrasi Konsumen | Foto: Unsplash.com/Hobi industri{" "}
+                  </h1>
+                </div>
                 <h1>
                   Banyak konsumen yang cenderung tak ingin mengurus pembayaran
                   lebih rumit. Sesuai kebutuhannya, pembeli/konsumen akan
@@ -300,7 +320,7 @@ const Kirim = () => {
               <div className="flex flex-col  items-center justify-center">
                 <img
                   src="/images/blog/kiriminaja/chart2.png"
-                  className="rounded-[100px] w-[700px]"
+                  className="rounded-xl md:rounded-[100px] w-[700px]"
                   alt=""
                 />
                 <h1 className="text-sm">
@@ -731,6 +751,7 @@ const Kirim = () => {
                 <div className="flex items-center justify-center">
                   <AiFillLike className="text-white text-6xl animate-wiggle" />
                 </div>
+
                 <div className="mt-10">
                   <div className="flex">
                     <img
@@ -744,6 +765,13 @@ const Kirim = () => {
                     </h1>
                   </div>
                 </div>
+              </div>
+              <div className="flex items-center mt-5 justify-center">
+                <img
+                  className="w-[800px] rounded-xl"
+                  src="/images/blog/kiriminaja/head2.jpg"
+                  alt=""
+                />
               </div>
             </div>
             <div className="relative  text-slate-700  text-2xl px-4 md:px-16">
@@ -767,40 +795,51 @@ const Kirim = () => {
                 </h1>
               </div>
 
-              <div className=" mt-6 text-new items-center space-x-2">
-                <h1 className="text-center">Referensi:</h1>
-                <div className="flex justify-center">
-                  <a
-                    className=" underline"
-                    href="https://kiriminaja.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    KiriminAja{" "}
-                  </a>
-                  <BsBoxArrowInUpRight className="animate-bounce" />
-                </div>
-                <div className="flex justify-center">
-                  <a
-                    className=" underline"
-                    href="https://databoks.katadata.co.id/datapublish/2022/12/19/survei-mayoritas-pelaku-usaha-e-commerce-di-indonesia-gunakan-pembayaran-tunai-cod"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Databoks Katadata{" "}
-                  </a>
-                  <BsBoxArrowInUpRight className="animate-bounce" />
-                </div>
-                <div className="flex justify-center">
-                  <a
-                    className=" underline"
-                    href="https://dataindonesia.id/ekonomi-digital/detail/pengguna-ecommerce-ri-diproyeksi-capai-19647-juta-pada-2023"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Data Indonesia
-                  </a>
-                  <BsBoxArrowInUpRight className="animate-bounce" />
+              <div className=" mt-6 text-new items-center space-x-2 mb-5">
+                <div className="md:flex items-center justify-center gap-3">
+                  <div>
+                    <img
+                      src="/images/blog/kiriminaja/head2.jpg"
+                      className="w-[700px] rounded-lg"
+                      alt=""
+                    />
+                  </div>
+                  <div>
+                    <h1 className="text-center">Referensi:</h1>
+                    <div className="flex justify-center">
+                      <a
+                        className=" underline"
+                        href="https://kiriminaja.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        KiriminAja{" "}
+                      </a>
+                      <BsBoxArrowInUpRight className="animate-bounce" />
+                    </div>
+                    <div className="flex justify-center">
+                      <a
+                        className=" underline"
+                        href="https://databoks.katadata.co.id/datapublish/2022/12/19/survei-mayoritas-pelaku-usaha-e-commerce-di-indonesia-gunakan-pembayaran-tunai-cod"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Databoks Katadata{" "}
+                      </a>
+                      <BsBoxArrowInUpRight className="animate-bounce" />
+                    </div>
+                    <div className="flex justify-center">
+                      <a
+                        className=" underline"
+                        href="https://dataindonesia.id/ekonomi-digital/detail/pengguna-ecommerce-ri-diproyeksi-capai-19647-juta-pada-2023"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Data Indonesia
+                      </a>
+                      <BsBoxArrowInUpRight className="animate-bounce" />
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className="flex justify-center">
