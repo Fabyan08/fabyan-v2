@@ -1,6 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { AiOutlineArrowUp } from "react-icons/ai";
+import { AiOutlineArrowUp, AiFillLike } from "react-icons/ai";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -231,7 +231,7 @@ const Kirim = () => {
               </div>
             </div>
             <div className="flex items-center justify-center mt-4">
-              <img loading="lazy" src="/images/blog/detail/line1.png" alt="" />
+              <img loading="lazy" src="/images/blog/kiriminaja/snake.png" className="w-96" alt="" />
             </div>
             {/* <div className="bg-gradient-to-r from-white to-primary w-96 h-96 rounded-full absolute blur-2xl -z-10 -right-40"></div> */}
             <div className="md:px-[125px] text-xl px-4 md:text-xl mt-10 space-y-4">
@@ -469,460 +469,344 @@ const Kirim = () => {
                     </h1>
                   </div>
                   <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
-                    <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
+                    <div className="bg-white mx-5 text-sm mt-2 text-new text-center rounded-lg font-bold">
+                      <h1>Sistem Pengiriman dengan Jangkauan Terluas</h1>
                     </div>
-                    <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
+                    <h1 className="px-5 mt-4 text-[17px] text-center">
+                      Tak perlu bingung memilih, KiriminAja memiliki lebih dari
+                      15 kurir yang tersebar di seluruh area dengan destinasi
+                      yang terbuka sangat luas untuk pengiriman.
                     </h1>
                   </div>
                   <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                     <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
+                      <h1>Pembayaran Digital yang Memudahkan</h1>
                     </div>
                     <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
+                      Cukup sat set, pembayaran yang kamu lakukan di KiriminAja
+                      bisa dilakukan secara online lho.
                     </h1>
                   </div>
                   <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                     <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
+                      <h1>Layanan Kurir yang Cepat</h1>
                     </div>
-                    <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
+                    <h1 className="px-5 text-[16px] mt-4 text-center">
+                      Layanan kurir seperti seperti pengiriman bisa dilakukan
+                      secara instan dan di hari yang sama. Ataupun kamu bisa
+                      memilih regular/ekonomis/kargo juga.
                     </h1>
                   </div>
                   <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                     <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
+                      <h1>Sistem Otomatis dan Terintegrasi</h1>
                     </div>
-                    <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
+                    <h1 className="px-5 mt-4 text-[17px] text-center">
+                      Layaknya berikan kemudahan, sistem cetak resi, tracking,
+                      hingga laporan bisa kamu dapatkan secara lengkap dan
+                      pastinya langsung karena sudah otomatis.
                     </h1>
                   </div>
-                
-               
                 </div>
               </div>
               <div className="flex items-center justify-center">
                 <div className="md:flex space-y-2 md:space-y-0  md:space-x-5 justify-center">
                   <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                     <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
+                      <h1>Kemudahan Integrasi</h1>
                     </div>
-                    <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
+                    <h1 className="px-5 mt-4 text-[17px] text-center">
+                      Ingin menggunakannya lebih baik, pasti ada pilihanmu untuk
+                      integrasi. Tak perlu khawatir, integrasi di KiriminAja
+                      sangat mudah dengan adanya dokumentasi yang diberikan.
                     </h1>
                   </div>
                   <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                     <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
+                      <h1>Paket Pickup dan Dropoff Tanpa “Pilih Kasih”</h1>
                     </div>
                     <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
+                      Tanpa “pilih kasih” maksudnya yaitu semuanya bisa
+                      pickup/drop off di tempat yang kamu inginkan.
                     </h1>
                   </div>
                   <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                     <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
+                      <h1>Pilihan Service Kurir yang Handal</h1>
                     </div>
                     <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
+                      Kemudahan buat kamu pilih kurir hanya dari 1 platform
+                      saja!
                     </h1>
                   </div>
-                  <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
-                    <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
-                    </div>
-                    <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
-                    </h1>
-                  </div>
-                  <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
-                    <div className="bg-white mx-5 mt-2 text-new text-center rounded-lg font-bold">
-                      <h1>Full Support 24/7</h1>
-                    </div>
-                    <h1 className="px-5 mt-4 text-center">
-                      Support yang dihadirkan oleh KiriminAja tak main-main,
-                      bahkan kamu dapat memanfaatkan bantuan atau support ini
-                      tiap hari 24/7 lho!
-                    </h1>
-                  </div>
-                
-               
                 </div>
               </div>
-            
-              <h1>
-                Mengutip informasi resmi Bank Indonesia. Singkatnya,{" "}
-                <b>
-                  {" "}
-                  QRIS Cross-Border adalah suatu fitur/program terbaru yang
-                  dihadirkan oleh Bank Indonesia agar kamu bisa melakukan
-                  transaksi lintas negara dengan lebih mudah dan proses yang
-                  cepat hanya dengan gawai saja.{" "}
-                </b>
-                Hal ini tentunya untuk turut mewujudkan perkembangan ekonomi
-                digital yang lebih baik.
-              </h1>
-              <div className="md:flex justify-center space-y-5 md:space-y-0 md:space-x-20">
-                <img
-                  data-aos="fade-right"
-                  loading="lazy"
-                  src="/images/blog/detail/kerjasama.png"
-                  className="w-96 rounded-lg"
-                  alt=""
-                />
-                <img
-                  data-aos="fade-left"
-                  loading="lazy"
-                  src="/images/blog/detail/pidato.png"
-                  className="w-96 rounded-lg"
-                  alt=""
-                />
-              </div>
-              <h1 className="text-sm text-center ">
-                (Potret kerja sama <i> QRIS Cross-Border </i> antara Indonesia,
-                Malaysia, Filipina, Singapura, dan Thailand | Foto: Dokumentasi
-                Bank Indonesia)
-              </h1>
-              <h1>
-                Sebagaimana informasi yang dikutip dari sumber resmi yang
-                disediakan Bank Indonesia, saat ini kolaborasi antara Malaysia
-                atau Bank Negara Malaysia (BNM) jadi awal yang baik bagi QRIS
-                Cross-Border. Thailand juga jadi salah satu negara yang sudah
-                menerapkan inovasi terbaru ini lho. Tak berhenti sampai di situ,
-                masih akan terdapat Singapura dan Filipina yang dibidik oleh
-                Bank Indonesia sebagai upaya penguatan inovasi ekonomi digital
-                antar negara ASEAN.
-              </h1>
-              <h1>
-                Percobaan pun juga telah dilakukan antara Malaysia dan Thailand.
-                Tak dapat dipungkiri, bahwa adanya <i>QRIS Cross-Border</i> ini
-                mampu meningkatkan efisiensi dalam bertransaksi hingga mampu
-                mendukung pesat digitalisasi keuangan. Tak lupa juga, mampu
-                memperluas transaksi dengan mata uang lokal (LCS).
-              </h1>
+
               <div className="flex items-center">
                 <div>
                   <img
                     loading="lazy"
-                    src="/images/blog/detail/think2.png"
+                    src="/images/blog/kiriminaja/sell.png"
                     className="w-40"
                     alt=""
                   />
                 </div>
                 <div className="flex  space-x-4 items-center">
                   <h1 className="text-2xl md:text-4xl font-bold">
-                    Masih Bingung? Cek Contohnya Yuk!
+                    Sebagai seorang penjual, kenapa kamu harus memilih
+                    <span className="text-new"> KiriminAja? </span>{" "}
                   </h1>
                   <AiOutlineArrowDown className="animate-bounce" />
                 </div>
               </div>
               <h1>
-                Anggaplah dirimu seorang wisatawan yang pergi berlibur ke luar
-                negeri dan ingin membeli oleh-oleh atau makanan dari UMKM di
-                sana. Kamu tak ingin ambil pusing masalah pembayaran dan
-                menemukan bahwa UMKM lokal di sana sudah turut serta menggunakan
-                <i>QRIS Cross-Border</i>.
+                Melihat semakin berkembangnya usaha, lebih-lebih itu secara
+                online. Tak dapat dihiraukan aliran uang akan berjalan cepat
+                hingga rasanya kamu tak sanggup untuk mendatanya agar bisa
+                mengetahui keuntungan hingga kerugian yang didapat. Fitur
+                cashflow di KiriminAja bakal bantuin kamu nih buat ngelakuin
+                itu, jadi ga perlu repot-repot lagi dehh! Selain itu bakal
+                banyak lagi keuntungan buat kamu:
               </h1>
-              <h1 className="text-right">
-                Maka kamu cukup <i>tap</i> atau <i>scan QR</i> ~ secara otomatis
-                saldo kamu akan terkonversi sesuai dengan mata pembayaran lokal
-                serta bisa langsung masuk ke rekening penjual lho, fitur keren
-                yang dimiliki QRIS!
-              </h1>
-
-              <div className="flex justify-end items-center">
-                <h1 className="text-2xl md:text-4xl font-bold">
-                  Masih Bingung Juga? Begini Cara Pakainya!
-                </h1>
-                <img
-                  loading="lazy"
-                  src="/images/blog/detail/money.png"
-                  className="w-40"
-                  alt=""
-                />
-              </div>
-              <div className="flex items-center space-x-2">
-                <LiaArrowAltCircleRightSolid className="w-10 md:w-6" />
-                <h1>
-                  {" "}
-                  Buka aplikasi pembayaran yang kamu gunakan untuk melakukan
-                  transaksi dengan QRIS
-                </h1>
-              </div>
-              <div className="flex items-center space-x-2">
-                <LiaArrowAltCircleRightSolid />
-                <h1> Scan QR code</h1>
-              </div>
-              <div className="flex items-center space-x-2">
-                <LiaArrowAltCircleRightSolid className="w-10 md:w-6" />
-                <h1>
-                  Masukkan nominal dalam bentuk mata uang negara yang kamu
-                  kunjungi
-                </h1>
-              </div>
-              <div className="flex items-center space-x-2">
-                <LiaArrowAltCircleRightSolid />
-                <h1> Konfirmasi tujuan dan nominal dalam rupiah</h1>
-              </div>
-              <div className="flex items-center space-x-2">
-                <LiaArrowAltCircleRightSolid />
-                <h1> Masukkan pin</h1>
-              </div>
-              <div className="flex items-center space-x-2">
-                <LiaArrowAltCircleRightSolid />
-                <h1> Berhasil deh!</h1>
-              </div>
-              <div className="mt-10">
-                <h1 className="font-bold text-3xl mt-10">
-                  Nah, sekarang kamu sudah tahu kan apa itu{" "}
-                  <i>QRIS Cross-Border</i> dan kegunaannya?
-                </h1>
-              </div>
-              <div className="mt-10">
-                <div className="relative">
-                  <div className="bg-primary w-full h-full p-4 rounded-xl text-white font-semibold">
-                    <h1>
-                      Kesimpulannya, pertumbuhan digitalisasi bidang ekonomi
-                      layaknya menghubungkan konektivitas tiap negara agar turut
-                      berkembang, Indonesia menjadi salah satu pelopor melalui
-                      sistem pembayaran <i>QRIS Cross-Border</i> hinga dapat
-                      terselaraskan antar negara-negara ASEAN.
+              <div className="flex items-center justify-center">
+                <div className="mt-2 md:flex space-y-5 md:space-y-0 md:space-x-10 items-center justify-center">
+                  <div className="bg-new hover:scale-110 duration-150 w-80 h-40 rounded-lg">
+                    <h1 className="bg-neww text-white rounded-lg w-fit p-2 -mt-2 -ml-2">
+                      COD Advance
                     </h1>
-                    <h1 className="mt-5">
-                      <i>QRIS Cross-Border</i> berusaha untuk menciptakan sistem
-                      ekonomi internasional yang digital serta berkolaborasi
-                      antar negara ASEAN untuk memudahkan kamu melakukan
-                      transaksi lintas negara dengan cepat dan tanpa perlu cara
-                      yang rumit!
+                    <h1 className="p-2 text-white -mt-2">
+                      Pencairan dana lebih cepat, bahkan bisa cair maksimal 50%
+                      dahulu di depan Ketika paket dalam proses kurir.
                     </h1>
                   </div>
-                  <hr className="w-[2000px] top-32 -ml-32 border-8 border-primary absolute -z-10  " />
+                  <div className="bg-new w-80 hover:scale-110 duration-150 h-40 rounded-lg">
+                    <h1 className="bg-neww text-white rounded-lg w-fit p-2 -mt-2 -ml-2">
+                      Pencairan Dana 24/7
+                    </h1>
+                    <h1 className="p-2 text-white -mt-2">
+                      Tanpa batas waktu, kamu bisa melakukan pencairan dana tiap
+                      hari sesuai yang diinginkan.
+                    </h1>
+                  </div>
+                  <div className="bg-new w-80 hover:scale-110 duration-150 h-40 rounded-lg">
+                    <h1 className="bg-neww text-white rounded-lg w-fit p-2 -mt-2 -ml-2">
+                      Sistem Real Monitoring{" "}
+                    </h1>
+                    <h1 className="p-2 text-white text-[13px] -mt-2">
+                      Menghindari adanya hal yang tak kamu inginkan, sistem
+                      monitoring akan meminimalisir hal tersebut sehingga kurir
+                      bisa follow-up jika terjadi kesalahan apapun.
+                    </h1>
+                  </div>
+                  <div className="bg-new w-80 hover:scale-110 duration-150 h-40 rounded-lg">
+                    <h1 className="bg-neww text-[15px] text-white rounded-lg w-fit p-2 -mt-2 -ml-2">
+                      Pencairan Pembayaran COD Cepat{" "}
+                    </h1>
+                    <h1 className="p-2 text-white text-[15px] -mt-2">
+                      Dengan sistem barang sampai di customer, maka saldomu bisa
+                      langsung cair!
+                    </h1>
+                  </div>
                 </div>
+              </div>
+              <div className="flex items-center justify-center">
+                <div className="mt-2 md:flex space-y-5 md:space-y-0 md:space-x-10 items-center justify-center">
+                  <div className="bg-new w-80 hover:scale-110 duration-150 h-40 rounded-lg">
+                    <h1 className="bg-neww text-white rounded-lg w-fit p-2 -mt-2 -ml-2">
+                      Adanya Laporan{" "}
+                    </h1>
+                    <h1 className="p-2 text-[15px] text-white -mt-2">
+                      Sistem laporan yang actual jadi kemudahan untuk kamu
+                      menganalisis segala hal yang berhubungan dengan biaya
+                      hingga kurir dan jasa kirim.
+                    </h1>
+                  </div>
+                  <div className="bg-new w-80 hover:scale-110 duration-150 h-40 rounded-lg">
+                    <h1 className="bg-neww text-white rounded-lg w-fit p-2 -mt-2 -ml-2">
+                      Selalu di-Support!{" "}
+                    </h1>
+                    <h1 className="p-2 text-white -mt-2">
+                      Tak perlu ragu jika butuh bantuan, tim support siap bantu
+                      dan memaksimalkan paket bisa terkirim dengan baik.
+                    </h1>
+                  </div>
+                </div>
+              </div>
+
+              <div className="mt-1 space-y-6">
+                <h1>
+                  <span className="text-7xl">Eitss..</span> Ternyata ga cuma itu
+                  aja lho, demi kontribusi perekonomian yang lebih baik, ada
+                  juga nih KiriminAja Plus yang dapat kamu coba secara gratis.
+                  Di sini, kamu bisa mengetahui lebih dalam dan mengelola hingga
+                  proses pengiriman hanya dengan 1 platform. Mulai dari
+                  kemudahan pengiriman dan akses gudang, cashflow, integrasi,
+                  hingga hubuungan dengan pelanggan yang memiliki nilai lebih
+                  tinggi.
+                </h1>
+                <h1>
+                  Jadi dengan fitur tambahan ini, kamu bisa mempercepat
+                  pengelolaan transaksi. Pastinya lebih mudah juga. Dengan
+                  slogannya “Bangun.Kelola.Kembangkan” yang bisa kamu coba
+                  dahulu secara gratis dan akses tools dan service memudahkan
+                  yang disedikan. Klik{" "}
+                  <span className="text-new underline">
+                    <a
+                      target="_blank"
+                      rel="noreferrer"
+                      href="https://kiriminajaplus.com/"
+                    >
+                      di Sini!
+                    </a>
+                  </span>
+                </h1>
               </div>
             </div>
 
             <div className="md:-mt-20 w-full">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path
-                  fill="#6DA9E4"
-                  // fill-opacity="1"
-                  d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                  fill="#8F47D1"
+                  fillOpacity="1"
+                  d="M0,288L60,266.7C120,245,240,203,360,181.3C480,160,600,160,720,149.3C840,139,960,117,1080,133.3C1200,149,1320,203,1380,229.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
                 ></path>
               </svg>
             </div>
-
-            <div className="bg-primary -mt-[1px] w-full h-full pb-20 rounded-b-[40px] px-6 md:px-16">
+            <div className="bg-new  -mt-[1px] w-full h-full pb-20 rounded-b-[40px] px-6 md:px-16">
               <h1 className="md:text-4xl text-2xl font-bold text-white">
-                Ketahui Lebih Dalam Tentang <i>QRIS Cross-Border</i>!
+                Tampilan Keren Aplikasi KiriminAja!
               </h1>
-              <div className="pt-10 md:pt-20 md:flex ">
-                <div>
+              <div className="flex md:flex-none md:items-start md:justify-start justify-center">
+                <div className="pt-10 md:pt-20 md:flex w-60 items-center space-y-5 md:space-y-0 md:space-x-10">
                   <img
-                    loading="lazy"
-                    src="/images/blog/detail/dok1.png"
-                    className="w-[450px] rounded-xl"
+                    src="/images/blog/kiriminaja/beranda.jpg"
+                    className="rounded-lg hover:shadow-lg hover:-translate-y-2 duration-150 hover:shadow-white"
+                    alt=""
+                  />
+                  <img
+                    src="/images/blog/kiriminaja/beranda2.jpg"
+                    className="rounded-lg hover:shadow-lg hover:-translate-y-2 duration-150 hover:shadow-white"
+                    alt=""
+                  />
+                  <img
+                    src="/images/blog/kiriminaja/beranda3.jpg"
+                    className="rounded-lg hover:shadow-lg hover:-translate-y-2 duration-150 hover:shadow-white"
+                    alt=""
+                  />
+                  <img
+                    src="/images/blog/kiriminaja/paket.jpg"
+                    className="rounded-lg hover:shadow-lg hover:-translate-y-2 duration-150 hover:shadow-white"
+                    alt=""
+                  />
+                  <img
+                    src="/images/blog/kiriminaja/bantuan.jpg"
+                    className="rounded-lg hover:shadow-lg hover:-translate-y-2 duration-150 hover:shadow-white"
                     alt=""
                   />
                 </div>
-                <div className="flex-col justify-center hidden md:flex space-y-40 mx-5  text-white text-4xl">
-                  <BsArrowBarLeft className="animate-bounce" />
-                  <BsArrowBarRight className="animate-bounce" />
-                </div>
-                <div className="md:flex hidden flex-col justify-between">
-                  <iframe
-                    className="rounded-lg"
-                    width="900"
-                    height="540"
-                    src="https://www.youtube.com/embed/LnwvhuUxuVQ"
-                  ></iframe>
-                  <h1 className="text-white text-center text-2xl font-bold">
-                    QRIS (QR Code Indonesia Standard)
-                  </h1>
-                </div>
-                <div className="md:hidden flex-col mt-4 md:mt-0 justify-between">
-                  <iframe
-                    className="rounded-lg"
-                    width="300"
-                    height="190"
-                    src="https://www.youtube.com/embed/LnwvhuUxuVQ"
-                  ></iframe>
-                  <h1 className="text-white text-center text-2xl font-bold">
-                    QRIS (QR Code Indonesia Standard)
-                  </h1>
-                </div>
               </div>
-
-              <div className="pt-4 md:pt-16 space-y-2">
-                <div className=" justify-center space-x-4">
-                  <Swiper
-                    slidesPerView={1.4}
-                    spaceBetween={30}
-                    freeMode={true}
-                    pagination={{
-                      clickable: true,
-                    }}
-                    modules={[FreeMode, Pagination]}
-                    className="mySwiper mt-4"
-                  >
-                    <SwiperSlide>
-                      <div className="overflow-hidden aspect-video bg-white cursor-pointer rounded-xl relative group">
-                        <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute  bg-primary border-2 border-white inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                          <div>
-                            <div className=" p-1 md:p-4 space-y-3 text-sm md:text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">
-                              <h1 className="font-semibold text-center md:ml-8">
-                                QRIS untuk pembayaran parkir
-                              </h1>
-                            </div>
-                          </div>
-                        </div>
-                        <img
-                          loading="lazy"
-                          src="/images/blog/detail/guna.png"
-                          className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="overflow-hidden  aspect-video bg-white cursor-pointer rounded-xl relative group">
-                        <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute  bg-primary border-2 border-white inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                          <div>
-                            <div className=" p-1 md:p-4 space-y-3 text-sm md:text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">
-                              <h1 className="font-semibold text-center md:ml-8">
-                                QRIS untuk berbelanja kebutuhan
-                              </h1>
-                            </div>
-                          </div>
-                        </div>
-                        <img
-                          loading="lazy"
-                          src="/images/blog/detail/guna2.png"
-                          className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="overflow-hidden  aspect-video bg-white cursor-pointer rounded-xl relative group">
-                        <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute  bg-primary border-2 border-white inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                          <div>
-                            <div className=" p-1 md:p-4 space-y-3 text-sm md:text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">
-                              <h1 className="font-semibold text-center md:ml-8">
-                                QRIS untuk pembelian tiket event
-                              </h1>
-                            </div>
-                          </div>
-                        </div>
-                        <img
-                          loading="lazy"
-                          src="/images/blog/detail/guna3.png"
-                          className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="overflow-hidden  aspect-video bg-white cursor-pointer rounded-xl relative group">
-                        <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute  bg-primary border-2 border-white inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                          <div>
-                            <div className=" p-1 md:p-4 space-y-3 text-sm md:text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">
-                              <h1 className="font-semibold text-center md:ml-8">
-                                QRIS untuk infak/berbagi
-                              </h1>
-                            </div>
-                          </div>
-                        </div>
-                        <img
-                          loading="lazy"
-                          src="/images/blog/detail/guna4.png"
-                          className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="overflow-hidden  aspect-video bg-white cursor-pointer rounded-xl relative group">
-                        <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute  bg-primary border-2 border-white inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                          <div>
-                            <div className=" p-1 md:p-4 space-y-3 text-sm md:text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">
-                              <h1 className="font-semibold text-center md:ml-8">
-                                QRIS untuk pembayaran PKB
-                              </h1>
-                            </div>
-                          </div>
-                        </div>
-                        <img
-                          loading="lazy"
-                          src="/images/blog/detail/guna5.png"
-                          className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide>
-                      <div className="overflow-hidden  aspect-video bg-white cursor-pointer rounded-xl relative group">
-                        <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute  bg-primary border-2 border-white inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                          <div>
-                            <div className=" p-1 md:p-4 space-y-3 text-sm md:text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10  transition duration-300 ease-in-out">
-                              <h1 className="font-semibold text-center md:ml-8">
-                                QRIS untuk melakukan pembayaran
-                              </h1>
-                            </div>
-                          </div>
-                        </div>
-                        <img
-                          loading="lazy"
-                          src="/images/blog/detail/guna6.png"
-                          className=" w-full h-full aspect-square group-hover:scale-110 transition duration-300 ease-in-out"
-                          alt=""
-                        />
-                      </div>
-                    </SwiperSlide>
-                  </Swiper>
+              <div className="md:flex md:items-center md:justify-center md:space-x-10">
+                <div className="mt-6 bg-white text-slate-600 w-[full] md:w-[1000px] space-y-5 rounded-xl text-2xl p-2">
+                  <h1>
+                    Sebagai seseorang yang berkecimpung di dunia IT, saya
+                    menilai tampilan di aplikasi tampak sangat baik dengan
+                    perpaduan warna yang sangat bagus. Semua menu disajikan
+                    dengan pas dan diberikan keterangan yang sesuai. Selain itu,
+                    cara pengoperasiannya mudah dan gampang dimengerti baik bagi
+                    pemula sekalipun.
+                  </h1>
+                  <h1>
+                    Bahkan jika kamu tak mengerti, ada tiket bantuan yang dapat
+                    kamu gunakan untuk bertanya yang kamu ingin ketahui lebih
+                    lanjut.
+                  </h1>
+                  <h1>
+                    Selain itu, menariknya kamu juga bisa diberikan promo
+                    voucher diskon lho! Melalui WhatsApp, saya bahkan pernah
+                    mendapatkannya dan saya rasa hal ini sangat menambah
+                    ketertarikan dalam penggunaan aplikasi kirim paket #1 di
+                    Indonesia ini.
+                  </h1>
+                </div>
+                <div className="flex items-center justify-center">
+                  <AiFillLike className="text-white text-6xl animate-wiggle" />
+                </div>
+                <div className="mt-10">
+                  <div className="flex">
+                    <img
+                      src="/images/blog/kiriminaja/promo.jpg"
+                      className="w-60 rounded-xl  border-8 border-neww"
+                      alt=""
+                    />
+                    <h1 className="bg-white h-fit rounded-xl pt-4 pl-2 md:p-2 -ml-4">
+                      Tak terduga-duga, kamu juga bisa jadi akan mendapatkan
+                      diskon untuk layanan di KiriminAja lho!
+                    </h1>
+                  </div>
                 </div>
               </div>
             </div>
-            <div className="relative  text-center  text-slate-700 font-semibold text-2xl md:text-4xl">
-              <div className="mt-4 flex justify-center">
-                <h1>QRISnya satu, menangnya banyak!</h1>
+            <div className="relative  text-slate-700  text-2xl px-4 md:px-16">
+              <div className="mt-4 space-y-5">
+                <h1>
+                  Buat kamu yang tertarik mendapatkan keuntungan yang
+                  berlipat-lipat dengan penawaran solusi inovatif ini, kamu
+                  sangat bisa lho untuk men-downloadnya sekarang melalui Play
+                  Store ataupun App Store dengan gratis. Kapan lagi bisa
+                  mendapatkan fitur lengkap hanya dengan modal “niat”? Semua
+                  keperluan untuk menjalankan bisnismu pasti dapat diselesain
+                  dengan lebih mudah nih!
+                </h1>
+                <h1>
+                  Gaperlu ragu lagi, KiriminAja bahkan memiliki komitmen untuk
+                  terus berkontribusi baik pada sistemm perekonomina Indonesia,
+                  solusi yang inovatif dengan memberikan kemudahan ini dapat
+                  membuat pebisnis online di era digital 4.0 saat ini
+                  mengembangkan bisnisnya lebih optimal. Kamu kapan mau
+                  berkembang?
+                </h1>
               </div>
-              <div className="flex justify-center">
-                <h1>participant of BI Digital Content Competition 2023</h1>
-              </div>
-              <div className="flex justify-center mt-6 text-primary items-center space-x-2">
-                <a
-                  className=" underline"
-                  href="https://bi-digitalcompetition.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  bi-digitalcompetition.com
-                </a>
-                <BsBoxArrowInUpRight className="animate-bounce" />
+
+              <div className=" mt-6 text-new items-center space-x-2">
+                <h1 className="text-center">Referensi:</h1>
+                <div className="flex justify-center">
+                  <a
+                    className=" underline"
+                    href="https://kiriminaja.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    KiriminAja{" "}
+                  </a>
+                  <BsBoxArrowInUpRight className="animate-bounce" />
+                </div>
+                <div className="flex justify-center">
+                  <a
+                    className=" underline"
+                    href="https://databoks.katadata.co.id/datapublish/2022/12/19/survei-mayoritas-pelaku-usaha-e-commerce-di-indonesia-gunakan-pembayaran-tunai-cod"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Databoks Katadata{" "}
+                  </a>
+                  <BsBoxArrowInUpRight className="animate-bounce" />
+                </div>
+                <div className="flex justify-center">
+                  <a
+                    className=" underline"
+                    href="https://dataindonesia.id/ekonomi-digital/detail/pengguna-ecommerce-ri-diproyeksi-capai-19647-juta-pada-2023"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Data Indonesia
+                  </a>
+                  <BsBoxArrowInUpRight className="animate-bounce" />
+                </div>
               </div>
               <div className="flex justify-center">
                 <img
                   loading="lazy"
-                  src="/images/blog/detail/foot.png"
+                  src="/images/blog/kiriminaja/z.png"
                   className="w-[500px]"
                   alt=""
                 />
