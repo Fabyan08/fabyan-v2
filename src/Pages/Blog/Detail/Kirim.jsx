@@ -2,30 +2,38 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { AiOutlineArrowUp, AiFillLike } from "react-icons/ai";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
-import { BsArrowBarLeft, BsArrowBarRight } from "react-icons/bs";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
-import { FreeMode, Pagination } from "swiper/modules";
 
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { BsArrowLeftShort } from "react-icons/bs";
 import { Link } from "react-router-dom";
-import { LiaArrowAltCircleRightSolid } from "react-icons/lia";
 import Loading from "../../../Components/Loading";
 import { useEffect, useState } from "react";
 const Kirim = () => {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    // Lakukan logika async untuk persiapan aplikasi Anda di sini
+    // Setelah semua persiapan selesai, atur isLoading menjadi false
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 500);
+  }, []);
   useEffect(() => {
     AOS.init();
     once: true;
   }, []);
   return (
     <>
+     {isLoading ? (
+        <Loading />
+      ) : (
       <main>
         <div>
           <img
@@ -231,7 +239,7 @@ const Kirim = () => {
                   inovasi untuk kemudahan masyarakat pastinya. Kamu tahu ga sih,
                   menurut dataindonesia.id, jumlah pengguna e-commerce di
                   Indonesia meledak-ledak lho. Diprediksi bakal ada 196,47 juta
-                  pengguna dan it uterus bertambah. Tak heran jika bisnis online
+                  pengguna dan itu terus bertambah. Tak heran jika bisnis online
                   shop atau e-commerce terbilang menjanjikan. Terlebih banyak
                   kini berterbaran binis online yang dilakukan hanya dari rumah
                   dengan mengandalkan jaringan internet.
@@ -315,7 +323,7 @@ const Kirim = () => {
                 transfer bank (12,57%), e-walllet (2,24%), dan kartu kredit
                 (2,08%). Data tersebut didapatkan dari e-commerce sebanyak
                 15.677 sampel yang tersebar di 34 provinsi dan 159
-                kabupaten/kota di tahun lalu.
+                kabupaten/kota.
               </h1>
               <div className="flex flex-col  items-center justify-center">
                 <img
@@ -573,7 +581,7 @@ const Kirim = () => {
                 </div>
                 <div className="flex  space-x-4 items-center">
                   <h1 className="text-2xl md:text-4xl font-bold">
-                    Sebagai seorang penjual, kenapa kamu harus memilih
+                    Sebagai seorang pebisnis, kenapa kamu harus memilih
                     <span className="text-new"> KiriminAja? </span>{" "}
                   </h1>
                   <AiOutlineArrowDown className="animate-bounce" />
@@ -661,7 +669,7 @@ const Kirim = () => {
                   Di sini, kamu bisa mengetahui lebih dalam dan mengelola hingga
                   proses pengiriman hanya dengan 1 platform. Mulai dari
                   kemudahan pengiriman dan akses gudang, cashflow, integrasi,
-                  hingga hubuungan dengan pelanggan yang memiliki nilai lebih
+                  hingga hubungan dengan pelanggan yang memiliki nilai lebih
                   tinggi.
                 </h1>
                 <h1>
@@ -790,7 +798,7 @@ const Kirim = () => {
                   terus berkontribusi baik pada sistemm perekonomina Indonesia,
                   solusi yang inovatif dengan memberikan kemudahan ini dapat
                   membuat pebisnis online di era digital 4.0 saat ini
-                  mengembangkan bisnisnya lebih optimal. Kamu kapan mau
+                  mengembangkan bisnisnya lebih optimal. Bisnismu kapan mau
                   berkembang?
                 </h1>
               </div>
@@ -865,6 +873,7 @@ const Kirim = () => {
           </div>
         </div>
       </main>
+      )}
     </>
   );
 };

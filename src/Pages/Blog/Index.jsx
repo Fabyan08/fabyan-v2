@@ -166,25 +166,66 @@ const Blog = () => {
                   <FiArrowRight />
                 </div>
 
+                <div className="mt-10 md:hidden space-y-4">
+                  <Link to="/detail/kirimin-aja-indonesia-72927">
+                    <img
+                      src="/images/blog/kiriminaja/head1.jpg"
+                      className="rounded-lg -ml-2"
+                      alt=""
+                    />
+                    <div className="flex space-x-4">
+                      <a className="text-new font-bold">Featured</a>
+                      <h1>∙</h1>
+                      <div className="flex space-x-1 items-center">
+                        <BiTimeFive />
+                        <h1>7 November 2023</h1>
+                      </div>
+                    </div>
+                    <Link
+                      to="/detail/kirimin-aja-indonesia-72927"
+                      className="font-bold text-5xl hover:text-new"
+                    >
+                      Makin Terhubung Pakai KiriminAja....
+                    </Link>
+                    <div className="flex mt-2 md:mt-0 bg-new w-fit h-fit items-center text-center text-white text-xl hover:scale-110 duration-150 hover:bg-white hover:text-new hover:shadow-xl font-bold rounded-full p-2 space-x-2">
+                      <Link to="/detail/kirimin-aja-indonesia-72927">
+                        Read More
+                      </Link>
+                      <FiArrowRight />
+                    </div>
+                  </Link>
+                </div>
+
                 <div className="pt-4 hidden space-x-5 lg:flex items-center">
                   <div>
                     <img
-                      src="/images/blog/detail/nfound.png"
+                      src="/images/blog/kiriminaja/head1.jpg"
                       className="w-60"
                       alt=""
                     />
                   </div>
-                  <div className="">
+                  <div className="space-y-2">
                     <div className="flex space-x-4">
-                      <a className="text-primary font-bold">Technologies</a>
+                      <a className="text-new font-bold">Technologies</a>
                       <h1>∙</h1>
                       <div className="flex space-x-1 items-center">
                         <BiTimeFive />
-                        <h1>2 hr ago</h1>
+                        <h1>7 November 2023</h1>
                       </div>
                     </div>
                     <div className="flex">
-                      <a href="/detail/kirimin-aja-indonesia-72927" className="hover:text-primary font-bold text-3xl">Kirimin Aja</a>{" "}
+                      <a
+                        href="/detail/kirimin-aja-indonesia-72927"
+                        className="hover:text-new font-bold text-3xl"
+                      >
+                        Makin Terhubung Pakai KiriminAja....
+                      </a>{" "}
+                    </div>
+                    <div className="flex mt-2 md:mt-0 bg-new w-fit h-fit items-center text-center text-white text-xl hover:scale-110 duration-150 hover:bg-white hover:text-new hover:shadow-xl font-bold rounded-full p-2 space-x-2">
+                      <Link to="/detail/kirimin-aja-indonesia-72927">
+                        Read More
+                      </Link>
+                      <FiArrowRight />
                     </div>
                   </div>
                 </div>
