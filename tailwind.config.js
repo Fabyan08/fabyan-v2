@@ -182,7 +182,7 @@ export default {
         heartBeat: "heartBeat 1s infinite",
         hflip: "flipHorizontal 2s infinite",
         vflip: "flipVertical 2s infinite",
-        swing: "swing 2s ease-out infinite",
+        swing: "swing 5s ease-out",
         rubberBand: "rubberBand 2s",
         flash: "flash 2s infinite",
         headShake: "headShake 2s infinite",
