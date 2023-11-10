@@ -1,0 +1,12 @@
+.cursor {
+  background-color: black;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+}
+/* 
+* {
+  cursor: none;
+} */

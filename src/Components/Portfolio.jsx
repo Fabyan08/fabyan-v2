@@ -130,8 +130,8 @@ const Portfolio = () => {
               <div className="md:flex items-center md:space-x-5">
                 <div className="bg-gradient-to-r relative  hover:scale-[1.05] duration-150  items-center rounded-xl flex from-green-500 w-fit h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
+                  <hr className="border-2 h-8 absolute bottom-0 ml-[7px]" />
                   <hr className="bg-white absolute rounded-full ml-[1px] h-4 w-4" />
-                  <hr className="border-2 h-8 absolute bottom-0 ml-2" />
                   <div className=" md:text-2xl rounded-xl text-white ml-3">
                     In Production Now!
                   </div>
@@ -260,13 +260,14 @@ const Portfolio = () => {
               <div className="md:flex  items-center md:space-x-5">
                 <div className="bg-gradient-to-r relative hover:scale-[1.05] duration-150  items-center rounded-xl flex from-primary w-fit h-10 p-8 mt-5 to-second">
                   <span className="animate-ping w-4 h-4 rounded-full bg-white"></span>
+                  <hr className="border-2 h-8 absolute bottom-0 ml-[7px]" />
                   <hr className="bg-white absolute rounded-full ml-[1px] h-4 w-4" />
-                  <hr className="border-2 h-8 absolute bottom-0 ml-2" />
                   <div
                     className=" md:text-2xl rounded-xl text-white ml-3"
                     href="https://kodingbareng.vercel.app"
                   >
                     In Production Now!
+                    <h1 className="text-sm">(But Still Under Development)</h1>
                   </div>
 
                   <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">

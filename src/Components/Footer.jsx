@@ -8,8 +8,8 @@ const Footer = () => {
           className="bg-gradient-to-r from-primary via-primary to-primary/80 relative pb-10 w-full h-full "
           id="contact"
         >
-          <div className="flex py-10 text-xl md:text-4xl container text-white font-bold">
-            🤝 Let's get in touch
+          <div className="flex py-10 text-xl md:text-4xl container text-white font-bold ">
+            <span className="animate-wobble">👋🏻</span> Let&apos;s get in touch!
           </div>
           <div className="container -mt-6 md:-mt-0 text-2xl md:text-7xl font-bold text-slate-200">
             <h1>Punya Ide Project Bareng?</h1>
@@ -26,13 +26,15 @@ const Footer = () => {
               />
               <div className="text-white text-lg">
                 <h1>Contact me via</h1>
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-2 hover:text-second hover:scale-110 duration-150 hover:underline">
                   <h1>
                     <BiLogoGmail />
                   </h1>
-                  <h1>yastikafabyan2005@gmail.com</h1>
+                  <a href="mailto:yastikafabyan2005@gmail" target="_blank" rel="noreferrer">
+                    yastikafabyan2005@gmail.com
+                  </a>
                 </div>
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-2 hover:text-second hover:scale-110 duration-150 hover:underline">
                   <h1>
                     <AiOutlineInstagram />
                   </h1>
@@ -42,7 +44,7 @@ const Footer = () => {
                     </a>
                   </h1>
                 </div>
-                <div className="flex items-center space-x-2">
+                <div className="flex items-center space-x-2 hover:text-second hover:scale-110 duration-150 hover:underline">
                   <h1>
                     <AiOutlineInstagram />
                   </h1>
@@ -63,7 +65,8 @@ const Footer = () => {
             </div>
             <div className="mt-20 md:hidden"></div>
             <h1 className="mt-10 hidden md:flex text-white font-semibold text-md md:text-xl">
-              Made using React JS and big effort. Cheers!
+              Made using React JS and big effort. Cheers!{" "}
+              <span className="animate-wiggle">🖐🏻</span>
             </h1>
           </div>
         </div>
