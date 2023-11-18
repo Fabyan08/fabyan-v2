@@ -1,3 +1,4 @@
 body {
   overflow: hidden !important;
+  cursor: url(../cursor.png), auto;
 }

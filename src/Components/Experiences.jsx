@@ -20,7 +20,7 @@ const Experiences = () => {
           {/* Start baru */}
 
           <div className="mt-10 space-y-10">
-            <div className="bg-gradient-to-t relative text-white from-blue-300 to-[#5794f8]  w-[340px] md:w-[1000px] mx-auto  h-full border-4 border-blue-500 rounded-xl">
+            <div className="bg-gradient-to-t relative text-white from-[#5794f8] to-blue-300  w-[340px] md:w-[1000px] mx-auto  h-full border-4 border-blue-500 rounded-xl">
               <div className="md:rounded-xl rounded-lg">
                 <div className="p-6">
                   <div className="flex xl:flex-row xl:gap-0 gap-5 flex-col items-start">
