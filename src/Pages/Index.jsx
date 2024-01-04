@@ -8,34 +8,34 @@ import Certificate from "../Components/Certificate";
 import Footer from "../Components/Footer";
 import { useEffect, useState } from "react";
 import Loading from "../Components/Loading";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 // import {animate}
 import "./cursor.css";
 
 const Index = () => {
-//   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-//   console.log(mousePosition);
+  //   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  //   console.log(mousePosition);
 
-//   useEffect(() => {
-//     const mouseMove = (e) => {
-//       setMousePosition({
-//         x: e.clientX,
-//         y: e.clientY,
-//       });
-//     }
-//     window.addEventListener("mousemove", mouseMove);
-//     return () => {
-//       window.removeEventListener("mousemove", mouseMove);
-//     };
-//   }, []);
+  //   useEffect(() => {
+  //     const mouseMove = (e) => {
+  //       setMousePosition({
+  //         x: e.clientX,
+  //         y: e.clientY,
+  //       });
+  //     }
+  //     window.addEventListener("mousemove", mouseMove);
+  //     return () => {
+  //       window.removeEventListener("mousemove", mouseMove);
+  //     };
+  //   }, []);
 
-// const variants = {
-//   default : {
-//     x : mousePosition.x,
-//     y : mousePosition.y,
-//     backgroundColor : "red",
-//   }
-// }
+  // const variants = {
+  //   default : {
+  //     x : mousePosition.x,
+  //     y : mousePosition.y,
+  //     backgroundColor : "red",
+  //   }
+  // }
 
   const [isLoading, setIsLoading] = useState(true);
 

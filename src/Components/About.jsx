@@ -1,4 +1,4 @@
-import {ImNewTab} from "react-icons/im"
+import { ImNewTab } from "react-icons/im";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -12,7 +12,7 @@ const About = () => {
   return (
     <>
       <div className="relative -mt-1" id="about">
-        <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 mt-[234px]  -p-20  -z-10 w-full h-[900px]">
+        <div className="bg-gradient-to-l pt-2 from-primary/30 border-t-primary/20 border-t-2 lg:mt-[28px] xl:mt-[234px]  -p-20  -z-10 w-full h-[900px]">
           <img
             loading="lazy"
             src="/images/pattern3.png"
@@ -168,33 +168,48 @@ const About = () => {
 
             <div className="absolute w-full  md:-mt-60 md:w-[670px] md:mx-80 pt-[420px] text-right">
               <div className="animate-swing">
-                <h1 className="text-4xl mr-3 font-bold mb-4 absolute -bottom-[250px] md:relative md:bottom-0 right-0 bg-gradient-to-l pr-2 text-white  from-primary rounded-xl">
+                <h1 className="xl:text-4xl text-xl mr-3 font-bold mb-4 absolute -bottom-[250px] md:relative md:bottom-0 right-12 xl:right-0 bg-gradient-to-l pr-2 text-white w-[50%] from-primary rounded-xl">
                   🚀About Me
                 </h1>
                 <div className="absolute mx-2  -bottom-[410px] md:relative md:bottom-0">
-                  <div className="bg-white  px-2 md:w-[600px] border-2 h-40 rounded-xl p-4">
+                  <div className="bg-white  px-2 w-[340px] lg:w-[400px]  xl:w-[600px] border-2 h-40 rounded-xl p-4">
                     <h1 className="text-right">
                       My name is Fabyan Yastika Permana, a website developer
                       that focus on developing modern website with modern
                       technology. I am enthusiastic about learning new
                       technology and apply it to my several project.
                     </h1>
-                    <h1 className="text-left mt-10 hidden md:flex">
-                      ~ Fabyan Yastika Permana
-                    </h1>
                   </div>
                   <div className="bg-primary w-full absolute -mt-36 ml-4 md:ml-0 -z-10 h-40 rounded-xl shadow-2xl"></div>
                 </div>
-                <div className="hidden md:flex mt-10 items-center justify-center space-x-10">
-                  <a href="https://drive.google.com/file/d/1kMOMK2na3gNu18k3Y8057kv1VNJTfK69/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary">CV <ImNewTab className="text-2xl -mt-2" /></a>
-                  <a href="https://drive.google.com/file/d/1mjWWDodYH1mOJdurp5sf_J_rdiLV9mfL/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary">Portfolio <ImNewTab className="text-2xl -mt-2" /></a>
-                  <a href="https://drive.google.com/file/d/1H_5Mf5ZyA-uFcCmih2t1D_VnTvZqYSMc/view?usp=sharing" target="_blank" rel="noreferrer" className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary">About <ImNewTab className="text-2xl -mt-2" /></a>
-                 
-                 
+                <div className="hidden md:flex mt-10 items-center justify-start space-x-10">
+                  <a
+                    href="https://drive.google.com/file/d/1kMOMK2na3gNu18k3Y8057kv1VNJTfK69/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary"
+                  >
+                    CV <ImNewTab className="text-2xl -mt-2" />
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1mjWWDodYH1mOJdurp5sf_J_rdiLV9mfL/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary"
+                  >
+                    Portfolio <ImNewTab className="text-2xl -mt-2" />
+                  </a>
+                  <a
+                    href="https://drive.google.com/file/d/1H_5Mf5ZyA-uFcCmih2t1D_VnTvZqYSMc/view?usp=sharing"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary"
+                  >
+                    About <ImNewTab className="text-2xl -mt-2" />
+                  </a>
                 </div>
               </div>
-              
-               
+
               <div className="mt-24 flex -ml-20">
                 <img
                   loading="lazy"
@@ -202,7 +217,7 @@ const About = () => {
                   className="hidden md:flex"
                   alt=""
                 />
-                <h1 className="md:mt-24 text-2xl absolute md:text-7xl font-semibold hover:rotate-0 duration-150 hover:bg-gradient-to-r from-primary  to-third hover:shadow-2xl hover:text-white right-0  -rotate-[6deg] p-2 rounded-xl">
+                <h1 className="md:mt-24 text-lg absolute md:text-7xl font-semibold hover:rotate-0 duration-150 hover:bg-gradient-to-r from-primary  to-third hover:shadow-2xl hover:text-white right-12 -rotate-[6deg] p-2 rounded-xl">
                   My Tech Stack!
                 </h1>
               </div>
@@ -234,11 +249,10 @@ const About = () => {
               <div className="border-primary border-2 md:w-4 md:h-4 w-2 h-2 absolute mt-[16px] ml-[65px] md:-mt-[20px] md:ml-[100px] rounded-full"></div>
               <div className="border-primary border-2 md:w-4 md:h-4 w-2 h-2 absolute mt-[30px] ml-[90px] md:mt-[10px] md:ml-[140px] rounded-full"></div>
             </div>
-            
+
             {/* <div className="absolute bg-primary -rotate-[20deg] w-[2500px] -right-[800px] h-40 -z-[999]" />
       <div className="absolute bg-primary  w-[2500px] -right-[800px] h-40 -z-[999]" /> */}
             <div className="w-16  inline-block">
-        
               {/* <div className=" h-11 w-11 bg-primary transform origin-top-left"></div> */}
             </div>
           </div>

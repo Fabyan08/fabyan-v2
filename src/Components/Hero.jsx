@@ -131,14 +131,24 @@ const Hero = () => {
             data-aos="fade-right"
             data-aos-duration="1000"
           >
-            <img loading="lazy" src="/images/role.png" alt="" />
+            <img
+              loading="lazy"
+              src="/images/role.png"
+              className="w-80 xl:w-[800px]"
+              alt=""
+            />
           </div>
           <div
             className="flex items-center -mt-10 md:-mt-32 justify-center"
             data-aos="fade-left"
             data-aos-duration="1000"
           >
-            <img loading="lazy" src="/images/head.png" alt="" />
+            <img
+              loading="lazy"
+              src="/images/head.png"
+              className="w-[800px]"
+              alt=""
+            />
           </div>
         </div>
       </div>

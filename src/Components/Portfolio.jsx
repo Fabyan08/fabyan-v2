@@ -8,6 +8,7 @@ import { BsBoxArrowInUpRight } from "react-icons/bs";
 // import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
+import { GrFormNext } from "react-icons/gr";
 
 // Import Swiper styles
 import "swiper/css";
@@ -17,6 +18,7 @@ import "./style.css";
 
 // import required modules
 import { FreeMode, Pagination } from "swiper/modules";
+import { Link } from "react-router-dom";
 const Portfolio = () => {
   const breakpoints = {
     // For mobile devices
@@ -36,13 +38,24 @@ const Portfolio = () => {
         id="portfolio"
         className="relative mt-12 md:mt-0 w-full py-10 pt-32 bg-gradient-to-tr  from-primary/30 min-h-screen"
       >
-        <div className=" container relative">
-        <div className="bg-gradient-to-r from-primary/60 to-slate-100/40 rounded-sm w-80 h-10 absolute -z-10 -rotate-[5deg] mt-2"></div>
-          <h1 className="font-bold text-2xl pt-4 text-slate-700 md:text-6xl">👨🏻‍💻My Highlight Portfolio</h1>
-          <p className="text-md md:text-xl md:w-[800px] mt-4">
-            These are some of the projects that I highlighted as portfolio
-            pieces!
-          </p>
+        <div className=" container items-center justify-between flex relative">
+          <div>
+            <div className="bg-gradient-to-r from-primary/60 to-slate-100/40 rounded-sm w-80 h-10 absolute -z-10 -rotate-[5deg] mt-2"></div>
+            <h1 className="font-bold text-2xl pt-4 text-slate-700 md:text-6xl">
+              👨🏻‍💻My Highlight Portfolio
+            </h1>
+            <p className="text-md md:text-xl md:w-[800px] mt-4">
+              These are some of the projects that I highlighted as portfolio
+              pieces!
+            </p>
+          </div>
+          <Link
+            to="/portfolio"
+            className="flex text-primary text-lg xl:text-4xl font-bold items-center"
+          >
+            <h1>All</h1>
+            <GrFormNext className="text-primary" />
+          </Link>
         </div>
         <style>
           {`
@@ -768,7 +781,7 @@ const Portfolio = () => {
                     alt=""
                   />
                 </div>
-                <div className="bg-primary hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
+                <div className="bg-primary  hover:scale-110 duration-200 border-2 border-white  rounded-2xl  text-5xl text-white shadow-xl -mt-12 md:ml-4">
                   <a
                     href="https://www.figma.com/file/6TRkJ5nT6lTxCfSnnFto4s/Telkom-University?type=design&node-id=0%3A1&mode=design&t=iEidD0zpEcI5VE2t-1"
                     target="_blank"
@@ -792,7 +805,7 @@ const Portfolio = () => {
                   alt=""
                 />
                 <div className="grid">
-                <h1 className="ml-2 text-lg  z-10 text-primary font-bold ">
+                  <h1 className="ml-2 text-lg  z-10 text-primary font-bold ">
                     Article Writing{" "}
                   </h1>
                   <h1 className="-mt-4 text-sm font-semibold w-32  pl-2">
