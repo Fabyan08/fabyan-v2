@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <div className="flex  justify-center relative z-40">
@@ -5,7 +7,7 @@ const Nav = () => {
         <ul className="flex gap-10 text-md font-bold py-2 text-slate-400">
           <li>
             <a
-              href=""
+              href="#"
               className="hover:text-primary hover:bg-white/50 backdrop-blur-md hover:px-2 duration-150 rounded-2xl hover:py-2 hover:shadow-xl"
             >
               Home
@@ -13,7 +15,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href=""
+              href="#about"
               className="hover:text-primary hover:bg-white/50 backdrop-blur-md hover:px-2 duration-150 rounded-2xl hover:py-2 hover:shadow-xl"
             >
               About Me
@@ -21,7 +23,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href=""
+              href="#portfolio"
               className="hover:text-primary hover:bg-white/50 backdrop-blur-md hover:px-2 duration-150 rounded-2xl hover:py-2 hover:shadow-xl"
             >
               Portfolio
@@ -29,7 +31,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href=""
+              href="#experience"
               className="hover:text-primary hover:bg-white/50 backdrop-blur-md hover:px-2 duration-150 rounded-2xl hover:py-2 hover:shadow-xl"
             >
               Experience
@@ -37,7 +39,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href=""
+              href="#certificate"
               className="hover:text-primary hover:bg-white/50 backdrop-blur-md hover:px-2 duration-150 rounded-2xl hover:py-2 hover:shadow-xl"
             >
               Certificate
@@ -45,7 +47,7 @@ const Nav = () => {
           </li>
           <li>
             <a
-              href=""
+              href="#contact"
               className="hover:text-primary hover:bg-white/50 backdrop-blur-md hover:px-2 duration-150 rounded-2xl hover:py-2 hover:shadow-xl"
             >
               Contact
@@ -58,12 +60,12 @@ const Nav = () => {
       </div>
       <div className="relative">
         <div className="fixed rotate-12 right-4 top-6 hover:rotate-0 duration-150 hover:scale-110">
-          <a
-            href="/blog"
+          <Link
+            to="/blog"
             className="text-white hover:text-primary hover:bg-white hover:border-primary bg-primary border-4 border-white p-3 rounded-full font-bold"
           >
             My Blog
-          </a>
+          </Link>
         </div>
       </div>
     </div>

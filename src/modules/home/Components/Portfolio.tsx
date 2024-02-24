@@ -49,13 +49,23 @@ const Portfolio = () => {
           <GrFormNext className="text-primary" />
         </a>
       </div>
-      <div className="space-y-4 relative w-full mw">
+      <div className="mw pt-4">
+        <div className="bg-white rounded-xl w-96 h-96 relative">
+          <div className="absolute right-0 rounded-tr-xl rounded-bl-xl text-white font-semibold bg-green-500 w-fit h-fit p-2">
+            <h1>Personal Project</h1>
+          </div>
+        </div>
+      </div>
+      {/* <div className="space-y-4 relative w-full mw">
         <div
           data-aos="fade-up"
           data-aos-duration="2000"
           className="md:flex mt-14 md:w-1/2 md:space-x-4 space-y-4 md:space-y-0"
         >
-          <div className="w-full h-full bg-white border-2 p-4 border-green-500 rounded-2xl">
+          <div className="w-full h-full relative bg-white border-2 p-4 border-green-500 rounded-2xl">
+            <div className="absolute z-10 rounded-tr-xl w-40 h-10 flex items-center justify-center text-white font-semibold rounded-bl-2xl bg-green-500 right-0 top-0">
+              <h1>Personal Project</h1>
+            </div>
             <div className="flex mb-4">
               <img
                 loading="lazy"
@@ -74,9 +84,6 @@ const Portfolio = () => {
                 build a website. Until it can create a look that is fairly
                 relevant modern.
               </h1>
-              <div className="absolute z-10 hover:scale-110 duration-150 -top-[60px] -right-[50px] md:-top-[45px] font-semibold bg-green-500 text-white w-40 text-center rounded-full animate-pulse rotate-[30deg] md:-right-[30px]">
-                <h1>Personal Project</h1>
-              </div>
             </div>
             <Swiper
               slidesPerView={1.3}
@@ -798,7 +805,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

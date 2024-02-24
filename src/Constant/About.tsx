@@ -23,7 +23,7 @@ const aboutIcons: Item[] = [
 
   {
     icon: <IoLogoJavascript className="text-4xl text-white" />,
-    width: "[4.5rem]",
+    width: "20",
   },
   {
     icon: <FaBootstrap className="text-4xl text-white" />,
