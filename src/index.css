@@ -1,0 +1,175 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply font-figtree;
+}
+
+@keyframes custom-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-rotate {
+  animation: custom-rotate 4s linear infinite;
+  transform-origin: center;
+}
+
+.mw {
+  @apply max-w-[1500px] mx-auto px-10;
+}
+
+/* Slider */
+@keyframes moveImage {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(360deg);
+  }
+}
+
+.moving-rounded-image {
+  animation: moveImage 5s linear infinite;
+}
+/* Define the gradient border class with rounded corners */
+.border-gradient {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #ffffff, #6da9e4);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.border-gradient1 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 30px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #ffffff, #5ce663);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.border-gradient2 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 13px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #ffffff, #6da9e4);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.border-gradient3 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 13px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #6da9e4, #e7e7e7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.border-gradient4 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 13px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #6de495, #e7e7e7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.border-gradient5 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 13px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #f5dc39, #e7e7e7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+.border-gradient7 {
+  /* width: 300px;
+  height: 80px; */
+  border: double 10px transparent;
+  border-radius: 13px;
+  background-image: linear-gradient(white, white),
+    linear-gradient(to right, #9006b9, #e7e7e7);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.content {
+  padding: 80px 0;
+  width: 70%;
+}
+
+.content h1 {
+  background-color: #e91e63;
+  border-radius: 100%;
+  display: flex;
+  height: 1.5rem;
+  position: relative;
+  justify-content: center;
+  vertical-align: middle;
+  width: 1.5rem;
+}
+
+.arrow-down {
+  border-right: 7px solid #fff;
+  border-top: 7px solid #fff;
+  height: 1rem;
+  position: relative;
+  top: 10px;
+  transform: rotate(135deg);
+  width: 1rem;
+}
+
+.arrow-down::after {
+  border-right: 7px solid #fff;
+  border-top: 7px solid #fff;
+  content: "";
+  display: block;
+  height: 1rem;
+  position: relative;
+  top: 8px;
+  left: -15px;
+  /*   transform: rotate(135deg); */
+  width: 1rem;
+}
+@keyframes custom-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.custom-rotate {
+  animation: custom-rotate 4s linear infinite;
+  transform-origin: center; /* You can change 'center' to another value to specify a fixed point */
+}
+
+@keyframes custom-translate {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(100px);
+  }
+}
+
+.custom-translate {
+  animation: custom-translate 2s ease-in-out infinite; /* Translation animation duration */
+}
