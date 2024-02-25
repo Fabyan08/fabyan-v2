@@ -17,16 +17,76 @@ const Experience = () => {
           </h1>
         </div>
 
-        {/* Start baru */}
-
         <div className="mt-10 space-y-10">
+          <div className="bg-gradient-to-r relative text-white from-primary to-blue-100  w-[340px] md:w-[1000px] mx-auto  h-full border-4 border-blue-500 rounded-xl">
+            <div className="md:rounded-xl rounded-lg">
+              <div className="p-6">
+                <div className="flex xl:flex-row xl:gap-0 gap-5 flex-col items-start">
+                  <div className="basis-[20%] text-7xl flex xl:justify-center">
+                    <img
+                      src="/assets/image/credipush.jpg"
+                      decoding="async"
+                      loading="lazy"
+                      alt="company logo"
+                      className="mt-1 md:w-60 w-40 -ml-2 rounded-full"
+                    />{" "}
+                  </div>
+                  <div className="flex flex-col gap-5 xl:ml-7 basis-[80%]">
+                    <div className="flex flex-col xl:gap-1 items-start">
+                      <h3 className="xl:text-[40px] md:text-3xl text-2xl font-semibold">
+                        Credipush Studio
+                      </h3>
+                      <h1 className="xl:mt-0 mt-2 hover:underline duration-150">
+                        South Sulawesi, Indonesia
+                      </h1>
+                      <p className="text-lg font-medium mt-2.5">
+                        Feb 2023 - Now
+                      </p>
+                    </div>
+                    <div className="md:hidden flex justify-start">
+                      <p className="md:px-7 bg-blue-500  shadow-white/30 shadow-sm px-5 md:py-4 py-3 text-center text-sm rounded-lg">
+                        Freelance Content Creator
+                      </p>
+                    </div>
+                    <div className="flex flex-col gap-4">
+                      <h3 className="md:text-2xl text-xl">
+                        My Responsibilities:
+                      </h3>
+                      <ul className="flex flex-col gap-3 ml-4">
+                        <li className="md:text-base text-sm list-disc">
+                          Understand the brief given by overseas clients
+                        </li>
+                        <li className="md:text-base text-sm list-disc">
+                          Create user interface designs according to the brief
+                          with various themes and specifications given
+                        </li>
+                        <li className="md:text-base text-sm list-disc">
+                          Make revisions to changes that are not in accordance
+                          with the client's understanding
+                        </li>
+                        <li className="md:text-base text-sm list-disc">
+                          Focusing on user interface design with a 24-hour
+                          deadline{" "}
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div className="md:absolute hidden right-0 md:flex hover:scale-110 duration-150 justify-end mt-10 mr-10">
+                    <p className="md:px-7 bg-blue-500  shadow-sm px-5 md:py-4 py-3 text-center text-sm rounded-lg">
+                      Remote Web Designer
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="bg-gradient-to-t relative text-white from-[#5794f8] to-blue-300  w-[340px] md:w-[1000px] mx-auto  h-full border-4 border-blue-500 rounded-xl">
             <div className="md:rounded-xl rounded-lg">
               <div className="p-6">
                 <div className="flex xl:flex-row xl:gap-0 gap-5 flex-col items-start">
                   <div className="basis-[20%] text-7xl flex xl:justify-center">
                     <img
-                      src="/images/logo.webp"
+                      src="/assets/image/logo.webp"
                       decoding="async"
                       loading="lazy"
                       alt="company logo"
@@ -142,7 +202,7 @@ const Experience = () => {
                 <div className="flex xl:flex-row xl:gap-0 gap-5 flex-col items-start">
                   <div className="basis-[20%] flex xl:justify-center">
                     <img
-                      src="/images/bd.png"
+                      src="/assets/image/bd.png"
                       decoding="async"
                       loading="lazy"
                       alt="company logo"

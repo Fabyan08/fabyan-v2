@@ -1,76 +1,77 @@
+import city from "../../../../public/assets/image/city.svg";
 import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
+import foto from "../../../../public/assets/image/foto.jpg";
+import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary absolute overflow-x-hidden -mt-10 -z-10 w-full">
-      <div
-        className="bg-gradient-to-r from-primary via-primary to-primary/80 relative pb-10 w-full h-full "
-        id="contact"
-      >
-        <div className="flex py-10 text-xl md:text-4xl container text-white font-bold ">
-          <span className="animate-wobble">👋🏻</span> Let&apos;s get in touch!
-        </div>
-        <div className="container -mt-6 md:-mt-0 text-2xl md:text-7xl font-bold text-slate-200">
-          <h1>Punya Ide Project Bareng?</h1>
-          <h1>Mau Gabung Komunitas?</h1>
-          <h1>Mau Tanya Sesuatu?</h1>
-        </div>
-        <div className="mt-5 container md:mt-10">
-          <div className="md:flex items-center space-x-4">
-            <img
-              loading="lazy"
-              src="/assets/image/foto.jpg"
-              className="rounded-full w-40"
-              alt=""
-            />
-            <div className="text-white text-lg">
-              <h1>Contact me via</h1>
-              <div className="flex items-center space-x-2 hover:text-second hover:scale-110 duration-150 hover:underline">
-                <h1>
-                  <BiLogoGmail />
-                </h1>
-                <a
-                  href="mailto:yastikafabyan2005@gmail"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  yastikafabyan2005@gmail.com
-                </a>
+    <footer className="bg-primary/40 w-full h-fit">
+      <div className="bg-footer  relative bg-cover bg-center w-full h-fit">
+        <div className="bg-gradient-to-b from-primary/20 to-white/40 mw">
+          <div className="flex justify-center pt-10">
+            <div className="bg-white/30 relative border-2 border-slate-white backdrop-blur-md w-3/4 h-60 rounded-3xl p-4">
+              <div className="flex items-center gap-6">
+                <img src={foto} className="w-40 rounded-full" alt="" />
+                <div className="text-slate-700 bg-white/30 backdrop-blur-md p-3 rounded-xl font-semibold text-lg">
+                  <h1 className="text-xl">Contact me via</h1>
+                  <div className="flex items-center space-x-2  hover:scale-110 duration-150 hover:underline">
+                    <h1>
+                      <BiLogoGmail />
+                    </h1>
+                    <a
+                      href="mailto:yastikafabyan2005@gmail"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      yastikafabyan2005@gmail.com
+                    </a>
+                  </div>
+                  <div className="flex items-center space-x-2  hover:scale-110 duration-150 hover:underline">
+                    <h1>
+                      <AiOutlineInstagram />
+                    </h1>
+                    <h1>
+                      <a href="https://www.instagram.com/fabyannnn_">
+                        @fabyannnn_
+                      </a>
+                    </h1>
+                  </div>
+                  <div className="flex items-center space-x-2  hover:scale-110 duration-150 hover:underline">
+                    <h1>
+                      <AiOutlineInstagram />
+                    </h1>
+                    <h1>
+                      <a href="https://www.instagram.com/kodingbareng_">
+                        {" "}
+                        @kodingbareng_
+                      </a>
+                    </h1>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="/images/best.jpg"
+                    className="rounded-xl absolute -right-44 md:-right-12 bottom-0 -z-10 w-[725px]"
+                    alt=""
+                  />
+                </div>
               </div>
-              <div className="flex items-center space-x-2 hover:text-second hover:scale-110 duration-150 hover:underline">
-                <h1>
-                  <AiOutlineInstagram />
-                </h1>
-                <h1>
-                  <a href="https://www.instagram.com/fabyannnn_">@fabyannnn_</a>
-                </h1>
-              </div>
-              <div className="flex items-center space-x-2 hover:text-second hover:scale-110 duration-150 hover:underline">
-                <h1>
-                  <AiOutlineInstagram />
-                </h1>
-                <h1>
-                  <a href="https://www.instagram.com/kodingbareng_">
-                    {" "}
-                    @kodingbareng_
-                  </a>
-                </h1>
-              </div>
-              <img
-                loading="lazy"
-                src="/assets/image/best.jpg"
-                className="rounded-xl absolute right-0 animate-pulse rounded-tl-[100px] bottom-0 z-10 w-96"
-                alt=""
-              />
+              <a
+                href="https://www.linkedin.com/in/fabyan-yastika-permana/"
+                target="_blank"
+                className="bg-primary/20 gap-2 w-fit px-4 text-slate-800 font-semibold h-14 rounded-tl-lg flex items-center justify-center absolute bottom-0 border-4 border-white right-0 rounded-br-lg"
+              >
+                <CiLinkedin />
+                <h1>Connect With Me!</h1>
+              </a>
             </div>
           </div>
-          <div className="mt-20 md:hidden"></div>
-          <h1 className="mt-10 hidden md:flex text-white font-semibold text-md md:text-xl">
-            Made using React JS and big effort. Cheers!{" "}
-            <span className="animate-wiggle">🖐🏻</span>
-          </h1>
+          <img
+            src={city}
+            className="w-full -mt-40 object-cover object-center"
+            alt="City"
+          />
         </div>
       </div>
     </footer>

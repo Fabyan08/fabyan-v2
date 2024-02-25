@@ -17,6 +17,7 @@ export default {
       backgroundImage: {
         header: "url('../../assets/image/header.svg')",
         about: "url('../../assets/image/about.svg')",
+        footer: "url('../../assets/image/footer.svg')",
       },
       container: {
         center: true,
