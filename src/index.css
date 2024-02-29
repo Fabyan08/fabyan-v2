@@ -188,3 +188,20 @@
 .w-48 {
   width: 12rem;
 }
+
+/* Slider */
+.swiper-wrapper {
+  padding-bottom: 20px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #f7efe5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 40px;
+  width: 30px;
+}
+.swiper-pagination-bullet {
+  background: #b3a492;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 40px;
+}
