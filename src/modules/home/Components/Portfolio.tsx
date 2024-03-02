@@ -295,7 +295,7 @@ const Portfolio = () => {
               className="mySwiper max-w-[1170px]"
             >
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-60 lg:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
