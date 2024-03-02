@@ -7,35 +7,68 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-gradient-to-r from-white/80 pt-10 h-fit  to-primary/50"
+      className="bg-gradient-to-r from-white/80 pt-10 h-fit pb-10  to-primary/50"
     >
-      <div className="flex gap-20 ">
-        <div className="flex flex-col pb-10 -space-y-4">
-          {aboutIcons.map((item, index) => (
-            <div key={index} className="flex items-center">
-              <hr className={`w-${item.width} bg-primary h-2`} />
-              <div className="bg-primary hover:bg-second border-2 border-white rounded-full p-4 hover:shadow-xl hover:shadow-primary hover:scale-105 duration-200 w-fit">
-                {item.icon}
+      <div className="md:flex gap-20 ">
+        <div className="flex">
+          <div className="flex flex-col pb-10 -space-y-4">
+            {aboutIcons.map((item, index) => (
+              <div key={index} className="flex items-center">
+                <hr className={`w-${item.width} bg-primary h-2`} />
+                <div className="bg-primary hover:bg-second border-2 border-white rounded-full p-4 hover:shadow-xl hover:shadow-primary hover:scale-105 duration-200 w-fit">
+                  {item.icon}
+                </div>
+              </div>
+            ))}
+          </div>
+          <div className="md:hidden flex  justify-between flex-col">
+            <div className="absolute right-2">
+              <div className="flex md:hidden flex-row items-center  z-10">
+                <img
+                  src={foto}
+                  className="rounded-full max-w-md w-40 border-[10px] border-primary/40"
+                  alt="Fabyan"
+                  loading="lazy"
+                />
+                <div className="mt-20">
+                  <div className="bg-white relative z-10 text-[30px] text-primary hover:bg-primary hover:text-white hover:scale-110 duration-150 cursor-pointer  w-fit p-2  text-4xl flex items-center justify-center rounded-full -ml-4 shadow-xl ">
+                    <a
+                      href="https://www.linkedin.com/in/fabyan-yastika-permana/"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <AiOutlineLinkedin />{" "}
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-          ))}
+            <div className="mt-80 -ml-40">
+              {/* <h1 className="font-bold text-slate-900 text-5xl rotate-[70deg] text-nowrap">
+                My Tech Stack
+              </h1> */}
+              <h1 className="text-6xl -ml-10 hover:bg-gradient-to-r  from-second to-primary rounded-2xl hover:text-white hover:p-2 hover:w-fit text-nowrap font-bold text-slate-700  duration-200 rotate-[70deg]">
+                My Tech Stack
+              </h1>
+            </div>
+          </div>
         </div>
         <div>
           <div className="flex flex-col h-full justify-around">
-            <div className="flex flex-col gap-4">
+            <div className="flex items-center flex-col gap-4">
               <div className="bg-gradient-to-r w-fit from-primary/0 px-10 to-primary rounded-3xl">
-                <h1 className="text-white text-2xl font-semibold">
+                <h1 className="text-white  text-2xl font-semibold">
                   🚀About Me
                 </h1>
               </div>
-              <div className="bg-white w-[500px] h-60 rounded-xl border-b-[20px] border-r-[20px] rounded- border-primary">
-                <h1 className="text-right p-4">
+              <div className="bg-white w-[90%] md:w-[500px] h-60 rounded-xl border-b-[20px] border-r-[20px] rounded- border-primary">
+                <h1 className="text-right px-4 pt-2">
                   My name is Fabyan Yastika Permana, a website developer that
                   focus on developing modern website with modern technology. I
                   am enthusiastic about learning new technology and apply it to
                   my several project.
                 </h1>
-                <div className="flex mt-10 items-center justify-start gap-3 px-10">
+                <div className="flex mt-4 md:mt-10 items-center justify-start gap-3 px-2 md:px-10">
                   <a
                     href="https://drive.google.com/file/d/1kMOMK2na3gNu18k3Y8057kv1VNJTfK69/view?usp=sharing"
                     target="_blank"
@@ -63,7 +96,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="flex -space-x-20">
+            <div className="hidden md:flex -space-x-20">
               <img src={arrow} alt="Arrow" />
               <h1 className="text-6xl ml-20 hover:bg-gradient-to-r from-second to-primary rounded-2xl hover:text-white hover:p-2 hover:w-fit text-nowrap font-bold text-slate-700 hover:rotate-0 duration-200 -rotate-12">
                 My Tech Stack
@@ -71,11 +104,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col justify-between items-center">
+        <div className="hidden md:flex flex-col justify-between items-center">
           <div className="flex flex-col relative z-10 -space-y-60">
             <img
               src={foto}
-              className="rounded-full max-w-md w-full border-[25px] border-primary/40"
+              className="rounded-full max-w-md w-[70%] md:w-full border-[25px] border-primary/40"
               alt="Fabyan"
               loading="lazy"
             />

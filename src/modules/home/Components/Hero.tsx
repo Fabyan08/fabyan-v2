@@ -8,12 +8,12 @@ const Hero = () => {
     <header className="bg-header w-full relative z-10 h-screen bg-cover bg-center">
       <div className="bg-gradient-to-b from-white/20  to-white/80 h-screen">
         <div className="bg-gradient-to-tr from-white to-white/20 h-screen">
-          <div className="flex justify-center pt-20 items-center flex-col mw">
+          <div className="flex justify-center h-full relative z-[60] md:h-[600px] pt-20 items-center flex-col mw">
             <img src={role} alt="Role" className="relative z-10 w-[600px]" />
             <img
               src={head}
               alt="Name"
-              className="w-[700px] -mt-20 relative z-10"
+              className="w-[900px] md:w-[700px] -mt-20 pt-10 md:pt-0 relative z-10"
             />
           </div>
           <div id="background">
@@ -51,7 +51,7 @@ const Hero = () => {
               viewBox="0 0 134 116"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
-              className="absolute bottom-40 left-[800px] custom-rotate w-24"
+              className="absolute  bottom-12 md:bottom-40 md:left-[800px] custom-rotate w-24"
             >
               <path
                 d="M10.7083 108.5L67 11L123.292 108.5H10.7083Z"
@@ -68,7 +68,7 @@ const Hero = () => {
             <img
               src={rounded}
               alt="Rounded"
-              className="absolute right-2 w-52 custom-rotate top-12 z-20"
+              className="absolute left-2 md:right-2 w-52 custom-rotate bottom-40 md:top-12 z-20"
             />
           </div>
         </div>
