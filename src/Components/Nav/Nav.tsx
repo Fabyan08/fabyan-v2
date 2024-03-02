@@ -11,7 +11,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Nav = () => {
   return (
     <>
-      <div className="hidden md:flex  justify-center relative z-40">
+      <div className="hidden lg:flex  justify-center relative z-40">
         <div className="fixed bg-white/20 border-2 border-slate-200/50 backdrop-blur-sm px-4 py-2   mt-4 w-fit h-fit rounded-3xl">
           <ul className="flex gap-10 text-md font-bold py-2 text-slate-400">
             <li>
@@ -78,7 +78,7 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      <div className="md:hidden flex justify-center">
+      <div className="lg:hidden flex justify-center">
         <div className="fixed top-0 z-[100]">
           <div className="bg-gradient-to-r from-[#9dceff] to-primary p-2 rounded-b-3xl border-b-4 border-l-4 border-r-4 border-white">
             <Link
@@ -91,7 +91,7 @@ const Nav = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className="flex md:hidden items-center px-4 justify-between rounded-full border-t-2 border-white bg-[#9dceff]/50 backdrop-blur-xl w-[95%] h-16 fixed bottom-4 z-[999] text-white">
+        <div className="flex lg:hidden items-center px-4 justify-between rounded-full border-t-2 border-white bg-[#9dceff]/50 backdrop-blur-xl w-[95%] h-16 fixed bottom-4 z-[999] text-white">
           <a href="#">
             <GoHome
               className="hover:text-primary hover:-translate-y-2"

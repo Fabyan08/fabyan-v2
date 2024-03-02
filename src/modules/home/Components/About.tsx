@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="bg-gradient-to-r from-white/80 relative z-20 pt-10 h-fit pb-10  to-primary/50"
     >
-      <div className="md:flex gap-20 ">
+      <div className="lg:flex gap-20 ">
         <div className="flex">
           <div className="flex flex-col pb-10 -space-y-4">
             {aboutIcons.map((item, index) => (
@@ -21,12 +21,12 @@ const About = () => {
               </div>
             ))}
           </div>
-          <div className="md:hidden flex  justify-between flex-col">
+          <div className="lg:hidden flex  justify-between flex-col">
             <div className="absolute right-2">
-              <div className="flex md:hidden flex-row items-center  z-10">
+              <div className="flex lg:hidden flex-row items-center  z-10">
                 <img
                   src={foto}
-                  className="rounded-full max-w-md w-40 border-[10px] border-primary/40"
+                  className="rounded-full max-w-lg w-40 border-[10px] border-primary/40"
                   alt="Fabyan"
                   loading="lazy"
                 />
@@ -61,14 +61,14 @@ const About = () => {
                   🚀About Me
                 </h1>
               </div>
-              <div className="bg-white w-[90%] md:w-[500px] h-60 rounded-xl border-b-[20px] border-r-[20px] rounded- border-primary">
+              <div className="bg-white w-[90%] lg:w-[500px] h-60 rounded-xl border-b-[20px] border-r-[20px] rounded- border-primary">
                 <h1 className="text-right px-4 pt-2">
                   My name is Fabyan Yastika Permana, a website developer that
                   focus on developing modern website with modern technology. I
                   am enthusiastic about learning new technology and apply it to
                   my several project.
                 </h1>
-                <div className="flex mt-4 md:mt-10 items-center justify-start gap-3 px-2 md:px-10">
+                <div className="flex mt-4 lg:mt-10 items-center justify-center gap-3 px-2 lg:px-10">
                   <a
                     href="https://drive.google.com/file/d/1kMOMK2na3gNu18k3Y8057kv1VNJTfK69/view?usp=sharing"
                     target="_blank"
@@ -96,7 +96,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:flex -space-x-20">
+            <div className="hidden lg:flex -space-x-20">
               <img src={arrow} alt="Arrow" />
               <h1 className="text-6xl ml-20 hover:bg-gradient-to-r from-second to-primary rounded-2xl hover:text-white hover:p-2 hover:w-fit text-nowrap font-bold text-slate-700 hover:rotate-0 duration-200 -rotate-12">
                 My Tech Stack
@@ -104,15 +104,15 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="hidden md:flex flex-col justify-between items-center">
+        <div className="hidden lg:flex flex-col justify-between items-center">
           <div className="flex flex-col relative z-10 -space-y-60">
             <img
               src={foto}
-              className="rounded-full max-w-md w-[70%] md:w-full border-[25px] border-primary/40"
+              className="rounded-full max-w-lg w-[70%] lg:w-full border-[25px] border-primary/40"
               alt="Fabyan"
               loading="lazy"
             />
-            <div className="bg-white  relative z-10 text-[30px] text-primary hover:bg-primary hover:text-white hover:scale-110 duration-150 cursor-pointer md:w-20 md:h-20 w-10 h-10  text-4xl flex items-center justify-center rounded-full -ml-4 shadow-xl ">
+            <div className="bg-white  relative z-10 text-[30px] text-primary hover:bg-primary hover:text-white hover:scale-110 duration-150 cursor-pointer lg:w-20 lg:h-20 w-10 h-10  text-4xl flex items-center justify-center rounded-full -ml-4 shadow-xl ">
               <a
                 href="https://www.linkedin.com/in/fabyan-yastika-permana/"
                 target="_blank"

@@ -41,28 +41,16 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 
 const Portfolio = () => {
-  const breakpoints = {
-    // For mobile devices
-    640: {
-      slidesPerView: 1,
-      spaceBetween: 10, // Adjust the space as needed
-    },
-    // For desktop or larger screens
-    1024: {
-      slidesPerView: 1.8,
-      spaceBetween: 30, // Adjust the space as needed
-    },
-  };
   return (
     <section
       id="portfolio"
-      className="relative w-screen md:w-full py-10   bg-gradient-to-tr  from-primary/30 min-h-screen"
+      className="relative w-screen lg:w-full py-10   bg-gradient-to-tr  from-primary/30 min-h-screen"
     >
       {" "}
       <div className=" mw items-center justify-between flex relative">
         <div>
           <div className="bg-gradient-to-r from-primary/60 to-slate-100/40 rounded-sm w-80 h-10 absolute -z-10 -rotate-[5deg] mt-2"></div>
-          <h1 className="font-bold text-2xl pt-4 text-slate-700 md:text-6xl">
+          <h1 className="font-bold text-2xl pt-4 text-slate-700 lg:text-6xl">
             👨🏻‍💻My Highlight Portfolio
           </h1>
         </div>
@@ -75,8 +63,8 @@ const Portfolio = () => {
         </a>
       </div>
       <div className="mw pt-10 ">
-        <div className="flex flex-col md:flex-row ml-20 md:ml-0 items-center gap-4">
-          <div className="flex flex-col -ml-52 md:ml-0 ">
+        <div className="flex flex-col lg:flex-row ml-20 lg:ml-0 items-center gap-4">
+          <div className="flex flex-col -ml-52 lg:ml-0 ">
             <h1 className="text-primary font-bold">WEBSITE</h1>
             <h1 className="text-slate-700 text-xl text-nowrap">
               Website Development
@@ -98,7 +86,7 @@ const Portfolio = () => {
               }
             `}
           </style>
-          <div className="flex md:mw w-screen items-center gap-10">
+          <div className="flex lg:mw w-screen items-center gap-10">
             <Swiper
               breakpoints={{
                 // when window width is <= 640px
@@ -121,7 +109,7 @@ const Portfolio = () => {
               className="mySwiper max-w-[1170px]"
             >
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -155,7 +143,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -189,7 +177,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -223,7 +211,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -261,8 +249,8 @@ const Portfolio = () => {
         </div>
       </div>
       <div className="mw pt-10 ">
-        <div className="flex flex-col md:flex-row ml-20 md:ml-0 items-center gap-4">
-          <div className="flex flex-col -ml-52 md:ml-0 ">
+        <div className="flex flex-col lg:flex-row ml-20 lg:ml-0 items-center gap-4">
+          <div className="flex flex-col -ml-52 lg:ml-0 ">
             <h1 className="text-primary font-bold">WEBSITE</h1>
             <h1 className="text-slate-700 text-xl text-nowrap">
               Website Development
@@ -284,7 +272,7 @@ const Portfolio = () => {
               }
             `}
           </style>
-          <div className="flex md:mw w-screen items-center gap-10">
+          <div className="flex lg:mw w-screen items-center gap-10">
             <Swiper
               breakpoints={{
                 // when window width is <= 640px
@@ -307,7 +295,7 @@ const Portfolio = () => {
               className="mySwiper max-w-[1170px]"
             >
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -341,7 +329,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -375,7 +363,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -409,7 +397,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] lg:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
