@@ -1,4 +1,12 @@
 import { Link } from "react-router-dom";
+import { GoHome } from "react-icons/go";
+import { TfiWrite } from "react-icons/tfi";
+import { FaUserAlt } from "react-icons/fa";
+import { MdOutlineWeb } from "react-icons/md";
+import { GrUserWorker } from "react-icons/gr";
+import { LuNewspaper } from "react-icons/lu";
+import { FaPhone } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa";
 
 const Nav = () => {
   return (
@@ -70,8 +78,66 @@ const Nav = () => {
           </div>
         </div>
       </div>
-      <div className="flex fixed bottom-0 z-[999]">
-        <h1>ANJAY</h1>
+      <div className="md:hidden flex justify-center">
+        <div className="fixed top-0 z-[100]">
+          <div className="bg-gradient-to-r from-[#9dceff] to-primary p-2 rounded-b-3xl border-b-4 border-l-4 border-r-4 border-white">
+            <Link
+              to={"/blog"}
+              className="text-white flex items-center gap-2 font-bold text-2xl"
+            >
+              Blog <FaArrowRight className="-rotate-[40deg]" />
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="flex justify-center">
+        <div className="flex md:hidden items-center px-4 justify-between rounded-full border-t-2 border-white bg-[#9dceff]/50 backdrop-blur-xl w-[95%] h-16 fixed bottom-4 z-[999] text-white">
+          <a href="#">
+            <GoHome
+              className="hover:text-primary hover:-translate-y-2"
+              size={30}
+            />
+          </a>
+          <a href="#about">
+            <FaUserAlt
+              className="hover:text-primary hover:-translate-y-2"
+              size={24}
+            />
+          </a>
+          <a href="#portfolio">
+            <MdOutlineWeb
+              className="hover:text-primary hover:-translate-y-2"
+              size={30}
+            />
+          </a>
+          <Link
+            to={"/blog"}
+            className="-mt-10 bg-primary p-2 border-2 border-second text-white rounded-full"
+          >
+            <TfiWrite
+              className="hover:text-primary hover:-translate-y-2"
+              size={30}
+            />
+          </Link>
+          <a href="#experience">
+            <GrUserWorker
+              className="hover:text-primary hover:-translate-y-2"
+              size={30}
+            />
+          </a>{" "}
+          <a href="#certificate">
+            <LuNewspaper
+              className="hover:text-primary hover:-translate-y-2"
+              size={30}
+            />
+          </a>{" "}
+          <a href="#contact">
+            <FaPhone
+              className="hover:text-primary hover:-translate-y-2"
+              size={26}
+            />
+          </a>
+        </div>
       </div>
     </>
   );

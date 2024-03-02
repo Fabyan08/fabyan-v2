@@ -56,7 +56,7 @@ const Portfolio = () => {
   return (
     <section
       id="portfolio"
-      className="relative w-full py-10  bg-gradient-to-tr  from-primary/30 min-h-screen"
+      className="relative w-screen md:w-full py-10   bg-gradient-to-tr  from-primary/30 min-h-screen"
     >
       {" "}
       <div className=" mw items-center justify-between flex relative">
@@ -112,7 +112,7 @@ const Portfolio = () => {
                   spaceBetween: 50,
                 },
               }}
-              initialSlide={2}
+              initialSlide={1.5}
               freeMode={true}
               pagination={{
                 clickable: true,
@@ -155,7 +155,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -189,7 +189,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -223,7 +223,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -260,21 +260,54 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="mw pt-10">
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-3">
+      <div className="mw pt-10 ">
+        <div className="flex flex-col md:flex-row ml-20 md:ml-0 items-center gap-4">
+          <div className="flex flex-col -ml-52 md:ml-0 ">
+            <h1 className="text-primary font-bold">WEBSITE</h1>
+            <h1 className="text-slate-700 text-xl text-nowrap">
+              Website Development
+            </h1>
+          </div>
+          <style>
+            {`
+              .swiper-pagination-bullet-active {
+                background: #F7EFE5; 
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border-radius: 40px;
+                width: 30px;
+              }
+              .swiper-pagination-bullet {
+                background: #0C359E; 
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border-radius: 40px;
+                {/* width: 30px; */}
+              }
+            `}
+          </style>
+          <div className="flex md:mw w-screen items-center gap-10">
             <Swiper
-              slidesPerView={3}
-              spaceBetween={50}
+              breakpoints={{
+                // when window width is <= 640px
+                640: {
+                  slidesPerView: 1.5,
+                  spaceBetween: 10,
+                },
+                // when window width is > 640px
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 50,
+                },
+              }}
+              initialSlide={1.5}
               freeMode={true}
               pagination={{
                 clickable: true,
               }}
               modules={[FreeMode, Pagination]}
-              className="mySwiper max-w-[1200px] mr-40"
+              className="mySwiper max-w-[1170px]"
             >
               <SwiperSlide>
-                <div className="bg-white pb-20  hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -308,7 +341,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -342,7 +375,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -376,7 +409,7 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="bg-white hover:border-4 border-primary duration-200 rounded-xl w-96 h-[400px] relative">
+                <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-[80%] md:w-96 h-[400px] relative">
                   <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
                     <h1>Personal Project</h1>
                   </div>
@@ -410,10 +443,6 @@ const Portfolio = () => {
                 </div>
               </SwiperSlide>
             </Swiper>{" "}
-          </div>
-          <div className="flex flex-col">
-            <h1 className="text-primary font-bold">WEBSITE</h1>
-            <h1 className="text-slate-700 text-xl">Website Development</h1>
           </div>
         </div>
       </div>

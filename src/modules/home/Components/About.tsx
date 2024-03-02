@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-gradient-to-r from-white/80 pt-10 h-fit pb-10  to-primary/50"
+      className="bg-gradient-to-r from-white/80 relative z-20 pt-10 h-fit pb-10  to-primary/50"
     >
       <div className="md:flex gap-20 ">
         <div className="flex">

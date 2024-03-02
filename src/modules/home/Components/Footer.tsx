@@ -7,14 +7,14 @@ import { CiLinkedin } from "react-icons/ci";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary/40 w-full h-fit">
-      <div className="bg-footer  relative bg-cover bg-center w-full h-fit">
-        <div className="bg-gradient-to-b from-primary/20 to-white/40 mw">
+    <footer id="contact" className="bg-primary/40 w-full h-[500px] md:h-fit">
+      <div className="bg-footer  relative bg-cover bg-center w-full h-[500px] md:h-fit">
+        <div className="bg-gradient-to-b from-primary/20 h-[500px] md:h-fit to-white/40 mw">
           <div className="flex justify-center pt-10">
-            <div className="bg-white/30 relative border-2 border-slate-white backdrop-blur-md w-3/4 h-60 rounded-3xl p-4">
-              <div className="flex items-center gap-6">
+            <div className="bg-white/30 relative border-2 border-slate-white backdrop-blur-md md:w-3/4 h-96 md:h-60 rounded-3xl p-4">
+              <div className="md:flex items-center gap-6">
                 <img src={foto} className="w-40 rounded-full" alt="" />
-                <div className="text-slate-700 bg-white/30 backdrop-blur-md p-3 rounded-xl font-semibold text-lg">
+                <div className="text-slate-700 mt-4 bg-white/30 backdrop-blur-md p-3 rounded-xl font-semibold text-lg">
                   <h1 className="text-xl">Contact me via</h1>
                   <div className="flex items-center space-x-2  hover:scale-110 duration-150 hover:underline">
                     <h1>
@@ -69,7 +69,7 @@ const Footer = () => {
           </div>
           <img
             src={city}
-            className="w-full -mt-40 object-cover object-center"
+            className="w-full hidden md:flex -mt-40 object-cover object-center"
             alt="City"
           />
         </div>
