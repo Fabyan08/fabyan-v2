@@ -1,5 +1,4 @@
 import city from "../../../../public/assets/image/city.svg";
-import React from "react";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
 import foto from "../../../../public/assets/image/foto.jpg";

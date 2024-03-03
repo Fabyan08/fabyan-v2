@@ -9,7 +9,6 @@ import { CiLocationArrow1 } from "react-icons/ci";
 // import { FreeMode, Pagination } from "swiper/modules";
 
 // Swiper
-import React, { useRef, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -28,16 +27,10 @@ import kodbar from "../../../../public/assets/image/portfolio/kodbar.png";
 import logo1 from "../../../../public/assets/image/portfolio/kodbar-logo.png";
 
 // Tech
-import { FaHtml5, FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { FaBootstrap } from "react-icons/fa6";
+
 import { SiTailwindcss } from "react-icons/si";
-import { FaPhp } from "react-icons/fa";
-import { FaLaravel } from "react-icons/fa";
-import { SiMysql } from "react-icons/si";
-import { IoLogoFirebase } from "react-icons/io5";
+
 import { SiTypescript } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 
 const Portfolio = () => {
