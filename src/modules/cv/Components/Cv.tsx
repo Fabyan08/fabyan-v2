@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
