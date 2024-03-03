@@ -5,7 +5,7 @@ import head from "../../../../public/assets/image/head.svg";
 import rounded from "../../../../public/assets/image/rounded.svg";
 const Hero = () => {
   return (
-    <header className="bg-header w-full relative overflow-y-hidden z-10 lg:h-screen h-full bg-cover bg-center">
+    <header className="bg-header w-full overflow-x-hidden relative overflow-y-hidden z-10 lg:h-screen h-full bg-cover bg-center">
       <div className="bg-gradient-to-b from-white/20  to-white/80 lg:h-screen h-[600px]">
         <div className="bg-gradient-to-tr from-white to-white/20 h-96">
           <div className="flex justify-center h-full relative z-[60] md:h-[600px] pt-20 items-center flex-col mw">
