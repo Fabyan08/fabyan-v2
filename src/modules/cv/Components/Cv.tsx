@@ -40,6 +40,9 @@ import terbaik from "../../../../public/assets/image/cv/terbaik.jpg";
 import city from "../../../../public/assets/image/city.svg";
 import grain from "../../../../public/assets/image/cv/grain.jpg";
 import cv from "../../../../public/assets/image/cv/cv.pdf";
+import inovator from "../../../../public/assets/image/cv/1.jpg";
+import kemenhub from "../../../../public/assets/image/cv/2.jpg";
+import kemenhubb from "../../../../public/assets/image/cv/3.jpg";
 const Cv = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -170,13 +173,17 @@ const Cv = () => {
           <div className="fixed top-0 left-0 w-full h-full bg-black backdrop-blur-md bg-opacity-50 z-50 flex justify-center items-center">
             <div className="bg-white w-[800px] h-[80vh] p-6 rounded-lg shadow-lg">
               {/* Your modal content here */}
-              <h2>This is the modal content</h2>
+              <div className="flex justify-between">
+                <h2>Fabyan Yastika ATS CV</h2>
+                <button onClick={toggleModal}>
+                  <IoCloseSharp className="bg-primary text-4xl p-2 text-white rounded-full" />
+                </button>
+              </div>
               <iframe
                 src={cv}
-                className="w-full h-[90%]"
+                className="w-full h-[90%] pt-4"
                 frameborder="0"
               ></iframe>
-              <button onClick={toggleModal}>Close Modal</button>
             </div>
           </div>
         )}
@@ -193,7 +200,9 @@ const Cv = () => {
               </h1>
             </div>
             <div className="flex gap-2 border-2">
-              <MdOutlineFileDownload className="text-4xl border-r-2 border-l-2 border-primary text-primary" />
+              <a href={cv} target="_blank">
+                <MdOutlineFileDownload className="text-4xl border-r-2 border-l-2 border-primary text-primary" />
+              </a>
               <Link to="/">
                 <IoCloseSharp className="bg-red-400 relative z-10 text-white text-4xl" />
               </Link>
@@ -583,6 +592,33 @@ const Cv = () => {
             </div>
           </div>
         </div>{" "}
+        <div className="absolute right-12 top-4">
+          <div className="flex-col">
+            <div className="flex flex-col">
+              <img
+                src={inovator}
+                className="w-44 h-44 hover:rounded-3xl duration-200  hover:border-4 border-white relative z-10 object-cover object-center"
+                alt=""
+              />
+              <hr className="border-t-4  my-4 rotate-90 border-white " />
+            </div>
+            <div className="flex flex-col">
+              <img
+                src={kemenhub}
+                className="w-44 h-44  hover:rounded-3xl duration-200  hover:border-4 border-white relative z-10 object-cover object-center"
+                alt=""
+              />
+              <hr className="border-t-4  my-4 rotate-90 border-white " />
+            </div>
+            <div className="flex flex-col">
+              <img
+                src={kemenhubb}
+                className="w-44 h-44  hover:rounded-3xl duration-200  hover:border-4 border-white relative z-10 object-cover object-center"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
