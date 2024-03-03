@@ -20,6 +20,8 @@ export default {
         about: "url('../../assets/image/about.svg')",
         footer: "url('../../assets/image/footer.svg')",
         cv: "url('../../assets/image/cv/cv.svg')",
+        edu: "url('../../assets/image/cv/edu.svg')",
+        or: "url('../../assets/image/cv/or.svg')",
       },
       container: {
         center: true,

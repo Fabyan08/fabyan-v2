@@ -29,6 +29,14 @@ import { SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaFigma } from "react-icons/fa6";
 import { FaRegFileExcel } from "react-icons/fa";
+import { FaMinus } from "react-icons/fa";
+import { IoResizeOutline } from "react-icons/io5";
+import { FaArrowDownLong } from "react-icons/fa6";
+import best from "../../../../public/assets/image/cv/best.jpg";
+import { FaTrophy } from "react-icons/fa";
+import digital from "../../../../public/assets/image/cv/digital.jpg";
+import GA from "../../../../public/assets/image/cv/GA.jpg";
+import terbaik from "../../../../public/assets/image/cv/terbaik.jpg";
 
 const Cv = () => {
   return (
@@ -36,7 +44,7 @@ const Cv = () => {
       id="cv"
       className="bg-cv w-full h-screen overflow-hidden bg-cover flex justify-center bg-center"
     >
-      <div className="bg-[#F0EFEE] overflow-auto w-[50%]  pb-[800px] h-screen ">
+      <div className="bg-[#F0EFEE] overflow-y-auto overflow-x-hidden w-[50%]   h-screen ">
         <div className="flex justify-between">
           <div className="flex gap-4 items-center pl-2">
             <div className="flex gap-2">
@@ -171,11 +179,256 @@ const Cv = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-second w-full h-[500px]"></div>
+              <div className="bg-gradient-to-b from-second to-slate-200 relative w-full h-[550px]">
+                <div className="bg-orange-100 relative w-full h-fit">
+                  <div className="flex justify-end items-center gap-2 text-xl">
+                    <FaMinus />
+                    <IoResizeOutline />
+                    <IoCloseSharp className="bg-red-400 relative z-10 text-white " />
+                  </div>{" "}
+                </div>
+                <div className="p-2">
+                  <h1 className="text-xl font-bold">About Me</h1>
+                  <RiCursorLine className="absolute  right-0 top-8   text-white text-5xl" />
+                  <h1 className="text-slate-700 text-sm ">
+                    Best Software Engineering graduates Vocational High School
+                    who have a high interest in programming. Have a good
+                    understanding of website development and database
+                    management.
+                  </h1>
+                  <h1 className="text-slate-700 pt-4 text-sm ">
+                    Skilled in PHP, Javascript including the framework Laravel,
+                    React, Next JS and familiar with HTML, CSS wih TailwindCSS
+                    as a website body also SQL as database. Have experience
+                    working on freelance projects to create website and develop
+                    UI interfaces for web and applications. Creative and
+                    innovative learner with good analytical skills.
+                  </h1>
+                </div>
+              </div>
+            </div>
+            <div className="-mt-32 xl:-mt-44 relative z-10">
+              <div className="flex">
+                <div className="bg-third -ml-8 w-96 rounded-3xl border-2 border-primary h-fit">
+                  <div className="flex justify-center">
+                    <div className="flex items-center justify-between px-2 mt-2 bg-orange-900 w-[98%] h-10 rounded-full">
+                      <div className="flex gap-1">
+                        <div className="bg-white w-4 h-4 rounded-full"></div>
+                        <div className="bg-white w-4 h-4 rounded-full"></div>
+                        <div className="bg-white w-4 h-4 rounded-full"></div>
+                      </div>
+                      <h1 className="text-center text-md font-semibold text-white">
+                        My Activities & Experience
+                      </h1>
+                      <IoCloseSharp className="text-white text-2xl" />
+                    </div>
+                  </div>
+                  <div className="p-2">
+                    <div className="flex flex-col gap-2">
+                      <div className="bg-white w-[85%] rounded-xl px-2  h-fit py-2">
+                        <div className="flex justify-between">
+                          <h1 className="text-sm font-bold">
+                            Credipush Studio - Web Designer
+                          </h1>
+                          <h1 className="text-sm bg-primary px-2 text-white">
+                            Now
+                          </h1>
+                        </div>
+                        <h1 className="text-sm">
+                          Become a designer working remotely who accepts
+                          overseas clients with a creative agency.
+                        </h1>
+                      </div>
+
+                      <div className="bg-white w-[85%] rounded-xl px-2  h-fit py-2">
+                        <div className="flex justify-between">
+                          <h1 className="text-sm font-bold">
+                            AboutMalang.com - Content Creator
+                          </h1>
+                          <h1 className="text-sm">2023</h1>
+                        </div>
+                        <h1 className="text-sm">
+                          Become a content creator who is tasked with creating
+                          trending and fact-based content.
+                        </h1>
+                      </div>
+                      <div className="bg-white w-[85%] rounded-xl px-2  h-fit py-2">
+                        <div className="flex justify-between">
+                          <h1 className="text-sm font-bold">
+                            CV Birudeun Creative -Visual Creative Department
+                            Staff
+                          </h1>
+                          <h1 className="text-sm">2023</h1>
+                        </div>
+                        <h1 className="text-sm">
+                          Create social media posts for clients and increase
+                          social media engagement.
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>{" "}
+                <div className="bg-white w-[54%] relative h-[400px] pb-4 rounded-3xl border-2 border-slate-300 mt-20 -ml-12">
+                  <div className="bg-edu w-full h-[400px] bg-cover bg-center">
+                    <h1 className="absolute right-0 -rotate-[20deg] text-primary font-black text-[100px] -top-12">
+                      F
+                    </h1>
+                    <div className="flex flex-col p-2 text-primary text-4xl font-bold">
+                      <h1>EDU-</h1>
+                      <h1>CATION</h1>
+                    </div>
+                    <div className="pt-2 px-2">
+                      <div className="flex gap-2 items-center">
+                        <div className="bg-second p-2">
+                          <div className="flex text-center -space-y-4 flex-col text-slate-500 font-bold text-xl">
+                            <h1>2021</h1>
+                            <h1>-</h1>
+                            <h1>2023</h1>
+                          </div>
+                        </div>
+                        <h1 className="text-sm">
+                          Graduated From SMKN 5 Malang With{" "}
+                          <span className="bg-primary text-white px-2">
+                            Best
+                          </span>
+                          in software engineering.
+                        </h1>
+                      </div>
+                      <div className="my-2 flex justify-center">
+                        <hr className="w-[80%] border-t-4 border-primary" />
+                      </div>
+                      <div className="flex gap-2 items-center">
+                        <h1 className="text-sm">
+                          Graduated From SMKN 5 Malang With{" "}
+                          <span className="bg-primary text-white px-2">
+                            Best
+                          </span>
+                          in software engineering.
+                        </h1>
+                        <div className="bg-second p-2">
+                          <div className="flex text-center -space-y-4 flex-col text-slate-500 font-bold text-xl">
+                            <h1>2021</h1>
+                            <h1>-</h1>
+                            <h1>2023</h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="my-2 flex justify-center">
+                        <hr className="w-[80%] border-t-4 border-primary" />
+                      </div>
+                      <div className="flex gap-2 items-center">
+                        <div className="bg-second p-2">
+                          <div className="flex text-center -space-y-4 flex-col text-slate-500 font-bold text-xl">
+                            <h1>2021</h1>
+                            <h1>-</h1>
+                            <h1>2023</h1>
+                          </div>
+                        </div>
+                        <h1 className="text-sm">
+                          Graduated From SMKN 5 Malang With{" "}
+                          <span className="bg-primary text-white px-2">
+                            Best
+                          </span>
+                          in software engineering.
+                        </h1>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className=" -mt-10 relative z-10 flex justify-end">
+                <div className="flex gap-20 w-full items-center justify-end">
+                  <FaArrowDownLong className="animate-bounce text-7xl" />
+                  <div className="bg-gradient-to-r from-primary to-[#a3ccf4] w-3/4 h-fit">
+                    <div className="bg-or w-full h-full bg-cover bg-center">
+                      <div className="flex gap-4">
+                        <div className="bg-second text-[12px] font-bold text-center w-fit h-full p-2">
+                          <h1>O</h1>
+                          <h1>R</h1>
+                          <h1>G</h1>
+                          <h1>A</h1>
+                          <h1>N</h1>
+                          <h1>I</h1>
+                          <h1>Z</h1>
+                          <h1>A</h1>
+                          <h1>T</h1>
+                          <h1>I</h1>
+                          <h1>O</h1>
+                          <h1>N</h1>
+                        </div>
+                        <div className="p-4">
+                          <div className="bg-white/30 text-white backdrop-blur-sm w-80 h-full p-2">
+                            <h1 className="font-bold ">IDEAL ASIA - 2024</h1>
+                            <h1 className="text-sm">
+                              IDEAL (Indonesian Development Education and
+                              Leadership) is a non-governmental organization
+                              that focuses on improving and developing the
+                              potential of Indonesian youth through education
+                              and leadership development. I be{" "}
+                              <span className="bg-primary px-2">
+                                content writer staff
+                              </span>{" "}
+                              at this organization!
+                            </h1>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="pb-96 pt-4 -ml-6">
+                <div className="bg-yellow-200 p-2 w-full h-fit">
+                  <div className="flex bg-blue-200 px-4 py-2 rounded-full items-center justify-between">
+                    <div className="flex">
+                      <div className="bg-white w-4 h-4 rounded-full border-2 border-slate-900"></div>
+                      <div className="bg-white w-4 h-4 rounded-full border-2 border-slate-900"></div>
+                      <div className="bg-white w-4 h-4 rounded-full border-2 border-slate-900"></div>
+                    </div>
+                    <div>
+                      <h1 className="font-bold text-slate-700">
+                        Certificate & Achievements
+                      </h1>
+                    </div>{" "}
+                    <FaTrophy />
+                  </div>
+                  <div className="pt-4">
+                    <div className="flex flex-col gap-2">
+                      <div className="flex gap-4">
+                        <div className="bg-white w-fit h-fit rounded-xl relative">
+                          <h1 className="text-sm bg-white/20 backdrop-blur-md bottom-0 text-white font-bold px-2 text-center absolute right-0">
+                            Best Graduate at SMKN 5 Malang
+                          </h1>
+                          <img src={best} className="w-48 rounded-xl" alt="" />
+                        </div>
+                        <div className="bg-white w-fit h-fit rounded-xl relative">
+                          <img
+                            src={digital}
+                            className="w-[240px] rounded-xl"
+                            alt=""
+                          />
+                        </div>
+                        <div className="bg-white w-fit h-fit rounded-xl relative">
+                          <img
+                            src={terbaik}
+                            className="w-[240px] rounded-xl"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <ul className="flex flex-col gap-2 text-sm font-semibold">
+                        <li>4. </li>
+                        <li>5. </li>
+                        <li>6. </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </div>{" "}
     </section>
   );
 };
