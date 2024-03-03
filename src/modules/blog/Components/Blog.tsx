@@ -11,8 +11,6 @@ const Blog = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Lakukan logika async untuk persiapan aplikasi Anda di sini
-    // Setelah semua persiapan selesai, atur isLoading menjadi false
     setTimeout(() => {
       setIsLoading(false);
     }, 500);
@@ -27,7 +25,6 @@ const Blog = () => {
             id="blog"
             className="relative bg-gradient-to-r from-primary w-full h-full pb-10"
           >
-            <img src="/images/blog/pat3.jpg" className="absolute z-10" alt="" />
             <div className="bg-gradient-to-t absolute z-20 from-primary w-full h-full"></div>
             <div className="bg-gradient-to-r absolute z-20 from-primary to-second/30 w-full h-full"></div>
 
@@ -62,7 +59,7 @@ const Blog = () => {
                 </div>
                 <div>
                   <img
-                    src="/images/blog/blog.gif"
+                    src="../../../assets/image/blog/blog.gif"
                     loading="lazy"
                     className="pr-20 w-full"
                     alt=""
@@ -133,7 +130,7 @@ const Blog = () => {
 
             <div className="mt-10 md:flex justify-between space-x-4">
               <img
-                src="/images/blog/detail/bg.jpg"
+                src="../../../assets/image/blog/detail/bg.jpg"
                 className="w-[500px] rounded-lg hover:border-4 duration-150 hover:border-primary"
                 alt=""
               />
@@ -156,20 +153,20 @@ const Blog = () => {
                   </div>
                 </div>
                 <Link
-                  to="/detail/qris-23791"
+                  to="/detail/qris-indonesia"
                   className="font-bold text-5xl hover:text-primary"
                 >
                   Transaksi Lintas Negara? Bukan Jadi Masalah! Yuk Kenalan....{" "}
                 </Link>
                 <div className="flex mt-2 md:mt-0 bg-primary w-fit h-fit items-center text-center text-white text-xl hover:scale-110 duration-150 hover:bg-white hover:text-primary hover:shadow-xl font-bold rounded-full p-2 space-x-2">
-                  <Link to="/detail/qris-23791">Read More</Link>
+                  <Link to="/detail/qris-indonesia">Read More</Link>
                   <FiArrowRight />
                 </div>
 
                 <div className="mt-10 md:hidden space-y-4">
-                  <Link to="/detail/kirimin-aja-indonesia-72927">
+                  <Link to="/detail/kirimin-aja-indonesia">
                     <img
-                      src="/images/blog/kiriminaja/head1.jpg"
+                      src="../../../assets/image/blog/kiriminaja/head1.jpg"
                       className="rounded-lg -ml-2"
                       alt=""
                     />
@@ -182,15 +179,13 @@ const Blog = () => {
                       </div>
                     </div>
                     <Link
-                      to="/detail/kirimin-aja-indonesia-72927"
+                      to="/detail/kirimin-aja-indonesia"
                       className="font-bold text-5xl hover:text-new"
                     >
                       Makin Terhubung Pakai KiriminAja....
                     </Link>
                     <div className="flex mt-2 md:mt-0 bg-new w-fit h-fit items-center text-center text-white text-xl hover:scale-110 duration-150 hover:bg-white hover:text-new hover:shadow-xl font-bold rounded-full p-2 space-x-2">
-                      <Link to="/detail/kirimin-aja-indonesia-72927">
-                        Read More
-                      </Link>
+                      <Link to="/detail/kirimin-aja-indonesia">Read More</Link>
                       <FiArrowRight />
                     </div>
                   </Link>
@@ -199,7 +194,7 @@ const Blog = () => {
                 <div className="pt-4 hidden space-x-5 lg:flex items-center">
                   <div>
                     <img
-                      src="/images/blog/kiriminaja/head1.jpg"
+                      src="../../../assets/image/blog/kiriminaja/head1.jpg"
                       className="w-60"
                       alt=""
                     />
@@ -215,16 +210,14 @@ const Blog = () => {
                     </div>
                     <div className="flex">
                       <a
-                        href="/detail/kirimin-aja-indonesia-72927"
+                        href="/detail/kirimin-aja-indonesia"
                         className="hover:text-new font-bold text-3xl"
                       >
                         Makin Terhubung Pakai KiriminAja....
                       </a>{" "}
                     </div>
                     <div className="flex mt-2 md:mt-0 bg-new w-fit h-fit items-center text-center text-white text-xl hover:scale-110 duration-150 hover:bg-white hover:text-new hover:shadow-xl font-bold rounded-full p-2 space-x-2">
-                      <Link to="/detail/kirimin-aja-indonesia-72927">
-                        Read More
-                      </Link>
+                      <Link to="/detail/kirimin-aja-indonesia">Read More</Link>
                       <FiArrowRight />
                     </div>
                   </div>
@@ -238,7 +231,10 @@ const Blog = () => {
               </div>{" "}
               <div className="grid md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
                 <div className=" w-96 space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                  <img src="/images/blog/detail/nfound.png" alt="" />
+                  <img
+                    src="../../../assets/image/blog/detail/nfound.png"
+                    alt=""
+                  />
                   <h1 className="text-xl text-primary font-bold">
                     Development
                   </h1>
@@ -263,7 +259,10 @@ const Blog = () => {
                   </div>
                 </div>
                 <div className=" w-96 space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                  <img src="/images/blog/detail/nfound.png" alt="" />
+                  <img
+                    src="../../../assets/image/blog/detail/nfound.png"
+                    alt=""
+                  />
                   <h1 className="text-xl text-primary font-bold">
                     Development
                   </h1>
@@ -288,7 +287,10 @@ const Blog = () => {
                   </div>
                 </div>
                 <div className=" w-96 space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                  <img src="/images/blog/detail/nfound.png" alt="" />
+                  <img
+                    src="../../../assets/image/blog/detail/nfound.png"
+                    alt=""
+                  />
                   <h1 className="text-xl text-primary font-bold">
                     Development
                   </h1>
@@ -326,7 +328,7 @@ const Blog = () => {
               <div className="relative w-full items-center justify-center bg-gradient-to-r from-primary via-primary to-blue-400 h-[400px] md:h-[500px] rounded-[100px] border-[20px] shadow-2xl shadow-biru border-white text-white text-center py-16 md:py-32">
                 <div className="flex justify-center items-center">
                   <img
-                    src="/images/Foto.jpg"
+                    src="../../../assets/image/Foto.jpg"
                     className="w-20 rounded-full"
                     alt=""
                   />

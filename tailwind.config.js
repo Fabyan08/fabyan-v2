@@ -13,11 +13,13 @@ export default {
         third: "#F6BA6F",
         new: "#8F47D1",
         neww: "#4F378B",
+        grey: "#F5F1EE",
       },
       backgroundImage: {
         header: "url('../../assets/image/header.svg')",
         about: "url('../../assets/image/about.svg')",
         footer: "url('../../assets/image/footer.svg')",
+        cv: "url('../../assets/image/cv/cv.svg')",
       },
       container: {
         center: true,

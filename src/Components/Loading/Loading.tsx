@@ -1,6 +1,4 @@
-
 const Loading = () => {
-
   return (
     <div className="bg-white md:w-full min-h-screen flex justify-center items-center ">
       <div>

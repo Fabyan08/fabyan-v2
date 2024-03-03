@@ -68,12 +68,12 @@ const About = () => {
                   am enthusiastic about learning new technology and apply it to
                   my several project.
                 </h1>
-                <div className="flex mt-4 lg:mt-10 items-center justify-center gap-3 px-2 lg:px-10">
+                <div className="flex mt-4  lg:mt-10 items-center justify-center gap-3 px-2 lg:px-10">
                   <a
                     href="https://drive.google.com/file/d/1kMOMK2na3gNu18k3Y8057kv1VNJTfK69/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
-                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary"
+                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-white hover:text-primary"
                   >
                     CV <ImNewTab className="text-2xl -mt-2" />
                   </a>
@@ -81,7 +81,7 @@ const About = () => {
                     href="https://drive.google.com/file/d/1mjWWDodYH1mOJdurp5sf_J_rdiLV9mfL/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
-                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary"
+                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-white hover:text-primary"
                   >
                     Portfolio <ImNewTab className="text-2xl -mt-2" />
                   </a>
@@ -89,7 +89,7 @@ const About = () => {
                     href="https://drive.google.com/file/d/1H_5Mf5ZyA-uFcCmih2t1D_VnTvZqYSMc/view?usp=sharing"
                     target="_blank"
                     rel="noreferrer"
-                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-second hover:text-primary"
+                    className="bg-primary hover:scale-110 text-center rounded-full hover:bg-primary/20 hover:border-2 hover:border-primary duration-150 w-40 h-10 pt-2 font-bold text-white hover:text-primary"
                   >
                     About <ImNewTab className="text-2xl -mt-2" />
                   </a>
