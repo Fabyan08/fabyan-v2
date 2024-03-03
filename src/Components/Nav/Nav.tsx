@@ -67,6 +67,12 @@ const Nav = () => {
         <div className="fixed md:hidden lg:flex lg:right-[60px] rotate-12 hover:rotate-0 duration-150 hover:scale-110">
           <hr className="border-2 border-white h-20 rounded-full right-20 " />
         </div>
+        <Link
+          to={"/cv"}
+          className="fixed z-[999] left-0 bg-primary p-2 text-white rounded-br-lg  border-r-4 border-b-4 border-white font-semibold top-0"
+        >
+          My CV
+        </Link>
         <div className="relative">
           <div className="fixed rotate-12 right-4 top-6 hover:rotate-0 duration-150 hover:scale-110">
             <Link

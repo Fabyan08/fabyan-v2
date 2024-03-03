@@ -31,7 +31,7 @@ const Hero = () => {
             <img
               src={vectorhead}
               alt="Head"
-              className="absolute left-40 top-12 w-60 animate-pulse"
+              className="absolute left-40 bottom-12 w-60 animate-pulse"
             />
             <div className="bg-primary border-[10px] custom-rotate absolute top-12 left-12 border-orange-200 rounded-2xl w-[80px] h-[80px] "></div>
             <svg
@@ -68,7 +68,7 @@ const Hero = () => {
             <img
               src={rounded}
               alt="Rounded"
-              className="absolute left-2 md:right-2 w-52 custom-rotate bottom-40 md:top-12 z-20"
+              className="absolute right-12 w-52 custom-rotate bottom-40 md:top-12 z-20"
             />
           </div>
         </div>
