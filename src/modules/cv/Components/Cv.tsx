@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoCloseSharp } from "react-icons/io5";
 import { MdOutlineFileDownload } from "react-icons/md";
 import { Link } from "react-router-dom";
@@ -13,7 +13,6 @@ import { FiPenTool } from "react-icons/fi";
 import { CiText } from "react-icons/ci";
 import { IoIosSearch } from "react-icons/io";
 import { FaRegHandPaper } from "react-icons/fa";
-import qr from "../../../../public/assets/image/cv/qr.svg";
 import { FaBarcode } from "react-icons/fa";
 import { IoCodeSlash } from "react-icons/io5";
 // Skills
@@ -28,17 +27,14 @@ import { IoLogoFirebase } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaFigma } from "react-icons/fa6";
-import { FaRegFileExcel } from "react-icons/fa";
 import { FaMinus } from "react-icons/fa";
 import { IoResizeOutline } from "react-icons/io5";
 import { FaArrowDownLong } from "react-icons/fa6";
 import best from "../../../../public/assets/image/cv/best.jpg";
 import { FaTrophy } from "react-icons/fa";
 import digital from "../../../../public/assets/image/cv/digital.jpg";
-import GA from "../../../../public/assets/image/cv/GA.jpg";
 import terbaik from "../../../../public/assets/image/cv/terbaik.jpg";
 import city from "../../../../public/assets/image/city.svg";
-import grain from "../../../../public/assets/image/cv/grain.jpg";
 import cv from "../../../../public/assets/image/cv/cv.pdf";
 import inovator from "../../../../public/assets/image/cv/1.jpg";
 import kemenhub from "../../../../public/assets/image/cv/2.jpg";
@@ -60,7 +56,6 @@ const Cv = () => {
           xmlns="http://www.w3.org/2000/svg"
           version="1.1"
           xmlnsXlink="http://www.w3.org/1999/xlink"
-          xmlns:svgjs="http://svgjs.dev/svgjs"
           viewBox="0 0 1422 800"
           className="absolute w-screen h-screen"
         >
@@ -182,7 +177,7 @@ const Cv = () => {
               <iframe
                 src={cv}
                 className="w-full h-[90%] pt-4"
-                frameborder="0"
+                frameBorder="0"
               ></iframe>
             </div>
           </div>
