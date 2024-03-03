@@ -37,14 +37,15 @@ import { FaTrophy } from "react-icons/fa";
 import digital from "../../../../public/assets/image/cv/digital.jpg";
 import GA from "../../../../public/assets/image/cv/GA.jpg";
 import terbaik from "../../../../public/assets/image/cv/terbaik.jpg";
-
+import city from "../../../../public/assets/image/city.svg";
 const Cv = () => {
   return (
     <section
       id="cv"
-      className="bg-cv w-full h-screen overflow-hidden bg-cover flex justify-center bg-center"
+      className="bg-gradient-to-r from-primary to-primary/50 w-full h-screen overflow-hidden bg-cover flex justify-center bg-center"
     >
-      <div className="bg-[#F0EFEE] overflow-y-auto overflow-x-hidden w-[50%]   h-screen ">
+      <img src={city} className="absolute bottom-0 w-full" alt="" />
+      <div className="bg-[#F0EFEE] relative z-10 overflow-y-auto overflow-x-hidden w-[50%]   h-screen ">
         <div className="flex justify-between">
           <div className="flex gap-4 items-center pl-2">
             <div className="flex gap-2">
@@ -167,12 +168,12 @@ const Cv = () => {
                         <h1 className="text-sm">Indonesia</h1>
                         <h1 className="text-[10px]">Native/Fluent</h1>
                       </div>
-                      <div className="flex items-center gap-20">
-                        <h1 className="text-sm">Indonesia</h1>
-                        <h1 className="text-[10px]">Native/Fluent</h1>
+                      <div className="flex items-center gap-24">
+                        <h1 className="text-sm">English</h1>
+                        <h1 className="text-[10px]">Intermediate</h1>
                       </div>
-                      <div className="flex items-center gap-20">
-                        <h1 className="text-sm">Indonesia</h1>
+                      <div className="flex items-center gap-28">
+                        <h1 className="text-sm">Java</h1>
                         <h1 className="text-[10px]">Native/Fluent</h1>
                       </div>
                     </div>
@@ -299,17 +300,13 @@ const Cv = () => {
                       </div>
                       <div className="flex gap-2 items-center">
                         <h1 className="text-sm">
-                          Graduated From SMKN 5 Malang With{" "}
-                          <span className="bg-primary text-white px-2">
-                            Best
-                          </span>
-                          in software engineering.
+                          Junior High School at SMPN 1 Sidoarjo
                         </h1>
                         <div className="bg-second p-2">
                           <div className="flex text-center -space-y-4 flex-col text-slate-500 font-bold text-xl">
-                            <h1>2021</h1>
+                            <h1>2019</h1>
                             <h1>-</h1>
-                            <h1>2023</h1>
+                            <h1>2021</h1>
                           </div>
                         </div>
                       </div>
@@ -319,17 +316,13 @@ const Cv = () => {
                       <div className="flex gap-2 items-center">
                         <div className="bg-second p-2">
                           <div className="flex text-center -space-y-4 flex-col text-slate-500 font-bold text-xl">
-                            <h1>2021</h1>
+                            <h1>2013</h1>
                             <h1>-</h1>
-                            <h1>2023</h1>
+                            <h1>2019</h1>
                           </div>
                         </div>
                         <h1 className="text-sm">
-                          Graduated From SMKN 5 Malang With{" "}
-                          <span className="bg-primary text-white px-2">
-                            Best
-                          </span>
-                          in software engineering.
+                          Elementary School In SDN Kebonagung 2
                         </h1>
                       </div>
                     </div>
@@ -377,7 +370,7 @@ const Cv = () => {
                   </div>
                 </div>
               </div>
-              <div className="pb-96 pt-4 -ml-6">
+              <div className="pb-4 pt-4 -ml-6">
                 <div className="bg-yellow-200 p-2 w-full h-fit">
                   <div className="flex bg-blue-200 px-4 py-2 rounded-full items-center justify-between">
                     <div className="flex">
@@ -417,9 +410,28 @@ const Cv = () => {
                         </div>
                       </div>
                       <ul className="flex flex-col gap-2 text-sm font-semibold">
-                        <li>4. </li>
-                        <li>5. </li>
-                        <li>6. </li>
+                        <li>
+                          4. Selected to represent the school in the Artificial
+                          Intelligence LKS
+                        </li>
+                        <li>
+                          5. Parallel School Champion of Software Engineer at
+                          SMKN 5 Malang 2023
+                        </li>
+                        <li>6. Google Analytics Academy by Google</li>
+                        <li>7. Online Child Safeguarding Training by UNICEF</li>
+                        <li>
+                          8. Decolonizing Global Health by Harvard Medical
+                          School
+                        </li>
+                        <li>
+                          Soft Skills: Good algorithm, communication, enjoy
+                          learning, able to understand difficult things
+                        </li>
+                        <li>
+                          Interest: Web developer, UI UX designer, learn about
+                          mobile apps development including IOS and Android
+                        </li>
                       </ul>
                     </div>
                   </div>
