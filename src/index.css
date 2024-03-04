@@ -234,3 +234,8 @@
     transparent
   );
 }
+
+/* Custom Cursor */
+body {
+  cursor: url("../public/assets/image/cursor.png"), auto;
+}

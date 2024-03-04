@@ -166,7 +166,7 @@ const Cv = () => {
         {/* Modal */}
         {isModalOpen && (
           <div className="fixed top-0 left-0 w-full h-full bg-black backdrop-blur-md bg-opacity-50 z-50 flex justify-center items-center">
-            <div className="bg-white w-[800px] h-[80vh] p-6 rounded-lg shadow-lg">
+            <div className="bg-white w-screen mx-4 md:w-[800px] h-[80vh] p-6 rounded-lg shadow-lg">
               {/* Your modal content here */}
               <div className="flex justify-between">
                 <h2>Fabyan Yastika ATS CV</h2>
@@ -182,7 +182,7 @@ const Cv = () => {
             </div>
           </div>
         )}
-        <div className="bg-[#F0EFEE] shadow-lg relative z-10 overflow-y-auto overflow-x-hidden w-[50%]   h-screen ">
+        <div className="bg-[#F0EFEE] shadow-lg relative z-10 overflow-y-auto overflow-x-hidden w-screen md:w-[50%]   h-screen ">
           <div className="flex justify-between">
             <div className="flex gap-4 items-center pl-2">
               <div className="flex gap-2">
@@ -213,28 +213,28 @@ const Cv = () => {
                 </h1>
                 <BsZoomIn />
               </div>
-              <div className="flex justify-between ">
+              <div className="flex  justify-between gap-1 md:gap-0 ">
                 <div className="bg-grey border-2 -mt-12 border-primary w-32 h-60 rounded-xl -ml-8">
                   <div className="flex justify-end pr-1 pt-1 text-primary">
                     <IoCloseSharp />
                   </div>
-                  <div className="grid grid-cols-2 text-slate-700 gap-2 text-2xl px-4 pt-2">
-                    <div className="border-2 border-primary p-1">
+                  <div className="grid grid-cols-2 text-slate-700 gap-6 md:gap-2 text-2xl px-4 pt-2">
+                    <div className="border-2 w-4 h-4 md:w-10 md:h-10 border-primary p-1">
                       <GiArrowCursor />
                     </div>
-                    <div className="border-2 border-primary p-1">
+                    <div className="border-2 w-4 h-4 md:w-10 md:h-10 border-primary p-1">
                       <RiCursorLine />
                     </div>
-                    <div className="border-2 border-primary p-1">
+                    <div className="border-2 w-4 h-4 md:w-10 md:h-10 border-primary p-1">
                       <FiPenTool />
                     </div>
-                    <div className="border-2 border-primary p-1">
+                    <div className="border-2 w-4 h-4 md:w-10 md:h-10 border-primary p-1">
                       <CiText />
                     </div>
-                    <div className="border-2 border-primary p-1">
+                    <div className="border-2 w-4 h-4 md:w-10 md:h-10 border-primary p-1">
                       <IoIosSearch />
                     </div>
-                    <div className="border-2 border-primary p-1">
+                    <div className="border-2 w-4 h-4 md:w-10 md:h-10 border-primary p-1">
                       <FaRegHandPaper />
                     </div>
                   </div>
@@ -268,7 +268,7 @@ const Cv = () => {
                 <img src={foto} className="w-[160px] -mt-[9px]" alt="" />
               </div>
               <div className="flex gap-6">
-                <div className="bg-grey w-80 border-2 border-slate-200 h-80 -ml-3 mt-4 rounded-3xl">
+                <div className="bg-grey w-44 md:w-80 border-2 border-slate-200 h-80 -ml-3 mt-4 rounded-3xl">
                   <div className="flex justify-between p-2">
                     <div className="flex gap-1">
                       <div className="bg-primary w-4 border-2 border-slate-900  h-4  rounded-full"></div>
@@ -319,7 +319,7 @@ const Cv = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-gradient-to-b from-second to-slate-200 relative w-full h-[550px]">
+                <div className="bg-gradient-to-b from-second to-slate-200 relative w-full h-[700px] md:h-[550px]">
                   <div className="bg-orange-100 relative w-full h-fit">
                     <div className="flex justify-end items-center gap-2 text-xl">
                       <FaMinus />
@@ -331,25 +331,25 @@ const Cv = () => {
                     <h1 className="text-xl font-bold">About Me</h1>
                     <RiCursorLine className="absolute  right-0 top-8   text-white text-5xl" />
                     <h1 className="text-slate-700 text-sm ">
-                      Best Software Engineering graduates Vocational High School
-                      who have a high interest in programming. Have a good
-                      understanding of website development and database
-                      management.
+                      Graduates of the best Software Engineering Vocational
+                      Schools who have a high interest in programming. Have a
+                      good understanding of scalable website development,
+                      database management, and ui interface design.
                     </h1>
                     <h1 className="text-slate-700 pt-4 text-sm ">
-                      Skilled in PHP, Javascript including the framework
-                      Laravel, React, Next JS and familiar with HTML, CSS wih
-                      TailwindCSS as a website body also SQL as database. Have
-                      experience working on freelance projects to create website
-                      and develop UI interfaces for web and applications.
-                      Creative and innovative learner with good analytical
-                      skills.
+                      Mastering PHP, Javascript. Including its framework:
+                      Laravel, React, Next JS and very familiar with HTML, CSS
+                      with TailwindCSS as website interface and SQL as database.
+                      Have experience working on freelance projects to create
+                      websites and develop UI interfaces for web and
+                      applications to interface design. Creative and innovative
+                      learner with good analytical skills.
                     </h1>
                   </div>
                 </div>
               </div>
               <div className="-mt-32 xl:-mt-44 relative z-10">
-                <div className="flex">
+                <div className="flex gap-4 md:gap-0">
                   <div className="bg-third -ml-8 w-96 rounded-3xl border-2 border-primary h-fit">
                     <div className="flex justify-center">
                       <div className="flex items-center justify-between px-2 mt-2 bg-orange-900 w-[98%] h-10 rounded-full">
@@ -409,7 +409,7 @@ const Cv = () => {
                       </div>
                     </div>
                   </div>{" "}
-                  <div className="bg-white w-[54%] relative h-[400px] pb-4 rounded-3xl border-2 border-slate-300 mt-20 -ml-12">
+                  <div className="bg-white w-[54%] relative h-fit md:h-[400px] pb-20 md:pb-4 rounded-3xl border-2 border-slate-300 mt-20 -ml-12">
                     <div className="bg-edu w-full h-[400px] bg-cover bg-center">
                       <h1 className="absolute right-0 -rotate-[20deg] text-primary font-black text-[100px] -top-12">
                         F
@@ -469,10 +469,10 @@ const Cv = () => {
                     </div>
                   </div>
                 </div>
-                <div className=" -mt-10 relative z-10 flex justify-end">
+                <div className=" mt-2 md:-mt-10 relative z-10 flex justify-end">
                   <div className="flex gap-20 w-full items-center justify-end">
                     <FaArrowDownLong className="animate-bounce text-7xl" />
-                    <div className="bg-gradient-to-r from-primary to-[#a3ccf4] w-3/4 h-fit">
+                    <div className="bg-gradient-to-r from-primary to-[#a3ccf4] md:w-3/4 h-fit">
                       <div className="bg-or w-full h-full bg-cover bg-center">
                         <div className="flex gap-4">
                           <div className="bg-second text-[12px] font-bold text-center w-fit h-full p-2">
@@ -529,7 +529,7 @@ const Cv = () => {
                       <div className="flex flex-col gap-2">
                         <div className="flex gap-4">
                           <div className="bg-white w-fit h-fit rounded-xl relative">
-                            <h1 className="text-sm bg-white/20 backdrop-blur-md bottom-0 text-white font-bold px-2 text-center absolute right-0">
+                            <h1 className="text-sm hidden md:block bg-white/20 backdrop-blur-md bottom-0 text-white font-bold px-2 text-center absolute right-0">
                               Best Graduate at SMKN 5 Malang
                             </h1>
                             <img
@@ -584,10 +584,20 @@ const Cv = () => {
                   </div>
                 </div>
               </div>
+              <div className="flex justify-center">
+                <button
+                  className=" md:hidden shadow-md animate-wobble"
+                  onClick={toggleModal}
+                >
+                  <h1 className="bg-primary rounded-lg border-4 border-white p-2 font-bold text-white">
+                    See Formal ATS CV
+                  </h1>
+                </button>{" "}
+              </div>
             </div>
           </div>
         </div>{" "}
-        <div className="absolute right-12 top-4">
+        <div className="absolute right-12 hidden md:flex top-4">
           <div className="flex-col">
             <div className="flex flex-col">
               <img
