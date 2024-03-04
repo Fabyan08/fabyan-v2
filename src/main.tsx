@@ -7,6 +7,7 @@ import Blog from "./modules/blog/Index";
 import Qris from "./modules/blog/Components/Detail/Qris";
 import Kirim from "./modules/blog/Components/Detail/Kirim";
 import CV from "./modules/cv/Index";
+import CVID from "./modules/cv/Components/Cv-id";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/cv",
     element: <CV />,
+  },
+  {
+    path: "/cv/id",
+    element: <CVID />,
   },
 ]);
 ReactDOM.createRoot(document.getElementById("root")!).render(

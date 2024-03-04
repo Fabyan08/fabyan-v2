@@ -177,10 +177,10 @@ const Cv = () => {
             </h1>
           </button>
           <Link
-            to="/cv/id"
+            to="/cv"
             className="absolute bg-white/20 backdrop-blur-lg border-2 border-white rounded-lg font-bold text-slate-600 p-4 animate-bounce right-0 bottom-0 z-20"
           >
-            Change To Indonesia
+            Ubah Ke Inggris
           </Link>
           {/* Modal */}
           {isModalOpen && (
@@ -284,7 +284,7 @@ const Cv = () => {
                       </div>
                       <div className="flex items-center text-sm gap-2 ">
                         <IoCalendarNumberSharp />
-                        <h1>August, 31 2005</h1>
+                        <h1>31 Agustus 2005</h1>
                       </div>
                     </div>
                   </div>
@@ -298,7 +298,7 @@ const Cv = () => {
                         <div className="bg-second w-4 border-2 border-slate-900  h-4  rounded-full"></div>
                         <div className="bg-third w-4 border-2 border-slate-900  h-4  rounded-full"></div>
                       </div>
-                      <h1 className="font-bold text-sm ">My Skills</h1>
+                      <h1 className="font-bold text-sm ">Skills</h1>
                       <IoCodeSlash />
                     </div>
                     <hr className="border-[1px] border-slate-900 w-full " />
@@ -351,27 +351,29 @@ const Cv = () => {
                       </div>{" "}
                     </div>
                     <div className="p-2">
-                      <h1 className="text-xl font-bold">About Me</h1>
+                      <h1 className="text-xl font-bold">Tentang Saya</h1>
                       <RiCursorLine className="absolute  right-0 top-8   text-white text-5xl" />
                       <h1 className="text-slate-700 text-sm ">
-                        Graduates of the best Software Engineering Vocational
-                        Schools who have a high interest in programming. Have a
-                        good understanding of scalable website development,
-                        database management, and ui interface design.
+                        Lulusan terbaik SMK jurusan Rekayaysa Perangkat Lunak
+                        yang memiliki minat tinggi dalam bidang pemrograman.
+                        Memiliki pemahaman yang baik tentang pengembangan situs
+                        web berskala besar maupun kecil, manajemen basis data,
+                        dan desain interface.
                       </h1>
                       <h1 className="text-slate-700 pt-4 text-sm ">
-                        Mastering PHP, Javascript. Including its framework:
-                        Laravel, React, Next JS and very familiar with HTML, CSS
-                        with TailwindCSS as website interface and SQL as
-                        database. Have experience working on freelance projects
-                        to create websites and develop UI interfaces for web and
-                        applications to interface design. Creative and
-                        innovative learner with good analytical skills.
+                        Menguasai PHP, Javascript. Termasuk framework-nya:
+                        Laravel, React, Next JS dan sangat familiar dengan HTML,
+                        CSS dengan TailwindCSS sebagai antarmuka situs web dan
+                        SQL sebagai database. Memiliki pengalaman mengerjakan
+                        proyek-proyek freelance untuk membuat situs web dan
+                        mengembangkan antarmuka UI untuk web dan aplikasi untuk
+                        desain antarmuka. Kreatif dan pembelajar yang kreatif
+                        dan inovatif dengan kemampuan analisis yang baik.
                       </h1>
                     </div>
                   </div>
                 </div>
-                <div className="-mt-20 xl:-mt-44 relative z-10">
+                <div className="mt-10 md:-mt-10 xl:-mt-44 relative z-10">
                   <div className="flex gap-4 md:gap-0">
                     <div className="bg-third -ml-8 w-96 rounded-3xl border-2 border-primary h-fit">
                       <div className="flex justify-center">
@@ -382,7 +384,7 @@ const Cv = () => {
                             <div className="bg-white w-4 h-4 rounded-full"></div>
                           </div>
                           <h1 className="text-center text-md font-semibold text-white">
-                            My Activities & Experience
+                            Aktivitas
                           </h1>
                           <IoCloseSharp className="text-white text-2xl" />
                         </div>
@@ -392,15 +394,16 @@ const Cv = () => {
                           <div className="bg-white w-[85%] rounded-xl px-2  h-fit py-2">
                             <div className="flex justify-between">
                               <h1 className="text-sm font-bold">
-                                Credipush Studio - Web Designer
+                                Credipush Studio - Desainer Web
                               </h1>
-                              <h1 className="text-sm bg-primary px-2 text-white">
-                                Now
+                              <h1 className="text-sm bg-primary h-fit px-2 text-white">
+                                Sekarang{" "}
                               </h1>
                             </div>
                             <h1 className="text-sm">
-                              Become a designer working remotely who accepts
-                              overseas clients with a creative agency.
+                              Menjadi seorang desainer yang bekerja dari jarak
+                              jauh yang menerima klien luar negeri dengan agensi
+                              kreatif.
                             </h1>
                           </div>
 
@@ -412,8 +415,9 @@ const Cv = () => {
                               <h1 className="text-sm">2023</h1>
                             </div>
                             <h1 className="text-sm">
-                              Become a content creator who is tasked with
-                              creating trending and fact-based content.
+                              Menjadi seorang content creator yang bertugas
+                              membuat konten yang sedang tren dan berdasarkan
+                              fakta.
                             </h1>
                           </div>
                           <div className="bg-white w-[85%] rounded-xl px-2  h-fit py-2">
@@ -425,8 +429,8 @@ const Cv = () => {
                               <h1 className="text-sm">2023</h1>
                             </div>
                             <h1 className="text-sm">
-                              Create social media posts for clients and increase
-                              social media engagement.
+                              Buat postingan media sosial untuk klien dan
+                              tingkatkan keterlibatan media sosial.
                             </h1>
                           </div>
                         </div>
@@ -451,20 +455,18 @@ const Cv = () => {
                               </div>
                             </div>
                             <h1 className="text-sm">
-                              Graduated From SMKN 5 Malang With{" "}
+                              Lulus dari SMKN 5 Malang, peringkat
                               <span className="bg-primary text-white px-2">
-                                Best
+                                terbaik
                               </span>
-                              in software engineering.
+                              jurusan Rekayasa Perangkat Lunak
                             </h1>
                           </div>
                           <div className="my-2 flex justify-center">
                             <hr className="w-[80%] border-t-4 border-primary" />
                           </div>
-                          <div className="flex gap-2 items-center">
-                            <h1 className="text-sm">
-                              Junior High School at SMPN 1 Sidoarjo
-                            </h1>
+                          <div className="flex gap-2 justify-between items-center">
+                            <h1 className="text-sm">SMPN 1 Sidoarjo</h1>
                             <div className="bg-second p-2">
                               <div className="flex text-center -space-y-4 flex-col text-slate-500 font-bold text-xl">
                                 <h1>2019</h1>
@@ -476,7 +478,7 @@ const Cv = () => {
                           <div className="my-2 flex justify-center">
                             <hr className="w-[80%] border-t-4 border-primary" />
                           </div>
-                          <div className="flex gap-2 items-center">
+                          <div className="flex gap-2 justify-between items-center">
                             <div className="bg-second p-2">
                               <div className="flex text-center -space-y-4 flex-col text-slate-500 font-bold text-xl">
                                 <h1>2013</h1>
@@ -484,9 +486,7 @@ const Cv = () => {
                                 <h1>2019</h1>
                               </div>
                             </div>
-                            <h1 className="text-sm">
-                              Elementary School In SDN Kebonagung 2
-                            </h1>
+                            <h1 className="text-sm">SDN Kebonagung 2</h1>
                           </div>
                         </div>
                       </div>
@@ -519,14 +519,15 @@ const Cv = () => {
                                 </h1>
                                 <h1 className="text-sm">
                                   IDEAL (Indonesian Development Education and
-                                  Leadership) is a non-governmental organization
-                                  that focuses on improving and developing the
-                                  potential of Indonesian youth through
-                                  education and leadership development. I be{" "}
+                                  Leadership) adalah sebuah lembaga swadaya
+                                  masyarakat yang berfokus pada peningkatan dan
+                                  pengembangan potensi pemuda Indonesia melalui
+                                  pendidikan dan pengembangan kepemimpinan. Saya
+                                  menjadi
                                   <span className="bg-primary px-2">
-                                    content writer staff
+                                    staf kepenulisan{" "}
                                   </span>{" "}
-                                  at this organization!
+                                  di organisasi ini!{" "}
                                 </h1>
                               </div>
                             </div>
@@ -555,7 +556,7 @@ const Cv = () => {
                           <div className="flex gap-4">
                             <div className="bg-white w-fit h-fit rounded-xl relative">
                               <h1 className="text-sm hidden md:block bg-white/20 backdrop-blur-md bottom-0 text-white font-bold px-2 text-center absolute right-0">
-                                Best Graduate at SMKN 5 Malang
+                                Lulusan Terbaik RPL SMKN 5 Malang
                               </h1>
                               <img
                                 src={best}
@@ -580,29 +581,31 @@ const Cv = () => {
                           </div>
                           <ul className="flex flex-col gap-2 text-sm font-semibold">
                             <li>
-                              4. Selected to represent the school in the
-                              Artificial Intelligence LKS
+                              4. Terpilih untuk mewakili sekolah dalam LKS
+                              Kecerdasan Buatan
                             </li>
                             <li>
-                              5. Parallel School Champion of Software Engineer
-                              at SMKN 5 Malang 2023
-                            </li>
-                            <li>6. Google Analytics Academy by Google</li>
-                            <li>
-                              7. Online Child Safeguarding Training by UNICEF
+                              5. Juara Sekolah Paralel Rekayasa Perangkat Lunak
+                              di SMKN 5 Malang 2023
                             </li>
                             <li>
-                              8. Decolonizing Global Health by Harvard Medical
-                              School
+                              6. Pelatihan Google Analytics Academy oleh Google
                             </li>
                             <li>
-                              Soft Skills: Good algorithm, communication, enjoy
-                              learning, able to understand difficult things
+                              7. Pelatihan Perlindungan Anak Online oleh UNICEF
                             </li>
                             <li>
-                              Interest: Web developer, UI UX designer, learn
-                              about mobile apps development including IOS and
-                              Android
+                              8. Pelatihan Memerdekakan Kesehatan Global oleh
+                              Harvard Medical School
+                            </li>
+                            <li>
+                              Keterampilan: Algoritma yang baik, komunikasi,
+                              senang belajar, mampu memahami hal-hal yang sulit
+                            </li>
+                            <li>
+                              Minat: Pengembang web, desainer UI UX, belajar
+                              tentang pengembangan aplikasi seluler termasuk iOS
+                              dan Android
                             </li>
                           </ul>
                         </div>
@@ -616,7 +619,7 @@ const Cv = () => {
                     onClick={toggleModal}
                   >
                     <h1 className="bg-primary rounded-lg border-4 border-white p-2 font-bold text-white">
-                      See Formal ATS CV
+                      Lihat CV Formal ATS
                     </h1>
                   </button>{" "}
                 </div>
