@@ -373,7 +373,7 @@ const Cv = () => {
                     </div>
                   </div>
                 </div>
-                <div className="mt-10 md:-mt-10 xl:-mt-44 relative z-10">
+                <div className="md:-mt-10 mt-6 relative z-10">
                   <div className="flex gap-4 md:gap-0">
                     <div className="bg-third -ml-8 w-96 rounded-3xl border-2 border-primary h-fit">
                       <div className="flex justify-center">
