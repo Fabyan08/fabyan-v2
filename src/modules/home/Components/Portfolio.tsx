@@ -42,6 +42,7 @@ import tripjoylogo from "../../../../public/assets/image/portfolio/logo-svg/trip
 import vtri from "../../../../public/assets/image/portfolio/v3.png";
 import vtrilogo from "../../../../public/assets/image/portfolio/logo-svg/v3-logo.svg";
 
+import uis from "../../../Constant/Portfolio/Uis";
 // Tech
 
 import { SiTailwindcss } from "react-icons/si";
@@ -55,6 +56,7 @@ import { FaLaravel } from "react-icons/fa";
 import { SiMysql } from "react-icons/si";
 import { IoLogoFirebase } from "react-icons/io5";
 import { TbBrandNextjs } from "react-icons/tb";
+import { FaFigma } from "react-icons/fa";
 
 const Portfolio = () => {
   return (
@@ -477,9 +479,9 @@ const Portfolio = () => {
       <div className="mw pt-10 ">
         <div className="flex flex-col lg:flex-row ml-20 lg:ml-0 items-center gap-4">
           <div className="flex flex-col -ml-52 lg:ml-0 ">
-            <h1 className="text-primary font-bold">WEBSITE</h1>
+            <h1 className="text-primary font-bold">UI UX</h1>
             <h1 className="text-slate-700 text-xl text-nowrap">
-              Website Development
+              Slice Of My Design
             </h1>
           </div>
           <style>
@@ -499,7 +501,7 @@ const Portfolio = () => {
             `}
           </style>
           <div className="flex lg:mw w-screen items-center gap-10">
-            <Swiper
+            {/* <Swiper
               breakpoints={{
                 // when window width is <= 640px
                 640: {
@@ -665,7 +667,62 @@ const Portfolio = () => {
                   </div>
                 </div>
               </SwiperSlide>
-            </Swiper>{" "}
+            </Swiper>{" "} */}
+            <Swiper
+              breakpoints={{
+                640: {
+                  slidesPerView: 1.5,
+                  spaceBetween: 50,
+                },
+                768: {
+                  slidesPerView: 2.5,
+                  spaceBetween: 30,
+                },
+              }}
+              initialSlide={1.5}
+              freeMode={true}
+              pagination={{
+                clickable: true,
+              }}
+              modules={[FreeMode, Pagination]}
+              className="mySwiper max-w-[1170px] "
+            >
+              {uis.map((ui, index) => (
+                <SwiperSlide key={index}>
+                  <div className="bg-white pb-20 hover:border-4 border-primary duration-200 rounded-xl w-80 lg:w-96 h-[430px] relative">
+                    <div className="absolute right-0 rounded-tr-lg border-2 border-white rounded-bl-xl text-white font-semibold bg-gradient-to-r from-primary to-blue-200 w-fit h-fit p-2">
+                      <h1>Personal Project</h1>
+                    </div>
+                    <img
+                      src={ui.img}
+                      alt={ui.title}
+                      className="rounded-t-lg h-[220px] w-full object-cover object-center"
+                    />
+                    <div className="p-4">
+                      <div className="flex items-center gap-2">
+                        <img src={ui.logo} alt={ui.title} className="w-10 " />
+                        <h1 className="text-2xl bg-gradient-to-r from-primary to-blue-500 inline-block text-transparent bg-clip-text font-bold">
+                          {ui.title}
+                        </h1>
+                      </div>
+                      <div className="flex flex-col">
+                        <h1 className="text-lg">
+                          <b>Company Website</b> - {ui.description}
+                        </h1>
+                        <div className="flex pt-2 items-center text-primary text-2xl gap-2">
+                          <FaFigma />
+                        </div>
+                      </div>
+                    </div>
+                      <a href="https://drive.google.com/drive/folders/1Rd4P6l8kdvHt2K8jsN-wGpctPFvGgMCN?usp=sharing" target="_blank">
+                    <div className="bg-primary w-14 h-14 rounded-full p-2 flex items-center justify-center absolute -right-4 -bottom-2">
+                        <CiLocationArrow1 className="text-white text-7xl" />
+                    </div>
+                      </a>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </div>

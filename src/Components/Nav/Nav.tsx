@@ -69,7 +69,7 @@ const Nav = () => {
         </div>
         <Link
           to={"/cv"}
-          className="fixed z-[999] left-0 bg-primary p-2 text-white rounded-br-lg  border-r-4 border-b-4 border-white font-semibold top-0"
+          className="fixed z-[999] animate-bounce left-0 bg-primary p-2 text-white rounded-br-lg  border-r-4 border-b-4 border-white font-semibold top-0"
         >
           My CV
         </Link>
