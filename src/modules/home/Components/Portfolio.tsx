@@ -69,7 +69,7 @@ const Portfolio = () => {
         <div>
           <div className="bg-gradient-to-r from-primary/60 to-slate-100/40 rounded-sm w-80 h-10 absolute -z-10 -rotate-[5deg] mt-2"></div>
           <h1 className="font-bold text-2xl pt-4 text-slate-700 lg:text-6xl">
-            👨🏻‍💻My Highlight Portfolio
+            👨🏻‍💻My Highlight Portfolioo
           </h1>
         </div>
         <a
@@ -714,11 +714,14 @@ const Portfolio = () => {
                         </div>
                       </div>
                     </div>
-                      <a href="https://drive.google.com/drive/folders/1Rd4P6l8kdvHt2K8jsN-wGpctPFvGgMCN?usp=sharing" target="_blank">
-                    <div className="bg-primary w-14 h-14 rounded-full p-2 flex items-center justify-center absolute -right-4 -bottom-2">
+                    <a
+                      href="https://drive.google.com/drive/folders/1Rd4P6l8kdvHt2K8jsN-wGpctPFvGgMCN?usp=sharing"
+                      target="_blank"
+                    >
+                      <div className="bg-primary w-14 h-14 rounded-full p-2 flex items-center justify-center absolute -right-4 -bottom-2">
                         <CiLocationArrow1 className="text-white text-7xl" />
-                    </div>
-                      </a>
+                      </div>
+                    </a>
                   </div>
                 </SwiperSlide>
               ))}
