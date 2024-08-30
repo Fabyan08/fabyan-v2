@@ -19,12 +19,7 @@ const Certificate = () => {
   return (
     <section className="relative w-full h-full" id="certificate">
       <div className="bg-gradient-to-r py-20  pt-10 from-primary/30 border-t-primary/20 border-t-2  -p-20  -z-10 w-full h-full">
-        <img
-          loading="lazy"
-          src="/assets/image/bg3.jpg"
-          className="absolute -mt-40 md:-mt-0 h-full w-full -z-[400] opacity-[40%]"
-          alt=""
-        />
+
         <div className="container">
           <div className="flex items-center justify-center">
             <div className="bg-gradient-to-r  mt-20 -ml-12  from-primary/60 to-slate-100/40 rounded-sm w-96 h-10 absolute -z-10 -rotate-[5deg]"></div>

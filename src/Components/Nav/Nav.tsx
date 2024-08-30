@@ -101,19 +101,19 @@ const Nav = () => {
           <a href="#">
             <GoHome
               className="hover:text-primary hover:-translate-y-2"
-              size={30}
+              size={20}
             />
           </a>
           <a href="#about">
             <FaUserAlt
               className="hover:text-primary hover:-translate-y-2"
-              size={24}
+              size={20}
             />
           </a>
           <a href="#portfolio">
             <MdOutlineWeb
               className="hover:text-primary hover:-translate-y-2"
-              size={30}
+              size={20}
             />
           </a>
           <Link
@@ -122,25 +122,25 @@ const Nav = () => {
           >
             <TfiWrite
               className="hover:text-primary hover:-translate-y-2"
-              size={30}
+              size={20}
             />
           </Link>
           <a href="#experience">
             <GrUserWorker
               className="hover:text-primary hover:-translate-y-2"
-              size={30}
+              size={20}
             />
           </a>{" "}
           <a href="#certificate">
             <LuNewspaper
               className="hover:text-primary hover:-translate-y-2"
-              size={30}
+              size={20}
             />
           </a>{" "}
           <a href="#contact">
             <FaPhone
               className="hover:text-primary hover:-translate-y-2"
-              size={26}
+              size={20}
             />
           </a>
         </div>

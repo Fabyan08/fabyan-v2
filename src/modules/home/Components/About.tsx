@@ -47,7 +47,7 @@ const About = () => {
               {/* <h1 className="font-bold text-slate-900 text-5xl rotate-[70deg] text-nowrap">
                 My Tech Stack
               </h1> */}
-              <h1 className="text-6xl -ml-10 hover:bg-gradient-to-r  from-second to-primary rounded-2xl hover:text-white hover:p-2 hover:w-fit text-nowrap font-bold text-slate-700  duration-200 rotate-[70deg]">
+              <h1 className="text-[3.5rem] md:text-6xl -ml-10 hover:bg-gradient-to-r  from-second to-primary rounded-2xl hover:text-white hover:p-2 hover:w-fit text-nowrap font-bold text-slate-700  duration-200 rotate-[70deg]">
                 My Tech Stack
               </h1>
             </div>
