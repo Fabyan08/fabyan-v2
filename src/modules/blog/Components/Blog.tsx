@@ -34,19 +34,29 @@ const Blog = () => {
             className="bg-black/40 fixed z-[999] w-full h-full"
             style={{ display: isVisible ? "block" : "none" }}
           >
-            <div className="absolute right-16 md:right-10 bottom-10">
+            <div className="md:absolute mt-40 right-16 md:right-10 bottom-10">
               <div className="flex flex-col items-center gap-10">
                 <IoCloseCircleOutline
                   onClick={handleClose}
                   className="text-white"
                   size={40}
                 />
-                <div className="bg-white w-60 h-80 flex justify-center items-center flex-col gap-4 font-bold">
+                <div className="bg-white w-60 h-fit py-4 rounded-md flex justify-center items-center flex-col gap-4 font-bold">
                   <img src={unej} alt="unej" className="w-40" />
                   <div className="text-center">
                     <h1>Fabyan Yastika Permana (242410101041)</h1>
                   </div>
                   <h1>Sistem Informasi</h1>
+                  <p className="text-sm text-center px-4">
+                    Get to know more about my university.{" "}
+                    <a
+                      href="https://unej.ac.id/"
+                      target="_blank"
+                      className="underline"
+                    >
+                      The University Of Jember
+                    </a>
+                  </p>
                 </div>
                 <img
                   src={foto}
