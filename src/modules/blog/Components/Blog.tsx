@@ -2,13 +2,14 @@ import { AiOutlineLoading3Quarters } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import foto from "../../../../public/assets/image/foto.jpg";
 import unej from "../../../../public/assets/image/unej.png";
-// import "../../Components/style.css";
-// import BackToTopButton from "../../Components/top";
+
 import { FiArrowRight } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
 import { AiFillEye } from "react-icons/ai";
 import Loading from "../../../Components/Loading/Loading";
 import { IoCloseCircleOutline } from "react-icons/io5";
+
+import etikaprofesi1 from "../../../../public/assets/image/blog/etikaprofesi1/main.jpg";
 
 import { useEffect, useState } from "react";
 const Blog = () => {
@@ -171,9 +172,7 @@ const Blog = () => {
             <div className="absolute z-20 bg-slate-100 w-full px-4 md:px-24 h-[2000px]  pt-20">
               <div className="flex items-center space-x-3">
                 <hr className="border-2 rounded-md border-primary h-5 " />
-                <h1 className="text-2xl font-bold text-slate-600">
-                  Recent Post
-                </h1>
+                <h1 className="text-2xl font-bold text-slate-600">Featured</h1>
               </div>
 
               <div className="mt-10 md:flex justify-between space-x-4">
@@ -284,20 +283,20 @@ const Blog = () => {
                   </h1>
                 </div>{" "}
                 <div className="grid md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
-                  <div className="w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                    <img
-                      src="../../../assets/image/blog/detail/nfound.png"
-                      alt=""
-                    />
-                    <h1 className="text-xl text-primary font-bold">
-                      Development
+                  <Link
+                    to="/detail/1-etika-profesi"
+                    className="w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
+                  >
+                    <img src={etikaprofesi1} alt="" className="rounded-md" />
+                    <h1 className="text-md text-primary font-bold">
+                      Etika Profesi
                     </h1>
                     <h1 className="text-2xl font-bold text-slate-900">
-                      Coming Soon...
+                      Etika Profesi 1
                     </h1>
                     <h1 className="text-slate-800">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quisquam, tenetur...{" "}
+                      profesi adalah pekerjaan yang dalam melaksanakan tugasnya
+                      memerlu...{" "}
                       <a href="" className="text-primary">
                         Read More
                       </a>
@@ -305,13 +304,13 @@ const Blog = () => {
 
                     <hr className="w-full h-2 border-t-2  border-slate-200" />
                     <div className="flex items-center justify-start space-x-4">
-                      <h1>15-11-2022</h1>
+                      <h1>09-06-2024</h1>
                       <h1>∙</h1>
                       <h1 className="flex items-center space-x-10">
                         <AiFillEye /> (120)
                       </h1>
                     </div>
-                  </div>
+                  </Link>
                   <div className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
                     <img
                       src="../../../assets/image/blog/detail/nfound.png"
@@ -345,7 +344,7 @@ const Blog = () => {
                       src="../../../assets/image/blog/detail/nfound.png"
                       alt=""
                     />
-                    <h1 className="text-xl text-primary font-bold">
+                    <h1 className="text-md text-primary font-bold">
                       Development
                     </h1>
                     <h1 className="text-2xl font-bold text-slate-900">

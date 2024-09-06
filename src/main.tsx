@@ -8,6 +8,7 @@ import Qris from "./modules/blog/Components/Detail/Qris";
 import Kirim from "./modules/blog/Components/Detail/Kirim";
 import CV from "./modules/cv/Index";
 import CVID from "./modules/cv/Components/Cv-id";
+import EtikaProfesi from "./modules/blog/Components/Detail/EtikaProfesi";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/kirimin-aja-indonesia",
     element: <Kirim />,
+  },
+  {
+    path: "/detail/1-etika-profesi",
+    element: <EtikaProfesi />,
   },
   {
     path: "/cv",
