@@ -1,7 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { AiOutlineArrowUp, AiFillLike } from "react-icons/ai";
-import { BsBoxArrowInUpRight } from "react-icons/bs";
+
 
 import etikaprofesi1 from "../../../../../public/assets/image/blog/etikaprofesi1/main.jpg";
 import prinsip from "../../../../../public/assets/image/blog/etikaprofesi1/prinsip.png";
@@ -10,7 +9,6 @@ import cat from "../../../../../public/assets/image/blog/etikaprofesi1/cat.png";
 import "swiper/css";
 import "swiper/css/pagination";
 
-import { AiOutlineArrowDown } from "react-icons/ai";
 import { BiSolidQuoteAltLeft } from "react-icons/bi";
 import { BsArrowLeftShort } from "react-icons/bs";
 import { Link } from "react-router-dom";
