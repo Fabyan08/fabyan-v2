@@ -13,10 +13,10 @@ import etikaprofesi1 from "../../../../public/assets/image/blog/etikaprofesi1/ma
 
 import { useEffect, useState } from "react";
 const Blog = () => {
-  const [isVisible, setIsVisible] = useState(true); // Step 2: Initialize state
+  const [isVisible, setIsVisible] = useState(true);
 
   const handleClose = () => {
-    setIsVisible(false); // Step 3: Function to hide components
+    setIsVisible(false); 
   };
   const [isLoading, setIsLoading] = useState(true);
 

@@ -301,7 +301,7 @@ const EtikaProfesi = () => {
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="md:flex space-y-2 md:space-y-0  md:space-x-5 justify-center">
-                    <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
+                    <div className="bg-[#FF7F3E] w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                       <div className="bg-white mx-5 mt-2 text-[#FF7F3E] text-center rounded-lg font-bold">
                         <h1>1</h1>
                       </div>
@@ -310,7 +310,7 @@ const EtikaProfesi = () => {
                         profesi tentang prinsip profesionalitas yang digariskan
                       </h1>
                     </div>
-                    <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
+                    <div className="bg-[#FF7F3E] w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                       <div className="bg-white mx-5 text-sm mt-2 text-[#FF7F3E] text-center rounded-lg font-bold">
                         <h1>2</h1>
                       </div>
@@ -319,7 +319,7 @@ const EtikaProfesi = () => {
                         masyarakat atas profesi yang bersangkutan
                       </h1>
                     </div>
-                    <div className="bg-new w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
+                    <div className="bg-[#FF7F3E] w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
                       <div className="bg-white mx-5 mt-2 text-[#FF7F3E] text-center rounded-lg font-bold">
                         <h1>3</h1>
                       </div>
