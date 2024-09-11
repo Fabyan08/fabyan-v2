@@ -1,7 +1,6 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
 import etikaprofesi1 from "../../../../../public/assets/image/blog/etikaprofesi1/main.jpg";
 import prinsip from "../../../../../public/assets/image/blog/etikaprofesi1/prinsip.png";
 import cat from "../../../../../public/assets/image/blog/etikaprofesi1/cat.png";
@@ -14,8 +13,16 @@ import { BsArrowLeftShort } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Loading from "../../../../Components/Loading/Loading";
 import { useEffect, useState } from "react";
+import { IoCloseCircleOutline } from "react-icons/io5";
+import unej from "../../../../../public/assets/image/unej.png";
+import foto from "../../../../../public/assets/image/foto.jpg";
 
 const EtikaProfesi = () => {
+  const [isVisible, setIsVisible] = useState(true);
+
+  const handleClose = () => {
+    setIsVisible(false);
+  };
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -33,6 +40,42 @@ const EtikaProfesi = () => {
         <Loading />
       ) : (
         <main>
+          <div
+            className="bg-black/40 fixed z-[999] w-full h-full"
+            style={{ display: isVisible ? "block" : "none" }}
+          >
+            <div className="md:absolute mt-40 right-16 md:right-10 bottom-10">
+              <div className="flex flex-col items-center gap-10">
+                <IoCloseCircleOutline
+                  onClick={handleClose}
+                  className="text-white"
+                  size={40}
+                />
+                <div className="bg-white w-60 h-fit py-4 rounded-md flex justify-center items-center flex-col gap-4 font-bold">
+                  <img src={unej} alt="unej" className="w-40" />
+                  <div className="text-center">
+                    <h1>Fabyan Yastika Permana (242410101041)</h1>
+                  </div>
+                  <h1>Sistem Informasi</h1>
+                  <p className="text-sm text-center px-4">
+                    Get to know more about my university.{" "}
+                    <a
+                      href="https://unej.ac.id/"
+                      target="_blank"
+                      className="underline"
+                    >
+                      The University Of Jember
+                    </a>
+                  </p>
+                </div>
+                <img
+                  src={foto}
+                  alt="My Photo"
+                  className="w-20 rounded-full hover:w-40 duration-200"
+                />
+              </div>
+            </div>
+          </div>
           <div>
             <img
               loading="lazy"
@@ -155,20 +198,20 @@ const EtikaProfesi = () => {
               <div className="md:px-[125px] text-xl px-4 md:text-xl mt-10 space-y-4">
                 <div className="flex flex-col justify-center items-center">
                   <p>
-                    Kata etika berasal dari dua kata Yunani yang hampir sama
-                    bunyinya, namun berbeda artinya. Pertama berasal dari kata
-                    ethos yang berarti "kebiasaan atau adat" sedangkan yang
-                    kedua artinya "perasaan batin atau kencenderungan batin yang
-                    mendorong manusia dalam perilakunya" <br /> • Etika adalah
-                    seperangkat keyakinan tentang perilaku benar dan salah dalam
-                    suatu masyarakat (George Reynolds, 2014) <br /> • Menurut
-                    Kamus Besar Bahasa Indonesia (Departemen P dan K, 1988),
-                    etika dijelaskan dengan membedakan tiga arti sebagai
-                    berikut. <br />
-                    <br /> I. Ilmu tentang apa yang baik dan apa yang buruk dan
-                    tentang hak dan kewajiban moral (akhlak); <br /> 2. Kumpulan
-                    asas atau nilai yang berkenaan dengan akhlak. <br /> 3.
-                    Nilai mengenai benar dan salah yang dianut suatu golongan/
+                    Sesuai yang saya pelajari juga, kata etika sendiri berarti
+                    "kebiasaan atau adat" sedangkan yang kedua artinya "perasaan
+                    batin atau kencenderungan batin yang mendorong manusia dalam
+                    perilakunya" <br /> • Etika adalah seperangkat keyakinan
+                    tentang perilaku benar dan salah dalam suatu masyarakat
+                    (George Reynolds, 2014) <br /> • Menurut Kamus Besar Bahasa
+                    Indonesia (Departemen P dan K, 1988) <br /> <br /> Etika
+                    dijelaskan dengan membedakan tiga arti sebagai berikut.{" "}
+                    <br />
+                    <br />
+                    1. Ilmu tentang apa yang baik dan apa yang buruk dan tentang
+                    hak dan kewajiban moral (akhlak); <br /> 2. Kumpulan asas
+                    atau nilai yang berkenaan dengan akhlak. <br /> 3. Nilai
+                    mengenai benar dan salah yang dianut suatu golongan/
                     masyarakat.
                   </p>
                   <img
@@ -283,9 +326,9 @@ const EtikaProfesi = () => {
                 <div className="flex justify-between items-center">
                   <div>
                     <h1>
-                      Bukan main, kode etik profesi memiliki pengaruh yang
-                      sangat penting dalam hal pengaturan pekerjaan dunia
-                      profesional, antara lain:
+                      Kode etik profesi memiliki pengaruh yang sangat penting
+                      dalam hal pengaturan pekerjaan dunia profesional, antara
+                      lain:
                     </h1>
                   </div>
                   <div>
@@ -312,7 +355,7 @@ const EtikaProfesi = () => {
                       <div className="bg-white mx-5 text-sm mt-2 text-[#FF7F3E] text-center rounded-lg font-bold">
                         <h1>2</h1>
                       </div>
-                      <h1 className="px-5 mt-4 text-[17px] text-center">
+                      <h1 className="px-5 mt-4  text-center">
                         Kode etik profesi merupakan sarana kontrol sosial bagi
                         masyarakat atas profesi yang bersangkutan
                       </h1>
