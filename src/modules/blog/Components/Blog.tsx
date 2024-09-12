@@ -16,7 +16,7 @@ const Blog = () => {
   const [isVisible, setIsVisible] = useState(true);
 
   const handleClose = () => {
-    setIsVisible(false); 
+    setIsVisible(false);
   };
   const [isLoading, setIsLoading] = useState(true);
 
@@ -43,7 +43,9 @@ const Blog = () => {
                   size={40}
                 />
                 <div className="bg-white w-60 h-fit py-4 rounded-md flex justify-center items-center flex-col gap-4 font-bold">
-                  <img src={unej} alt="unej" className="w-40" />
+                  <a href="https://unej.ac.id" target="_blank">
+                    <img src={unej} alt="unej" className="w-40" />
+                  </a>
                   <div className="text-center">
                     <h1>Fabyan Yastika Permana (242410101041)</h1>
                   </div>
