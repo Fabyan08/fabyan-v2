@@ -10,6 +10,7 @@ import Loading from "../../../Components/Loading/Loading";
 import { IoCloseCircleOutline } from "react-icons/io5";
 
 import etikaprofesi1 from "../../../../public/assets/image/blog/etikaprofesi1/main.jpg";
+import profesi_main from "../../../../public/assets/image/blog/profesi-it/profesi_main.jpg";
 
 import { useEffect, useState } from "react";
 const Blog = () => {
@@ -289,7 +290,11 @@ const Blog = () => {
                     to="/detail/1-etika-profesi"
                     className="w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
                   >
-                    <img src={etikaprofesi1} alt="" className="rounded-md" />
+                    <img
+                      src={etikaprofesi1}
+                      alt=""
+                      className="rounded-md w-full h-52 object-cover"
+                    />
                     <h1 className="text-md text-primary font-bold">
                       Etika Profesi
                     </h1>
@@ -297,7 +302,7 @@ const Blog = () => {
                       Etika Profesi 1
                     </h1>
                     <h1 className="text-slate-800">
-                      profesi adalah pekerjaan yang dalam melaksanakan tugasnya
+                      Profesi adalah pekerjaan yang dalam melaksanakan tugasnya
                       memerlu...{" "}
                       <a href="" className="text-primary">
                         Read More
@@ -306,27 +311,24 @@ const Blog = () => {
 
                     <hr className="w-full h-2 border-t-2  border-slate-200" />
                     <div className="flex items-center justify-start space-x-4">
-                      <h1>09-06-2024</h1>
+                      <h1>09-09-2024</h1>
                       <h1>∙</h1>
-                      <h1 className="flex items-center space-x-10">
-                        <AiFillEye /> (120)
-                      </h1>
                     </div>
                   </Link>
-                  <div className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
+                  <Link to="/detail/2-profesi-it" className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
                     <img
-                      src="../../../assets/image/blog/detail/nfound.png"
+                      src={profesi_main}
                       alt=""
+                      className="w-full h-52 object-cover rounded-md"
                     />
-                    <h1 className="text-xl text-primary font-bold">
-                      Development
+                    <h1 className="text-md text-primary font-bold">
+                      Etika Profesi
                     </h1>
                     <h1 className="text-2xl font-bold text-slate-900">
-                      Coming Soon...
+                      Profesi Bidang IT
                     </h1>
                     <h1 className="text-slate-800">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quisquam, tenetur...{" "}
+                    Profesi di bidang IT memang menjadi salah satu bidang yang banyak diminati... 
                       <a href="" className="text-primary">
                         Read More
                       </a>
@@ -334,13 +336,10 @@ const Blog = () => {
 
                     <hr className="w-full h-2 border-t-2  border-slate-200" />
                     <div className="flex items-center justify-start space-x-4">
-                      <h1>15-11-2022</h1>
+                      <h1>15-09-2024</h1>
                       <h1>∙</h1>
-                      <h1 className="flex items-center space-x-10">
-                        <AiFillEye /> (120)
-                      </h1>
                     </div>
-                  </div>
+                  </Link>
                   <div className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
                     <img
                       src="../../../assets/image/blog/detail/nfound.png"

@@ -9,6 +9,7 @@ import Kirim from "./modules/blog/Components/Detail/Kirim";
 import CV from "./modules/cv/Index";
 import CVID from "./modules/cv/Components/Cv-id";
 import EtikaProfesi from "./modules/blog/Components/Detail/EtikaProfesi";
+import ProfesiIt from "./modules/blog/Components/Detail/ProfesiIT";
 
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/1-etika-profesi",
     element: <EtikaProfesi />,
+  },
+  {
+    path: "/detail/2-profesi-it",
+    element: <ProfesiIt />,
   },
   {
     path: "/cv",
