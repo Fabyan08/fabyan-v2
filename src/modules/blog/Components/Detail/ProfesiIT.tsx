@@ -3,7 +3,6 @@ import "aos/dist/aos.css";
 
 import profesi_main from "../../../../../public/assets/image/blog/profesi-it/profesi_main.jpg";
 
-import prinsip from "../../../../../public/assets/image/blog/etikaprofesi1/prinsip.png";
 import cat from "../../../../../public/assets/image/blog/etikaprofesi1/cat.png";
 
 import "swiper/css";
@@ -17,6 +16,7 @@ import { useEffect, useState } from "react";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import unej from "../../../../../public/assets/image/unej.png";
 import foto from "../../../../../public/assets/image/foto.jpg";
+import { FaArrowDownLong } from "react-icons/fa6";
 
 const ProfesiIT = () => {
   const [isVisible, setIsVisible] = useState(true);
@@ -180,127 +180,41 @@ const ProfesiIT = () => {
                 </div>
                 <div className="mt-10 md:mt-28 md:w-[800px] md:ml-10 text-[20px] flex flex-col justify-between space-y-10">
                   <p>
-                    Pada materi profesi di bidang iT kemarin,saya telah mengenal beragam pekerjaan yang bisa difokuskan agar dapat menunjang masa depan nanti. Yang pastinya membutuhkan pengetahuan advance di bidang yang sesuai dengan profesinya. Entah itu software engineer, programer, UI Designer, dan sebagainya..<b></b>
+                    Pada materi profesi di bidang iT kemarin,saya telah mengenal
+                    beragam pekerjaan yang bisa difokuskan agar dapat menunjang
+                    masa depan nanti. Yang pastinya membutuhkan pengetahuan
+                    advance di bidang yang sesuai dengan profesinya. Entah itu
+                    software engineer, programer, UI Designer, dan sebagainya..
+                    <b></b>
                   </p>
                   <p>
-                  Yang saya ketahui, seorang profesionalitas memiliki 3 persyaratan penting yang wajib untuk diketahui. Mulai dari pendidikan, pelatihan, dan skill, serta seorang profesional di bidang IT harus terus menyesuaikan diri dengan standar teknis modern sekarang.
+                    Yang saya ketahui, seorang profesionalitas memiliki 3
+                    persyaratan penting yang wajib untuk diketahui. Mulai dari
+                    pendidikan, pelatihan, dan skill, serta seorang profesional
+                    di bidang IT harus terus menyesuaikan diri dengan standar
+                    teknis modern sekarang.
                   </p>
                 </div>
               </div>
-              <div className="md:px-[125px] text-xl px-4 md:text-xl mt-10 space-y-4">
-                <div className="flex flex-col justify-center items-center">
-                  <p>
-                    Sesuai yang saya pelajari juga, kata etika sendiri berarti
-                    "kebiasaan atau adat" sedangkan yang kedua artinya "perasaan
-                    batin atau kencenderungan batin yang mendorong manusia dalam
-                    perilakunya" <br /> • Etika adalah seperangkat keyakinan
-                    tentang perilaku benar dan salah dalam suatu masyarakat
-                    (George Reynolds, 2014) <br /> • Menurut Kamus Besar Bahasa
-                    Indonesia (Departemen P dan K, 1988) <br /> <br /> Etika
-                    dijelaskan dengan membedakan tiga arti sebagai berikut.{" "}
-                    <br />
-                    <br />
-                    1. Ilmu tentang apa yang baik dan apa yang buruk dan tentang
-                    hak dan kewajiban moral (akhlak); <br /> 2. Kumpulan asas
-                    atau nilai yang berkenaan dengan akhlak. <br /> 3. Nilai
-                    mengenai benar dan salah yang dianut suatu golongan/
-                    masyarakat.
-                  </p>
-                  <img
-                    src={prinsip}
-                    className="md:w-1/2  md:px-20 rounded-xl md:rounded-[100px]"
-                    alt=""
-                  />
-                  <h1 className="text-sm">Pembagian Umum Etika Profesi</h1>
-                </div>
-                <h1 data-aos="fade-left">
-                  Dalam etika terdapat pembagian khususnya hal profesi. Dimulai
-                  dari etika umum dan etika khusus. <br />
-                  <b>Etika Khusus: </b>Diterapkan pada prinsip dasar
-                  masing-masing kehidupan manusia. <br />
-                  Setelah etika sosial, akan dibagi kembali menjadi berbagai hal
-                  mulai dari etika sesama~idiologi. Dalam etika profesi, ada
-                  pembagian mengenai biomedis, hukum, pengetahuan IT, hingga
-                  berbagai sektor bidang lainnya.
-                </h1>
+              <div className="md:px-[125px] max-w-[100rem] mx-auto text-xl px-4 md:text-xl mt-10 space-y-4">
+                <p>
+                  <b>
+                    <i>Open Minded</i>
+                  </b>{" "}
+                  terhadap teknologi baru adalah kunci profesi di bidang IT.
+                  Kamu juga harus memiliki hubungan baik dan relasi yang luas.
+                </p>
+
                 <h1 className="font-bold" data-aos="fade-right">
-                  Ada Etika Ada Etiket, Apa Itu?
+                  Profesionalitas Pekerja di Bidang IT
                 </h1>
                 <h1 data-aos="fade-left">
-                  <b>Etika</b> menyangkut cara dilakukannya suatu perbuatan
-                  sekaligus memberi norma dari perbuatan itu sendiri. Contohnya
-                  : Dilarang mengambil barang milik orang lain tanpa izin karena
-                  mengambil barang milik orang lain tanpa izin sama artinya
-                  dengan mencuri. "Jangan mencuri" merupakan suatu norma etika.
-                  Di sini tidak dipersoalkan apakah pencuri tersebut mencuri
-                  dengan tangan kanan atau tangan kiri. <br /> <br />
-                  <b>Etiket</b> hanya berlaku dalam situasi dimana kita tidak
-                  seorang diri (ada orang lain di sekitar kita). Bila tidak ada
-                  orang lain di sekitar kita atau tidak ada saksi mata, maka
-                  etiket tidak berlaku. Contohnya : Saya sedang makan bersama
-                  bersama teman sambil meletakkan kaki saya di atas meja makan,
-                  maka saya dianggap melanggat etiket. Tetapi kalau saya sedang
-                  makan sendirian (tidak ada orang lain), maka saya tidak
-                  melanggar etiket jika saya makan dengan cara demikian.
+                  Seseorang yang memiliki profesi di bidang IT harus ditandai
+                  dengan penyesuaian terhadap etika dan standar teknis. Dengan
+                  perubahan yang cepat dan luas, profesi di bidang IT semakin
+                  dituntut untuk terus belajar hal bau, upgrade keterampilan,
+                  dan harus mampu beradaptasi.
                 </h1>
-
-                <h1>
-                  <b>Ciri-ciri profesi ada apa aja sih?</b>
-                  <div className="flex flex-wrap gap-4 justify-center text-white mt-3">
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>
-                        Keterampilan yang berdasar pada pengetahuan teoritis
-                      </p>
-                    </div>
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>Asosisasi profesional</p>
-                    </div>
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>Pendidikan yang ekstensi</p>
-                    </div>
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>Ujian kompetensi</p>
-                    </div>
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>Pelatihan institusional</p>
-                    </div>
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>Lisensi</p>
-                    </div>
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>Kode etik</p>
-                    </div>
-                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
-                      <p>Status dan imbalan</p>
-                    </div>
-                  </div>
-                </h1>
-                <hr className="border-2" />
-                <div className="relative">
-                  <h1 className="text-center text-2xl md:text-4xl">
-                    Gimana sistem norma dalam kode etik profesi?
-                  </h1>
-                </div>
-                <div className="bg-gradient-to-r from-[#7695FF] to-[#fd6f28] text-white w-full h-fit py-10 md:flex md:flex-row items-center justify-between space-x-10 md:px-10 text-2xl flex flex-col rounded-lg md:rounded-full">
-                  <div className=" w-[40rem] flex items-center justify-center h-fit p-2">
-                    {" "}
-                    <img src={cat} alt="Cat" className="rounded-md" />
-                  </div>
-                  <div className="space-y-5">
-                    <h1>
-                      Kode etik profesi adalah system norma, nilai dan aturan
-                      professional tertulis yang secara tegas menyatakan apa
-                      yang benar dan baik, dan apa yang tidak benar dan tidak
-                      baik bagi professional. Kode etik menyatakan perbuatan apa
-                      yang benar atau salah, perbuatan apa yang harus dilakukan
-                      dan apa yang harus dihindari. Tujuan kode etik yaitu agar
-                      professional memberikan jasa sebaik-baiknya kepada pemakai
-                      atau nasabahnya. Dengan adanya kode etik akan melindungi
-                      perbuatan yang tidak professional.
-                    </h1>
-                  </div>
-                </div>
-
                 <div className="flex justify-center items-center font-bold">
                   <div>
                     <img
@@ -311,7 +225,7 @@ const ProfesiIT = () => {
                     />
                   </div>
                   <h1 className="text-4xl">
-                    Emang apa aja sih fungsinya kode etik profesi?
+                    Ciri-ciri profesionalis di bidang IT apa aja?
                   </h1>
                 </div>
                 <hr className="border-2 w-full" />
@@ -339,8 +253,8 @@ const ProfesiIT = () => {
                         <h1>1</h1>
                       </div>
                       <h1 className="px-5 mt-4 text-center">
-                        Kode etik profesi memberikan pedoman bagi setiap anggota
-                        profesi tentang prinsip profesionalitas yang digariskan
+                        Mempunyai ketrampilan yang tinggi di suatu bidang serta
+                        kemahiran yang diperlukan dalam profesinya.
                       </h1>
                     </div>
                     <div className="bg-[#7695FF] w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
@@ -348,8 +262,9 @@ const ProfesiIT = () => {
                         <h1>2</h1>
                       </div>
                       <h1 className="px-5 mt-4  text-center">
-                        Kode etik profesi merupakan sarana kontrol sosial bagi
-                        masyarakat atas profesi yang bersangkutan
+                        Mempunyai ilmu dan pengalaman serta kecerdasan dalam
+                        menganalisis masalah dan tepat serta cermat dalam
+                        mengambil keputusan terbaik.
                       </h1>
                     </div>
                     <div className="bg-[#7695FF] w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
@@ -357,17 +272,94 @@ const ProfesiIT = () => {
                         <h1>3</h1>
                       </div>
                       <h1 className="px-5 mt-4 text-center">
-                        Kode etik profesi mencegah campur tangan pihak diluar
-                        organisasi profesi tentang hubungan etika dalam
-                        keanggotaan profesi
+                        Mempunyai sikap berorientasi ke depan sehingga punya
+                        kemampuan antisipasi perkembangan teknologi.
                       </h1>
                     </div>
+                    <div className="bg-[#7695FF] w-full md:w-60 h-full py-2 md:h-72 hover:shadow-lg hover:shadow-neww hover:-translate-y-10 duration-150 rounded-lg text-white">
+                      <div className="bg-white mx-5 mt-2 text-[#7695FF] text-center rounded-lg font-bold">
+                        <h1>4</h1>
+                      </div>
+                      <h1 className="px-5 mt-4 text-center">
+                        Mempunyai sikap mandiri berdasarkan keyakinan akan
+                        kemampuan pribadi serta terbuka menyimak dan menghargai
+                        pendapat orang lain.
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+                <h1>
+                  <b>Jenis Profesi di Bidang IT</b>
+                  <p>
+                    Di bidang IT sendiri, ternyata sangat banyak bidang profesi
+                    yang bisa dipilih dan dikuasasi, pastinya dengan perbedaan
+                    tools yang digunakan juga.
+                  </p>
+                  <div className="flex flex-wrap gap-4 justify-center text-white mt-3">
+                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
+                      <p>Software Engineering </p>
+                    </div>
+                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
+                      <p>Data & Business</p>
+                    </div>
+                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
+                      <p>IT Engineer</p>
+                    </div>
+                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
+                      <p>IT Management</p>
+                    </div>
+                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
+                      <p>IT Operational</p>
+                    </div>
+                    <div className="bg-[#7695FF] flex justify-center w-fit p-4 rounded-md">
+                      <p>Dan lainnya lagi...</p>
+                    </div>
+                  </div>
+                </h1>
+                <hr className="border-2" />
+                <div className="mt-40">
+                  <div className="relative mt-20">
+                    <h1 className="text-center text-xl">
+                      Dari semua profesi di bidang IT, saya memiliki impian
+                      untuk menjadi seorang...
+                    </h1>
+                  </div>
+                </div>
+                <div className="mt-10">
+                  <div className="flex flex-col items-center gap-4 justify-center">
+                    <div className="bg-[#7695FF] w-fit p-2 text-white rounded-md">
+                      Fullstack Website Developer
+                    </div>
+                    <FaArrowDownLong color="#7695FF" className="text-2xl" />
+                    <div className="bg-[#7695FF] w-fit p-2 text-white rounded-md">
+                      IT Startup Founder
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-gradient-to-r from-[#7695FF] to-[#2350e5] text-white w-full h-fit py-10 md:flex md:flex-row items-center justify-between space-x-10 md:px-20 text-2xl flex flex-col rounded-lg md:rounded-full">
+                  <div className=" w-[50rem] flex items-center justify-center h-fit p-2">
+                    {" "}
+                    <img src={cat} alt="Cat" className="rounded-md" />
+                  </div>
+                  <div className="space-y-5">
+                    <h1>
+                      Saya memiliki pandangan untuk mengembangkan bisnis di
+                      bidang IT yaitu membuat sebuah startup yang bergerak di
+                      bidang teknologi, bertujuan untuk membantu pebisnis
+                      mencapai SGDs (Sustainable Development Goals) 17 yaitu{" "}
+                      <i>Partnership For The Goals</i>. Nantinya, ini akan
+                      menjadi support untuk menjadikannya online serta dikenal
+                      lebih banyak orang dan akhirnya tujuan bersama yang
+                      disepakati tercapai.
+                    </h1>
                   </div>
                 </div>
               </div>
               <div className="relative  text-slate-700  text-2xl px-4 md:px-16">
                 <div className="mt-4 space-y-5 text-center">
-                  <h1>Terima kasih atas perhatiannya!😎😎✌🏻</h1>
+                  <h1>
+                    Terima kasih sudah menyimak & <i>Have a Great Dayy!!</i>
+                  </h1>
                 </div>
               </div>
             </div>
