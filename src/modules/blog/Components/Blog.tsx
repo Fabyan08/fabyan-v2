@@ -287,6 +287,35 @@ const Blog = () => {
                 </div>{" "}
                 <div className="grid md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
                   <Link
+                    to="/detail/2-profesi-it"
+                    className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
+                  >
+                    <img
+                      src={profesi_main}
+                      alt=""
+                      className="w-full h-52 object-cover rounded-md"
+                    />
+                    <h1 className="text-md text-primary font-bold">
+                      Etika Profesi
+                    </h1>
+                    <h1 className="text-2xl font-bold text-slate-900">
+                      Profesi Bidang IT
+                    </h1>
+                    <h1 className="text-slate-800">
+                      Profesi di bidang IT memang menjadi salah satu bidang yang
+                      banyak diminati...
+                      <a href="" className="text-primary">
+                        Read More
+                      </a>
+                    </h1>
+
+                    <hr className="w-full h-2 border-t-2  border-slate-200" />
+                    <div className="flex items-center justify-start space-x-4">
+                      <h1>15-09-2024</h1>
+                      <h1>∙</h1>
+                    </div>
+                  </Link>
+                  <Link
                     to="/detail/1-etika-profesi"
                     className="w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
                   >
@@ -315,31 +344,7 @@ const Blog = () => {
                       <h1>∙</h1>
                     </div>
                   </Link>
-                  <Link to="/detail/2-profesi-it" className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                    <img
-                      src={profesi_main}
-                      alt=""
-                      className="w-full h-52 object-cover rounded-md"
-                    />
-                    <h1 className="text-md text-primary font-bold">
-                      Etika Profesi
-                    </h1>
-                    <h1 className="text-2xl font-bold text-slate-900">
-                      Profesi Bidang IT
-                    </h1>
-                    <h1 className="text-slate-800">
-                    Profesi di bidang IT memang menjadi salah satu bidang yang banyak diminati... 
-                      <a href="" className="text-primary">
-                        Read More
-                      </a>
-                    </h1>
 
-                    <hr className="w-full h-2 border-t-2  border-slate-200" />
-                    <div className="flex items-center justify-start space-x-4">
-                      <h1>15-09-2024</h1>
-                      <h1>∙</h1>
-                    </div>
-                  </Link>
                   <div className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
                     <img
                       src="../../../assets/image/blog/detail/nfound.png"
