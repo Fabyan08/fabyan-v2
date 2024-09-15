@@ -361,11 +361,11 @@ const ProfesiIT = () => {
                     <p>
                       Setelah bekerja semenjak SMK hingga perkuliahan yang masih
                       semester 1 ini, mulai dari content writer, ui designer,
-                      hingga freelance di bidang website developer. Saya
+                      hingga freelance di bidang website development. Saya
                       menyadari bahwa itu semua bisa saya lakukan dengan mencoba
                       membangun bisnis sendiri. Saya ingin membantu banyak pihak
                       untuk berkolaborasi dan meningkatkan bisnisnya
-                      masing-masing dengan adanya perkembangan teknologi dan
+                      masing-masing dengan adanya perkembangan teknologi serta
                       persaingan bisnis yang sehat.
                     </p>
                   </div>
