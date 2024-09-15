@@ -354,6 +354,22 @@ const ProfesiIT = () => {
                     </h1>
                   </div>
                 </div>
+                <div className="relative z-20 flex justify-center">
+                  <div className="bg-white -mt-10 w-[50rem] h-fit shadow-lg rounded-md p-4">
+                    <b>Alasan ingin menjadi seorang startup founder?</b>
+                    <br />
+                    <p>
+                      Setelah bekerja semenjak SMK hingga perkuliahan yang masih
+                      semester 1 ini, mulai dari content writer, ui designer,
+                      hingga freelance di bidang website developer. Saya
+                      menyadari bahwa itu semua bisa saya lakukan dengan mencoba
+                      membangun bisnis sendiri. Saya ingin membantu banyak pihak
+                      untuk berkolaborasi dan meningkatkan bisnisnya
+                      masing-masing dengan adanya perkembangan teknologi dan
+                      persaingan bisnis yang sehat.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div className="relative  text-slate-700  text-2xl px-4 md:px-16">
                 <div className="mt-4 space-y-5 text-center">
