@@ -10,6 +10,7 @@ import CV from "./modules/cv/Index";
 import CVID from "./modules/cv/Components/Cv-id";
 import EtikaProfesi from "./modules/blog/Components/Detail/EtikaProfesi";
 import ProfesiIt from "./modules/blog/Components/Detail/ProfesiIT";
+import KodeEtik from "./modules/blog/Components/Detail/KodeEtik";
 
 const router = createBrowserRouter([
   {
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/2-profesi-it",
     element: <ProfesiIt />,
+  },
+  {
+    path: "/detail/3-kode-etik",
+    element: <KodeEtik />,
   },
   {
     path: "/cv",

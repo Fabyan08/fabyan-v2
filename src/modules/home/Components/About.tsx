@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="bg-gradient-to-r from-white/80 relative z-20 pt-10 h-fit pb-10  to-primary/50"
     >
-      <div className="lg:flex gap-20 ">
+      <div className="lg:flex gap-20">
         <div className="flex">
           <div className="flex flex-col pb-10 -space-y-4">
             {aboutIcons.map((item, index) => (
@@ -44,9 +44,6 @@ const About = () => {
               </div>
             </div>
             <div className="mt-80 -ml-40">
-              {/* <h1 className="font-bold text-slate-900 text-5xl rotate-[70deg] text-nowrap">
-                My Tech Stack
-              </h1> */}
               <h1 className="text-[3.5rem] md:text-6xl -ml-10 hover:bg-gradient-to-r  from-second to-primary rounded-2xl hover:text-white hover:p-2 hover:w-fit text-nowrap font-bold text-slate-700  duration-200 rotate-[70deg]">
                 My Tech Stack
               </h1>

@@ -5,12 +5,12 @@ import unej from "../../../../public/assets/image/unej.png";
 
 import { FiArrowRight } from "react-icons/fi";
 import { BiTimeFive } from "react-icons/bi";
-import { AiFillEye } from "react-icons/ai";
 import Loading from "../../../Components/Loading/Loading";
 import { IoCloseCircleOutline } from "react-icons/io5";
 
 import etikaprofesi1 from "../../../../public/assets/image/blog/etikaprofesi1/main.jpg";
 import profesi_main from "../../../../public/assets/image/blog/profesi-it/profesi_main.jpg";
+import kode_etik from "../../../../public/assets/image/blog/kodeetik/main.jpg";
 
 import { useEffect, useState } from "react";
 const Blog = () => {
@@ -287,6 +287,35 @@ const Blog = () => {
                 </div>{" "}
                 <div className="grid md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
                   <Link
+                    to="/detail/3-kode-etik"
+                    className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
+                  >
+                    <img
+                      src={kode_etik}
+                      alt=""
+                      className="w-full h-52 object-cover rounded-md"
+                    />
+                    <h1 className="text-md text-primary font-bold">
+                      Etika Profesi
+                    </h1>
+                    <h1 className="text-2xl font-bold text-slate-900">
+                      Kode Etik Profesi
+                    </h1>
+                    <h1 className="text-slate-800">
+                      Kode etik profesi di sini dimaksudkan suatu etika yang
+                      telah disepakati....
+                      <a href="" className="text-primary">
+                        Read More
+                      </a>
+                    </h1>
+
+                    <hr className="w-full h-2 border-t-2  border-slate-200" />
+                    <div className="flex items-center justify-start space-x-4">
+                      <h1>25-09-2024</h1>
+                      <h1>∙</h1>
+                    </div>
+                  </Link>
+                  <Link
                     to="/detail/2-profesi-it"
                     className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
                   >
@@ -344,35 +373,6 @@ const Blog = () => {
                       <h1>∙</h1>
                     </div>
                   </Link>
-
-                  <div className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl">
-                    <img
-                      src="../../../assets/image/blog/detail/nfound.png"
-                      alt=""
-                    />
-                    <h1 className="text-md text-primary font-bold">
-                      Development
-                    </h1>
-                    <h1 className="text-2xl font-bold text-slate-900">
-                      Coming Soon...
-                    </h1>
-                    <h1 className="text-slate-800">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Quisquam, tenetur...{" "}
-                      <a href="" className="text-primary">
-                        Read More
-                      </a>
-                    </h1>
-
-                    <hr className="w-full h-2 border-t-2  border-slate-200" />
-                    <div className="flex items-center justify-start space-x-4">
-                      <h1>15-11-2022</h1>
-                      <h1>∙</h1>
-                      <h1 className="flex items-center space-x-10">
-                        <AiFillEye /> (120)
-                      </h1>
-                    </div>
-                  </div>
                 </div>
               </div>
 

@@ -345,7 +345,7 @@ const ProfesiIT = () => {
                     <h1>
                       Saya memiliki pandangan untuk mengembangkan bisnis di
                       bidang IT yaitu membuat sebuah startup yang bergerak di
-                      bidang teknologi, bertujuan untuk membantu pebisnis
+                      bidang  teknologi, bertujuan untuk membantu pebisnis
                       mencapai SGDs (Sustainable Development Goals) 17 yaitu{" "}
                       <i>Partnership For The Goals</i>. Nantinya, ini akan
                       menjadi support untuk menjadikannya online serta dikenal
