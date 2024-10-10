@@ -11,6 +11,7 @@ import { IoCloseCircleOutline } from "react-icons/io5";
 import etikaprofesi1 from "../../../../public/assets/image/blog/etikaprofesi1/main.jpg";
 import profesi_main from "../../../../public/assets/image/blog/profesi-it/profesi_main.jpg";
 import kode_etik from "../../../../public/assets/image/blog/kodeetik/main.jpg";
+import sertifikasi_it from "../../../../public/assets/image/blog/sertifikasiit/main.jpg";
 
 import { useEffect, useState } from "react";
 const Blog = () => {
@@ -285,7 +286,35 @@ const Blog = () => {
                     Must Read
                   </h1>
                 </div>{" "}
-                <div className="grid md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
+                <div className="grid justify-center md:gap-20 md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
+                  <Link
+                    to="/detail/4-sertifikasi-it"
+                    className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
+                  >
+                    <img
+                      src={sertifikasi_it}
+                      alt=""
+                      className="w-full h-52 object-cover rounded-md"
+                    />
+                    <h1 className="text-md text-primary font-bold">
+                      Etika Profesi
+                    </h1>
+                    <h1 className="text-2xl font-bold text-slate-900">
+                      Sertifikasi IT
+                    </h1>
+                    <h1 className="text-slate-800">
+                    Sertifikasi IT Profesional diperlukan dalam mendapatkan ....
+                      <a href="" className="text-primary">
+                        Read More
+                      </a>
+                    </h1>
+
+                    <hr className="w-full h-2 border-t-2  border-slate-200" />
+                    <div className="flex items-center justify-start space-x-4">
+                      <h1>25-09-2024</h1>
+                      <h1>∙</h1>
+                    </div>
+                  </Link>
                   <Link
                     to="/detail/3-kode-etik"
                     className=" w-[22rem] space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"

@@ -11,6 +11,7 @@ import CVID from "./modules/cv/Components/Cv-id";
 import EtikaProfesi from "./modules/blog/Components/Detail/EtikaProfesi";
 import ProfesiIt from "./modules/blog/Components/Detail/ProfesiIT";
 import KodeEtik from "./modules/blog/Components/Detail/KodeEtik";
+import SertifikasiIT from "./modules/blog/Components/Detail/SertifikasiIT";
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/3-kode-etik",
     element: <KodeEtik />,
+  },
+  {
+    path: "/detail/4-sertifikasi-it",
+    element: <SertifikasiIT />,
   },
   {
     path: "/cv",
