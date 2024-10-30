@@ -13,6 +13,7 @@ import ProfesiIt from "./modules/blog/Components/Detail/ProfesiIT";
 import KodeEtik from "./modules/blog/Components/Detail/KodeEtik";
 import SertifikasiIT from "./modules/blog/Components/Detail/SertifikasiIT";
 import Cyber from "./modules/blog/Components/Detail/Cyber";
+import EtikaBisnis from "./modules/blog/Components/Detail/EtikaBisnis";
 
 const router = createBrowserRouter([
   {
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/5-cyber-ethic",
     element: <Cyber />,
+  },
+  {
+    path: "/detail/6-etika-bisnis",
+    element: <EtikaBisnis />,
   },
   {
     path: "/cv",
