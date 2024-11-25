@@ -15,6 +15,7 @@ import sertifikasi_it from "../../../../public/assets/image/blog/sertifikasiit/m
 import cyber from "../../../../public/assets/image/blog/cyber/main.jpg";
 import etikabisnis from "../../../../public/assets/image/blog/etikabisnis/main.jpg";
 import uuite from "../../../../public/assets/image/blog/uuite/main.jpg";
+import cybercrime from "../../../../public/assets/image/blog/cybercrime/main.jpg";
 
 import { useEffect, useState } from "react";
 const Blog = () => {
@@ -291,6 +292,35 @@ const Blog = () => {
                 </div>{" "}
                 <div className="grid justify-center md:gap-14 md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
                   <Link
+                    to="/detail/8-cyber-crime"
+                    className=" space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
+                  >
+                    <img
+                      src={cybercrime}
+                      alt=""
+                      className="w-full h-52 object-cover rounded-md"
+                    />
+                    <h1 className="text-md text-primary font-bold">
+                      Etika Profesi
+                    </h1>
+                    <h1 className="text-2xl font-bold text-slate-900">
+                      Cyber Crime
+                    </h1>
+                    <h1 className="text-slate-800">
+                      Cyber Crime merupakan kejahatan komputer yang ada di dunia
+                      maya...
+                      <a href="" className="text-primary">
+                        Read More
+                      </a>
+                    </h1>
+
+                    <hr className="w-full h-2 border-t-2  border-slate-200" />
+                    <div className="flex items-center justify-start space-x-4">
+                      <h1>25-11-2024</h1>
+                      <h1>∙</h1>
+                    </div>
+                  </Link>
+                  <Link
                     to="/detail/7-uu-ite"
                     className=" space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
                   >
@@ -307,7 +337,7 @@ const Blog = () => {
                     </h1>
                     <h1 className="text-slate-800">
                       Ada beragam kasus UU ITE yang juga terdapat sanksi di
-                      belakangnya... {" "}
+                      belakangnya...{" "}
                       <a href="" className="text-primary">
                         Read More
                       </a>
