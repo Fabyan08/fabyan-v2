@@ -16,6 +16,7 @@ import Cyber from "./modules/blog/Components/Detail/Cyber";
 import EtikaBisnis from "./modules/blog/Components/Detail/EtikaBisnis";
 import UuIte from "./modules/blog/Components/Detail/UuIte";
 import CyberCrime from "./modules/blog/Components/Detail/CyberCrime";
+import ItForensic from "./modules/blog/Components/Detail/ItForensic";
 
 const router = createBrowserRouter([
   {
@@ -69,6 +70,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/8-cyber-crime",
     element: <CyberCrime />,
+  },
+  {
+    path: "/detail/9-it-forensic",
+    element: <ItForensic />,
   },
   {
     path: "/cv",

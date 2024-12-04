@@ -16,6 +16,7 @@ import cyber from "../../../../public/assets/image/blog/cyber/main.jpg";
 import etikabisnis from "../../../../public/assets/image/blog/etikabisnis/main.jpg";
 import uuite from "../../../../public/assets/image/blog/uuite/main.jpg";
 import cybercrime from "../../../../public/assets/image/blog/cybercrime/main.jpg";
+import itforensic from "../../../../public/assets/image/blog/itforensic/main.jpg";
 
 import { useEffect, useState } from "react";
 const Blog = () => {
@@ -291,6 +292,35 @@ const Blog = () => {
                   </h1>
                 </div>{" "}
                 <div className="grid justify-center md:gap-14 md:grid-cols-3 space-y-10 md:space-y-0 mt-10">
+                  <Link
+                    to="/detail/9-it-forensic"
+                    className=" space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
+                  >
+                    <img
+                      src={itforensic}
+                      alt=""
+                      className="w-full h-52 object-cover rounded-md"
+                    />
+                    <h1 className="text-md text-primary font-bold">
+                      Etika Profesi
+                    </h1>
+                    <h1 className="text-2xl font-bold text-slate-900">
+                      IT Forensic
+                    </h1>
+                    <h1 className="text-slate-800">
+                      Pemahaman mengenai tools yang digunakan untuk forensik
+                      teknologi informasi...
+                      <a href="" className="text-primary">
+                        Read More
+                      </a>
+                    </h1>
+
+                    <hr className="w-full h-2 border-t-2  border-slate-200" />
+                    <div className="flex items-center justify-start space-x-4">
+                      <h1>04-12-2024</h1>
+                      <h1>∙</h1>
+                    </div>
+                  </Link>
                   <Link
                     to="/detail/8-cyber-crime"
                     className=" space-y-2 hover:scale-110 md:px-0 px-5 duration-150 hover:bg-blue-100  hover:p-2 hover:rounded-xl"
