@@ -179,7 +179,7 @@ const Blog = () => {
                 </div>
               </div>
             </section>
-            <div className="absolute z-20 bg-slate-100 w-full px-4 md:px-24 h-[2000px]  pt-20">
+            <div className="absolute z-20 bg-slate-100 w-full px-4 md:px-24 h-full  pt-20">
               <div className="flex items-center space-x-3">
                 <hr className="border-2 rounded-md border-primary h-5 " />
                 <h1 className="text-2xl font-bold text-slate-600">Featured</h1>
