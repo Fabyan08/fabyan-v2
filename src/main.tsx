@@ -17,6 +17,7 @@ import EtikaBisnis from "./modules/blog/Components/Detail/EtikaBisnis";
 import UuIte from "./modules/blog/Components/Detail/UuIte";
 import CyberCrime from "./modules/blog/Components/Detail/CyberCrime";
 import ItForensic from "./modules/blog/Components/Detail/ItForensic";
+import OverviewMateri from "./modules/blog/Components/Detail/OverviewMateri";
 
 const router = createBrowserRouter([
   {
@@ -74,6 +75,10 @@ const router = createBrowserRouter([
   {
     path: "/detail/9-it-forensic",
     element: <ItForensic />,
+  },
+  {
+    path: "/detail/10-overview-materi",
+    element: <OverviewMateri />,
   },
   {
     path: "/cv",
